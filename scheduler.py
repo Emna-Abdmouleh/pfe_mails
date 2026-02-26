@@ -9,13 +9,36 @@ from config.logger  import logger
 # CONFIGURATION — modifie selon tes besoins
 # ══════════════════════════════════════════════════════
 INTERVAL_MINUTES = 1
-# Toutes les combien de minutes on vérifie
-# 1 = chaque minute / 5 = toutes les 5 min
-
 FORCE_ALL = False
-# False = nouveaux emails seulement (UNSEEN)
-# True  = récupère TOUS les emails
+
+# ── Reconnexion automatique ───────────────────────────
+MAX_RETRIES    = 3      # Nombre de tentatives max
+RETRY_DELAY    = 5      # Secondes entre chaque tentative
 # ══════════════════════════════════════════════════════
+
+
+def connect_with_retry() -> object | None:
+    """
+    Tente de se connecter jusqu'à MAX_RETRIES fois.
+    Retourne l'objet mail si succès, None si échec total.
+    """
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            logger.info(f"Tentative de connexion {attempt}/{MAX_RETRIES}...")
+            mail = connect_imap()
+            mail = ensure_connected(mail)
+            logger.info("Connexion établie avec succès")
+            return mail
+
+        except Exception as e:
+            logger.warning(f"Échec tentative {attempt}/{MAX_RETRIES} : {e}")
+
+            if attempt < MAX_RETRIES:
+                logger.info(f"Nouvelle tentative dans {RETRY_DELAY}s...")
+                time.sleep(RETRY_DELAY)
+            else:
+                logger.error("Nombre maximum de tentatives atteint — abandon")
+                return None
 
 
 def check_emails():
@@ -26,9 +49,15 @@ def check_emails():
     mail = None
 
     try:
-        # ── Connexion ─────────────────────────────────
-        mail = connect_imap()
-        mail = ensure_connected(mail)
+        # ── Connexion avec retry ──────────────────────
+        mail = connect_with_retry()
+
+        if mail is None:
+            logger.error(
+                "Impossible de se connecter après "
+                f"{MAX_RETRIES} tentatives — cycle ignoré"
+            )
+            return
 
         # ── Choix du filtre ───────────────────────────
         filtre = "ALL" if FORCE_ALL else "UNSEEN"
@@ -40,19 +69,13 @@ def check_emails():
             )
 
         # ── Récupération ──────────────────────────────
-        email_ids = fetch_emails(
-            mail,
-            folder="INBOX",
-            filter=filtre
-        )
+        email_ids = fetch_emails(mail, folder="INBOX", filter=filtre)
 
         # ── Traitement ────────────────────────────────
         if len(email_ids) > 0:
             logger.info(f"{len(email_ids)} email(s) à traiter")
             for eid in email_ids:
-                logger.info(
-                    f"Email ID {eid.decode()} traité"
-                )
+                logger.info(f"Email ID {eid.decode()} traité")
         else:
             logger.info(
                 "Aucun nouveau email — "
@@ -63,40 +86,26 @@ def check_emails():
         logger.error(f"Erreur durant la vérification : {e}")
 
     finally:
-        # finally = s'exécute TOUJOURS même si erreur
-        # → on s'assure de toujours fermer la connexion
         if mail:
             disconnect_imap(mail)
 
-    logger.info(
-        f"Prochaine vérification "
-        f"dans {INTERVAL_MINUTES} minute(s)"
-    )
+    logger.info(f"Prochaine vérification dans {INTERVAL_MINUTES} minute(s)")
 
 
 def start_scheduler():
     logger.info("Scheduler PFE démarré")
-    logger.info(f"Intervalle : {INTERVAL_MINUTES} minute(s)")
-    logger.info(
-        f"Mode : "
-        f"{'FORCE (tous)' if FORCE_ALL else 'Nouveaux seulement'}"
-    )
+    logger.info(f"Intervalle      : {INTERVAL_MINUTES} minute(s)")
+    logger.info(f"Reconnexion     : {MAX_RETRIES} tentatives / {RETRY_DELAY}s d'intervalle")
+    logger.info(f"Mode            : {'FORCE (tous)' if FORCE_ALL else 'Nouveaux seulement'}")
     logger.info("Appuie sur Ctrl+C pour arrêter")
 
-    # Vérification immédiate au démarrage
-    # Sans ça tu attendrais 1 minute avant la 1ère vérif
     check_emails()
 
-    # Planification des vérifications suivantes
     schedule.every(INTERVAL_MINUTES).minutes.do(check_emails)
 
-    # Boucle infinie
     while True:
         schedule.run_pending()
-        # Vérifie si une tâche doit être exécutée
         time.sleep(30)
-        # Attend 30 sec avant de revérifier
-        # 30 sec = bon équilibre réactivité / CPU
 
 
 if __name__ == "__main__":
