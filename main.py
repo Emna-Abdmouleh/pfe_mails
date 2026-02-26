@@ -1,21 +1,21 @@
-from mail.connector import connect_imap, disconnect_imap
-from mail.fetcher   import fetch_emails, parse_and_save_email
-from config.settings import ATTACHMENTS_DIR
+from mail.connector import connect_imap, disconnect_imap, ensure_connected
+from mail.fetcher   import fetch_emails
 
 def main():
-    mail      = connect_imap()
+
+    # ÉTAPE 1 : Connexion
+    mail = connect_imap()
+
+    # ÉTAPE 2 : Vérifier la connexion
+    mail = ensure_connected(mail)
+
+    # ÉTAPE 3 : Récupérer les emails
     email_ids = fetch_emails(mail, folder="INBOX", filter="ALL")
 
-    for eid in email_ids:
-        print(f"\n[→] Email ID : {eid.decode()}")
-        data = parse_and_save_email(mail, eid, ATTACHMENTS_DIR)
-        print(f"    Objet : {data['subject']}")
-        print(f"    De    : {data['from']}")
-        print(f"    PJ    : {len(data['attachments'])} fichier(s)")
+    print(f"\n[✓] {len(email_ids)} email(s) dans la boite mail")
 
+    # ÉTAPE 4 : Déconnexion
     disconnect_imap(mail)
-    print(f"\n Terminé — {len(email_ids)} email(s) traités")
 
 if __name__ == "__main__":
     main()
-    
