@@ -1,0 +1,86 @@
+2026-02-26 06:22:23 | INFO     | Scheduler PFE démarré
+2026-02-26 06:22:23 | INFO     | Intervalle : 1 minute(s)
+2026-02-26 06:22:23 | INFO     | Mode : Nouveaux seulement
+2026-02-26 06:22:23 | INFO     | Appuie sur Ctrl+C pour arrêter
+2026-02-26 06:22:23 | INFO     | ========================================
+2026-02-26 06:22:23 | INFO     | Début vérification des emails
+2026-02-26 06:22:23 | INFO     | ========================================
+2026-02-26 06:22:23 | INFO     | Tentative de connexion IMAP...
+2026-02-26 06:22:24 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-02-26 06:22:25 | INFO     | Aucun nouveau email trouvé
+2026-02-26 06:22:25 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-02-26 06:22:25 | INFO     | Déconnexion propre réussie
+2026-02-26 06:22:25 | INFO     | Prochaine vérification dans 1 minute(s)
+2026-02-26 06:23:25 | INFO     | ========================================
+2026-02-26 06:23:25 | INFO     | Début vérification des emails
+2026-02-26 06:23:25 | INFO     | ========================================
+2026-02-26 06:23:25 | INFO     | Tentative de connexion IMAP...
+2026-02-26 06:23:26 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-02-26 06:23:27 | INFO     | Aucun nouveau email trouvé
+2026-02-26 06:23:27 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-02-26 06:23:27 | INFO     | Déconnexion propre réussie
+2026-02-26 06:23:27 | INFO     | Prochaine vérification dans 1 minute(s)
+2026-02-26 06:24:27 | INFO     | ========================================
+2026-02-26 06:24:27 | INFO     | Début vérification des emails
+2026-02-26 06:24:27 | INFO     | ========================================
+2026-02-26 06:24:27 | INFO     | Tentative de connexion IMAP...
+2026-02-26 06:24:29 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-02-26 06:24:30 | INFO     | Aucun nouveau email trouvé
+2026-02-26 06:24:30 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-02-26 06:24:31 | INFO     | Déconnexion propre réussie
+2026-02-26 06:24:31 | INFO     | Prochaine vérification dans 1 minute(s)
+2026-02-26 06:25:31 | INFO     | ========================================
+2026-02-26 06:25:31 | INFO     | Début vérification des emails
+2026-02-26 06:25:31 | INFO     | ========================================
+2026-02-26 06:25:31 | INFO     | Tentative de connexion IMAP...
+2026-02-26 06:25:32 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-02-26 06:25:33 | INFO     | Aucun nouveau email trouvé
+2026-02-26 06:25:33 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-02-26 06:25:33 | INFO     | Déconnexion propre réussie
+2026-02-26 06:25:33 | INFO     | Prochaine vérification dans 1 minute(s)
+2026-02-26 06:26:33 | INFO     | ========================================
+2026-02-26 06:26:33 | INFO     | Début vérification des emails
+2026-02-26 06:26:33 | INFO     | ========================================
+2026-02-26 06:26:33 | INFO     | Tentative de connexion IMAP...
+2026-02-26 06:26:35 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-02-26 06:26:36 | INFO     | Aucun nouveau email trouvé
+2026-02-26 06:26:36 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-02-26 06:26:36 | INFO     | Déconnexion propre réussie
+2026-02-26 06:26:36 | INFO     | Prochaine vérification dans 1 minute(s)
+2026-02-26 06:27:36 | INFO     | ========================================
+2026-02-26 06:27:36 | INFO     | Début vérification des emails
+2026-02-26 06:27:36 | INFO     | ========================================
+2026-02-26 06:27:36 | INFO     | Tentative de connexion IMAP...
+2026-02-26 06:27:37 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-02-26 06:27:38 | INFO     | Aucun nouveau email trouvé
+2026-02-26 06:27:38 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-02-26 06:27:38 | INFO     | Déconnexion propre réussie
+2026-02-26 06:27:38 | INFO     | Prochaine vérification dans 1 minute(s)
+2026-02-26 06:28:38 | INFO     | ========================================
+2026-02-26 06:28:38 | INFO     | Début vérification des emails
+2026-02-26 06:28:38 | INFO     | ========================================
+2026-02-26 06:28:38 | INFO     | Tentative de connexion IMAP...
+2026-02-26 06:28:39 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-02-26 06:28:40 | INFO     | Aucun nouveau email trouvé
+2026-02-26 06:28:40 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-02-26 06:28:40 | INFO     | Déconnexion propre réussie
+2026-02-26 06:28:40 | INFO     | Prochaine vérification dans 1 minute(s)
+2026-02-26 06:29:40 | INFO     | ========================================
+2026-02-26 06:29:40 | INFO     | Début vérification des emails
+2026-02-26 06:29:40 | INFO     | ========================================
+2026-02-26 06:29:40 | INFO     | Tentative de connexion IMAP...
+2026-02-26 06:29:41 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-02-26 06:29:42 | INFO     | Aucun nouveau email trouvé
+2026-02-26 06:29:42 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-02-26 06:29:42 | INFO     | Déconnexion propre réussie
+2026-02-26 06:29:42 | INFO     | Prochaine vérification dans 1 minute(s)
+2026-02-26 06:30:42 | INFO     | ========================================
+2026-02-26 06:30:42 | INFO     | Début vérification des emails
+2026-02-26 06:30:42 | INFO     | ========================================
+2026-02-26 06:30:42 | INFO     | Tentative de connexion IMAP...
+2026-02-26 06:30:43 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-02-26 06:30:44 | INFO     | Aucun nouveau email trouvé
+2026-02-26 06:30:44 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-02-26 06:30:45 | INFO     | Déconnexion propre réussie
+2026-02-26 06:30:45 | INFO     | Prochaine vérification dans 1 minute(s)
+2026-02-26 06:30:51 | INFO     | Scheduler arrêté par l'utilisateur
