@@ -1,0 +1,8 @@
+2026-02-27 15:06:09 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-02-27 15:06:14 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-02-27 15:06:19 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-02-27 15:06:19 | ERROR    | Nombre maximum de tentatives atteint — abandon
+2026-02-27 15:06:19 | ERROR    | Impossible de se connecter après 3 tentatives — cycle ignoré
+2026-02-27 15:07:26 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-02-27 15:07:31 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-02-27 15:08:30 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
