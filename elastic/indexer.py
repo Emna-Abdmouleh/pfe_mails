@@ -4,17 +4,27 @@ from elasticsearch import Elasticsearch
 import fitz
 from docx import Document
 
+# ══════════════════════════════════════════════════════
+# CONFIGURATION ELASTICSEARCH
+# ══════════════════════════════════════════════════════
+ES_HOST    = "https://127.0.0.1:9200"
+ES_USER    = "elastic"
+ES_PASS    = "mDgS=2yd5nKhagb7eH4O"
+INDEX_NAME = "cvs"
+# ══════════════════════════════════════════════════════
+
 es = Elasticsearch(
-    "https://localhost:9200",
-    basic_auth=("elastic", "ydwylvm9PMD6ruZd2aJO"),
+    ES_HOST,
+    basic_auth=(ES_USER, ES_PASS),
     verify_certs=False
 )
 
-INDEX_NAME = "cvs"
 
-def create_index():
+def create_index_if_not_exists():
+    """Crée l'index seulement s'il n'existe pas encore."""
     if es.indices.exists(index=INDEX_NAME):
-        es.indices.delete(index=INDEX_NAME)
+        return
+
     mapping = {
         "properties": {
             "email_id":    {"type": "keyword"},
@@ -29,7 +39,9 @@ def create_index():
     es.indices.create(index=INDEX_NAME, mappings=mapping)
     print("✅ Index 'cvs' créé !")
 
-def extract_text(filepath):
+
+def extract_text(filepath: str) -> str:
+    """Extrait le texte brut d'un PDF ou DOCX."""
     if filepath.endswith(".pdf"):
         try:
             doc = fitz.open(filepath)
@@ -46,41 +58,76 @@ def extract_text(filepath):
             return ""
     return ""
 
-def index_cvs():
-    data_path = Path("data/raw")
-    indexed = 0
-    skipped = 0
 
-    for json_file in sorted(data_path.glob("*.json")):
-        with open(json_file, "r", encoding="utf-8") as f:
-            email = json.load(f)
+def index_email(email_data: dict):
+    """
+    Indexe UN email dans Elasticsearch.
+    Appelé automatiquement depuis parser.py après chaque email reçu.
+    Si l'email n'a pas de CV, il est quand même indexé (cv_text vide).
+    """
+    create_index_if_not_exists()
 
-        if not email.get("attachments"):
-            print(f"⏭️  {json_file.name} — sans CV, ignoré")
-            skipped += 1
-            continue
+    email_id   = email_data.get("id", "")
+    attachments = email_data.get("attachments", [])
 
-        for attachment in email["attachments"]:
-            filepath = attachment.get("filepath", "")
-            filename = attachment.get("filename", "")
-            cv_text = extract_text(filepath)
+    if attachments:
+        # Indexer chaque CV séparément
+        for attachment in attachments:
+            filepath   = attachment.get("filepath", "")
+            filename   = attachment.get("filename", "")
+            cv_text    = extract_text(filepath)
 
             doc = {
-                "email_id":    email["id"],
-                "expediteur":  email["from"],
-                "sujet":       email["subject"],
-                "date":        email["date"],
-                "contenu":     email["body"],
+                "email_id":    email_id,
+                "expediteur":  email_data.get("from", ""),
+                "sujet":       email_data.get("subject", ""),
+                "date":        email_data.get("date", ""),
+                "contenu":     email_data.get("body", ""),
                 "cv_filename": filename,
                 "cv_text":     cv_text,
             }
 
-            es.index(index=INDEX_NAME, id=email["id"], document=doc)
-            print(f"✅ Indexé : {filename}")
-            indexed += 1
+            # ID unique = email_id + filename pour éviter les doublons
+            doc_id = f"{email_id}_{filename}"
+            es.index(index=INDEX_NAME, id=doc_id, document=doc)
+            print(f"✅ Indexé dans Elasticsearch : {filename}")
+    else:
+        # Email sans CV — indexer quand même le message
+        doc = {
+            "email_id":    email_id,
+            "expediteur":  email_data.get("from", ""),
+            "sujet":       email_data.get("subject", ""),
+            "date":        email_data.get("date", ""),
+            "contenu":     email_data.get("body", ""),
+            "cv_filename": "",
+            "cv_text":     "",
+        }
+        es.index(index=INDEX_NAME, id=email_id, document=doc)
+        print(f"✅ Indexé dans Elasticsearch : email {email_id} (sans CV)")
 
-    print(f"\n🎉 {indexed} CV(s) indexé(s), {skipped} ignoré(s)")
+
+def index_cvs():
+    """
+    Indexe TOUS les emails depuis data/raw/*.json.
+    À utiliser pour une indexation manuelle complète.
+    """
+    create_index_if_not_exists()
+
+    data_path = Path("data/raw")
+    indexed   = 0
+    skipped   = 0
+
+    for json_file in sorted(data_path.glob("*.json")):
+        with open(json_file, "r", encoding="utf-8") as f:
+            email_data = json.load(f)
+
+        print(f"📄 Traitement : {json_file.name}")
+        index_email(email_data)
+        indexed += 1
+
+    print(f"\n🎉 {indexed} email(s) indexé(s), {skipped} ignoré(s)")
+
 
 if __name__ == "__main__":
-    create_index()
+    # Lancement manuel : indexe tous les JSON existants
     index_cvs()

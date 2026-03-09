@@ -1,0 +1,8 @@
+2026-03-09 01:13:52 | ERROR    | Erreur inattendue durant le cycle #1 : 'fichiers'
+2026-03-09 01:14:54 | ERROR    | Erreur inattendue durant le cycle #2 : 'fichiers'
+2026-03-09 01:19:22 | ERROR    | Erreur inattendue durant le cycle #1 : 'fichiers'
+2026-03-09 01:20:27 | ERROR    | Erreur inattendue durant le cycle #2 : 'fichiers'
+2026-03-09 02:08:25 | ERROR    |   Erreur indexation Elasticsearch : BadRequestError(400, 'None')
+2026-03-09 02:08:25 | ERROR    | Erreur inattendue durant le cycle #1 : 'fichiers'
+2026-03-09 02:09:28 | ERROR    |   Erreur indexation Elasticsearch : BadRequestError(400, 'None')
+2026-03-09 02:09:28 | ERROR    | Erreur inattendue durant le cycle #2 : 'fichiers'

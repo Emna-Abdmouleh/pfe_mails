@@ -15,3 +15,7 @@
 2026-02-26 14:44:46 | ERROR    | Impossible de se connecter après 3 tentatives — cycle ignoré
 2026-02-26 14:45:46 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
 2026-02-26 14:45:51 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-02-27 01:50:49 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-02-27 14:31:09 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-02-27 14:34:01 | CRITICAL | Erreur inattendue : [WinError 10060] Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+2026-02-27 14:41:09 | CRITICAL | Erreur inattendue : [WinError 10060] Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
