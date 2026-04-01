@@ -1,0 +1,817 @@
+2026-03-09 00:52:37 | INFO     | Scheduler PFE démarré
+2026-03-09 00:52:37 | INFO     | Intervalle      : 1 minute(s)
+2026-03-09 00:52:37 | INFO     | Reconnexion     : 3 tentatives / 5s d'intervalle
+2026-03-09 00:52:37 | INFO     | Mode            : Nouveaux seulement
+2026-03-09 00:52:37 | INFO     | Appuie sur Ctrl+C pour arrêter
+2026-03-09 00:52:37 | INFO     | ========================================
+2026-03-09 00:52:37 | INFO     | Début vérification des emails
+2026-03-09 00:52:37 | INFO     | ========================================
+2026-03-09 00:52:37 | INFO     | Tentative de connexion 1/3...
+2026-03-09 00:52:37 | INFO     | Tentative de connexion IMAP...
+2026-03-09 00:52:38 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 00:52:38 | INFO     | Connexion établie avec succès
+2026-03-09 00:52:38 | INFO     | 2 nouveau(x) email(s) trouvé(s) dans INBOX
+2026-03-09 00:52:38 | INFO     | 2 email(s) à traiter
+2026-03-09 00:52:38 | INFO     | Email ID 8 traité
+2026-03-09 00:52:38 | INFO     | Email ID 9 traité
+2026-03-09 00:52:39 | INFO     | Déconnexion propre réussie
+2026-03-09 00:52:39 | INFO     | Prochaine vérification dans 1 minute(s)
+2026-03-09 00:53:39 | INFO     | ========================================
+2026-03-09 00:53:39 | INFO     | Début vérification des emails
+2026-03-09 00:53:39 | INFO     | ========================================
+2026-03-09 00:53:39 | INFO     | Tentative de connexion 1/3...
+2026-03-09 00:53:39 | INFO     | Tentative de connexion IMAP...
+2026-03-09 00:53:40 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 00:53:40 | INFO     | Connexion établie avec succès
+2026-03-09 00:53:41 | INFO     | 2 nouveau(x) email(s) trouvé(s) dans INBOX
+2026-03-09 00:53:41 | INFO     | 2 email(s) à traiter
+2026-03-09 00:53:41 | INFO     | Email ID 8 traité
+2026-03-09 00:53:41 | INFO     | Email ID 9 traité
+2026-03-09 00:53:41 | INFO     | Déconnexion propre réussie
+2026-03-09 00:53:41 | INFO     | Prochaine vérification dans 1 minute(s)
+2026-03-09 00:53:58 | INFO     | Scheduler arrêté par l'utilisateur
+2026-03-09 00:54:01 | INFO     | Scheduler PFE démarré
+2026-03-09 00:54:01 | INFO     | Intervalle      : 1 minute(s)
+2026-03-09 00:54:01 | INFO     | Reconnexion     : 3 tentatives / 5s d'intervalle
+2026-03-09 00:54:01 | INFO     | Mode            : Nouveaux seulement
+2026-03-09 00:54:01 | INFO     | Appuie sur Ctrl+C pour arrêter
+2026-03-09 00:54:01 | INFO     | ========================================
+2026-03-09 00:54:01 | INFO     | Début vérification des emails
+2026-03-09 00:54:01 | INFO     | ========================================
+2026-03-09 00:54:01 | INFO     | Tentative de connexion 1/3...
+2026-03-09 00:54:01 | INFO     | Tentative de connexion IMAP...
+2026-03-09 00:54:02 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 00:54:02 | INFO     | Connexion établie avec succès
+2026-03-09 00:54:02 | INFO     | 4 nouveau(x) email(s) trouvé(s) dans INBOX
+2026-03-09 00:54:02 | INFO     | 4 email(s) à traiter
+2026-03-09 00:54:02 | INFO     | Email ID 8 traité
+2026-03-09 00:54:02 | INFO     | Email ID 9 traité
+2026-03-09 00:54:02 | INFO     | Email ID 10 traité
+2026-03-09 00:54:02 | INFO     | Email ID 11 traité
+2026-03-09 00:54:03 | INFO     | Déconnexion propre réussie
+2026-03-09 00:54:03 | INFO     | Prochaine vérification dans 1 minute(s)
+2026-03-09 00:55:03 | INFO     | ========================================
+2026-03-09 00:55:03 | INFO     | Début vérification des emails
+2026-03-09 00:55:03 | INFO     | ========================================
+2026-03-09 00:55:03 | INFO     | Tentative de connexion 1/3...
+2026-03-09 00:55:03 | INFO     | Tentative de connexion IMAP...
+2026-03-09 00:55:04 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 00:55:04 | INFO     | Connexion établie avec succès
+2026-03-09 00:55:04 | INFO     | 4 nouveau(x) email(s) trouvé(s) dans INBOX
+2026-03-09 00:55:04 | INFO     | 4 email(s) à traiter
+2026-03-09 00:55:04 | INFO     | Email ID 8 traité
+2026-03-09 00:55:04 | INFO     | Email ID 9 traité
+2026-03-09 00:55:04 | INFO     | Email ID 10 traité
+2026-03-09 00:55:04 | INFO     | Email ID 11 traité
+2026-03-09 00:55:05 | INFO     | Déconnexion propre réussie
+2026-03-09 00:55:05 | INFO     | Prochaine vérification dans 1 minute(s)
+2026-03-09 00:55:27 | INFO     | Scheduler arrêté par l'utilisateur
+2026-03-09 00:55:40 | INFO     | Tentative de connexion IMAP...
+2026-03-09 00:55:41 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 00:55:41 | INFO     | 11 nouveau(x) email(s) trouvé(s) dans INBOX
+2026-03-09 00:55:41 | INFO     | Déconnexion propre réussie
+2026-03-09 01:03:47 | INFO     | ==========================================
+2026-03-09 01:03:47 | INFO     |      SCHEDULER PFE — DEMARRAGE
+2026-03-09 01:03:47 | INFO     | ==========================================
+2026-03-09 01:03:47 | INFO     | Intervalle      : 1 minute(s)
+2026-03-09 01:03:47 | INFO     | Reconnexion     : 3 tentatives / 5s d'intervalle
+2026-03-09 01:03:47 | INFO     | Mode            : Nouveaux seulement (UNSEEN)
+2026-03-09 01:03:47 | INFO     | Ctrl+C pour arreter
+2026-03-09 01:03:47 | INFO     | ==========================================
+
+2026-03-09 01:03:47 | INFO     | ==========================================
+2026-03-09 01:03:47 | INFO     |   CYCLE #1 — 09/03/2026 01:03:47
+2026-03-09 01:03:47 | INFO     | ==========================================
+2026-03-09 01:03:47 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:03:47 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:03:48 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:03:48 | INFO     | Connexion établie avec succès
+2026-03-09 01:03:49 | INFO     | 4 nouveau(x) email(s) trouvé(s) dans INBOX
+2026-03-09 01:03:49 | INFO     | 4 email(s) a traiter
+2026-03-09 01:03:49 | INFO     | ------------------------------------------
+2026-03-09 01:03:49 | INFO     | [1/4] Traitement email ID 8...
+2026-03-09 01:03:49 | INFO     |   📧 Sujet      : Votre compte Google a bien été récupéré
+2026-03-09 01:03:49 | INFO     |   👤 De         : Google <no-reply@accounts.google.com>
+2026-03-09 01:03:49 | INFO     |   📅 Date       : Sun, 08 Mar 2026 22:57:59 GMT
+2026-03-09 01:03:49 | INFO     |   📎 Fichiers   : 0 pièce(s) jointe(s)
+2026-03-09 01:03:49 | INFO     |   Email ID 8 traite avec succes
+2026-03-09 01:03:49 | INFO     | ------------------------------------------
+2026-03-09 01:03:49 | INFO     | [2/4] Traitement email ID 9...
+2026-03-09 01:03:50 | INFO     |   📧 Sujet      : Alerte de sécurité
+2026-03-09 01:03:50 | INFO     |   👤 De         : Google <no-reply@accounts.google.com>
+2026-03-09 01:03:50 | INFO     |   📅 Date       : Sun, 08 Mar 2026 22:57:59 GMT
+2026-03-09 01:03:50 | INFO     |   📎 Fichiers   : 0 pièce(s) jointe(s)
+2026-03-09 01:03:50 | INFO     |   Email ID 9 traite avec succes
+2026-03-09 01:03:50 | INFO     | ------------------------------------------
+2026-03-09 01:03:50 | INFO     | [3/4] Traitement email ID 10...
+2026-03-09 01:03:50 | INFO     |   💾 Pièce jointe sauvegardée : attachments\10\CV Razgui chaima .pdf
+2026-03-09 01:03:51 | INFO     |   📧 Sujet      : Candidature pour un stage PFE
+2026-03-09 01:03:51 | INFO     |   👤 De         : bouchaala yosra <yosra.bouchaala.isims@gmail.com>
+2026-03-09 01:03:51 | INFO     |   📅 Date       : Mon, 9 Mar 2026 00:03:37 +0100
+2026-03-09 01:03:51 | INFO     |   📎 Fichiers   : 1 pièce(s) jointe(s)
+2026-03-09 01:03:51 | INFO     |   Email ID 10 traite avec succes
+2026-03-09 01:03:51 | INFO     | ------------------------------------------
+2026-03-09 01:03:51 | INFO     | [4/4] Traitement email ID 11...
+2026-03-09 01:03:51 | INFO     |   💾 Pièce jointe sauvegardée : attachments\11\AmalJallouli_cv.pdf
+2026-03-09 01:03:51 | INFO     |   📧 Sujet      : Candidature pour un stage de PFE
+2026-03-09 01:03:51 | INFO     |   👤 De         : Amal Jallouli <jallouliamal754@gmail.com>
+2026-03-09 01:03:51 | INFO     |   📅 Date       : Mon, 9 Mar 2026 00:07:16 +0100
+2026-03-09 01:03:51 | INFO     |   📎 Fichiers   : 1 pièce(s) jointe(s)
+2026-03-09 01:03:51 | INFO     |   Email ID 11 traite avec succes
+2026-03-09 01:03:51 | INFO     | ------------------------------------------
+2026-03-09 01:03:51 | INFO     | Résumé cycle #1
+2026-03-09 01:03:51 | INFO     |   Emails traites  : 4
+2026-03-09 01:03:51 | INFO     |   Pieces jointes  : 2
+2026-03-09 01:03:52 | INFO     | Déconnexion propre réussie
+2026-03-09 01:03:52 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:04:52 | INFO     | ==========================================
+2026-03-09 01:04:52 | INFO     |   CYCLE #2 — 09/03/2026 01:04:52
+2026-03-09 01:04:52 | INFO     | ==========================================
+2026-03-09 01:04:52 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:04:52 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:04:53 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:04:53 | INFO     | Connexion établie avec succès
+2026-03-09 01:04:54 | INFO     | Aucun nouveau email trouvé
+2026-03-09 01:04:54 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 01:04:54 | INFO     | Résumé cycle #2
+2026-03-09 01:04:54 | INFO     |   Emails traites  : 0
+2026-03-09 01:04:54 | INFO     |   Pieces jointes  : 0
+2026-03-09 01:04:54 | INFO     | Déconnexion propre réussie
+2026-03-09 01:04:54 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:05:54 | INFO     | ==========================================
+2026-03-09 01:05:54 | INFO     |   CYCLE #3 — 09/03/2026 01:05:54
+2026-03-09 01:05:54 | INFO     | ==========================================
+2026-03-09 01:05:54 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:05:54 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:05:55 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:05:55 | INFO     | Connexion établie avec succès
+2026-03-09 01:05:56 | INFO     | Aucun nouveau email trouvé
+2026-03-09 01:05:56 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 01:05:56 | INFO     | Résumé cycle #3
+2026-03-09 01:05:56 | INFO     |   Emails traites  : 0
+2026-03-09 01:05:56 | INFO     |   Pieces jointes  : 0
+2026-03-09 01:05:56 | INFO     | Déconnexion propre réussie
+2026-03-09 01:05:56 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:06:56 | INFO     | ==========================================
+2026-03-09 01:06:56 | INFO     |   CYCLE #4 — 09/03/2026 01:06:56
+2026-03-09 01:06:56 | INFO     | ==========================================
+2026-03-09 01:06:56 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:06:56 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:06:57 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:06:57 | INFO     | Connexion établie avec succès
+2026-03-09 01:06:58 | INFO     | Aucun nouveau email trouvé
+2026-03-09 01:06:58 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 01:06:58 | INFO     | Résumé cycle #4
+2026-03-09 01:06:58 | INFO     |   Emails traites  : 0
+2026-03-09 01:06:58 | INFO     |   Pieces jointes  : 0
+2026-03-09 01:06:58 | INFO     | Déconnexion propre réussie
+2026-03-09 01:06:58 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:07:58 | INFO     | ==========================================
+2026-03-09 01:07:58 | INFO     |   CYCLE #5 — 09/03/2026 01:07:58
+2026-03-09 01:07:58 | INFO     | ==========================================
+2026-03-09 01:07:58 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:07:58 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:07:59 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:07:59 | INFO     | Connexion établie avec succès
+2026-03-09 01:07:59 | INFO     | 2 nouveau(x) email(s) trouvé(s) dans INBOX
+2026-03-09 01:07:59 | INFO     | 2 email(s) a traiter
+2026-03-09 01:07:59 | INFO     | ------------------------------------------
+2026-03-09 01:07:59 | INFO     | [1/2] Traitement email ID 10...
+2026-03-09 01:08:00 | INFO     |   💾 Pièce jointe sauvegardée : attachments\10\CV Razgui chaima .pdf
+2026-03-09 01:08:00 | INFO     |   📧 Sujet      : Candidature pour un stage PFE
+2026-03-09 01:08:00 | INFO     |   👤 De         : bouchaala yosra <yosra.bouchaala.isims@gmail.com>
+2026-03-09 01:08:00 | INFO     |   📅 Date       : Mon, 9 Mar 2026 00:03:37 +0100
+2026-03-09 01:08:00 | INFO     |   📎 Fichiers   : 1 pièce(s) jointe(s)
+2026-03-09 01:08:00 | INFO     |   Email ID 10 traite avec succes
+2026-03-09 01:08:00 | INFO     | ------------------------------------------
+2026-03-09 01:08:00 | INFO     | [2/2] Traitement email ID 11...
+2026-03-09 01:08:01 | INFO     |   💾 Pièce jointe sauvegardée : attachments\11\AmalJallouli_cv.pdf
+2026-03-09 01:08:01 | INFO     |   📧 Sujet      : Candidature pour un stage de PFE
+2026-03-09 01:08:01 | INFO     |   👤 De         : Amal Jallouli <jallouliamal754@gmail.com>
+2026-03-09 01:08:01 | INFO     |   📅 Date       : Mon, 9 Mar 2026 00:07:16 +0100
+2026-03-09 01:08:01 | INFO     |   📎 Fichiers   : 1 pièce(s) jointe(s)
+2026-03-09 01:08:01 | INFO     |   Email ID 11 traite avec succes
+2026-03-09 01:08:01 | INFO     | ------------------------------------------
+2026-03-09 01:08:01 | INFO     | Résumé cycle #5
+2026-03-09 01:08:01 | INFO     |   Emails traites  : 2
+2026-03-09 01:08:01 | INFO     |   Pieces jointes  : 2
+2026-03-09 01:08:01 | INFO     | Déconnexion propre réussie
+2026-03-09 01:08:01 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:08:07 | INFO     | Scheduler arrete par l'utilisateur
+2026-03-09 01:08:07 | INFO     | ╔══════════════════════════════════════╗
+2026-03-09 01:08:07 | INFO     | ║        STATISTIQUES DE SESSION       ║
+2026-03-09 01:08:07 | INFO     | ╠══════════════════════════════════════╣
+2026-03-09 01:08:07 | INFO     | ║  Durée         : 00h 04m 20s
+2026-03-09 01:08:07 | INFO     | ║  Cycles        : 5
+2026-03-09 01:08:07 | INFO     | ║  Emails traités: 6
+2026-03-09 01:08:07 | INFO     | ║  Pièces jointes: 4
+2026-03-09 01:08:07 | INFO     | ║  Échecs        : 0
+2026-03-09 01:08:07 | INFO     | ╚══════════════════════════════════════╝
+2026-03-09 01:12:05 | INFO     | ==========================================
+2026-03-09 01:12:05 | INFO     |      SCHEDULER PFE — DEMARRAGE
+2026-03-09 01:12:05 | INFO     | ==========================================
+2026-03-09 01:12:05 | INFO     | Intervalle      : 1 minute(s)
+2026-03-09 01:12:05 | INFO     | Reconnexion     : 3 tentatives / 5s d'intervalle
+2026-03-09 01:12:05 | INFO     | Mode            : Nouveaux seulement (UNSEEN)
+2026-03-09 01:12:05 | INFO     | Ctrl+C pour arreter
+2026-03-09 01:12:05 | INFO     | ==========================================
+
+2026-03-09 01:12:05 | INFO     | ==========================================
+2026-03-09 01:12:05 | INFO     |   CYCLE #1 — 09/03/2026 01:12:05
+2026-03-09 01:12:05 | INFO     | ==========================================
+2026-03-09 01:12:05 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:12:05 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:12:06 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:12:07 | INFO     | Connexion établie avec succès
+2026-03-09 01:12:07 | INFO     | Aucun nouveau email trouvé
+2026-03-09 01:12:07 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 01:12:07 | INFO     | Résumé cycle #1
+2026-03-09 01:12:07 | INFO     |   Emails traites  : 0
+2026-03-09 01:12:07 | INFO     |   Pieces jointes  : 0
+2026-03-09 01:12:07 | INFO     | Déconnexion propre réussie
+2026-03-09 01:12:07 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:13:07 | INFO     | ==========================================
+2026-03-09 01:13:07 | INFO     |   CYCLE #2 — 09/03/2026 01:13:07
+2026-03-09 01:13:07 | INFO     | ==========================================
+2026-03-09 01:13:07 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:13:07 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:13:08 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:13:08 | INFO     | Connexion établie avec succès
+2026-03-09 01:13:09 | INFO     | Aucun nouveau email trouvé
+2026-03-09 01:13:09 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 01:13:09 | INFO     | Résumé cycle #2
+2026-03-09 01:13:09 | INFO     |   Emails traites  : 0
+2026-03-09 01:13:09 | INFO     |   Pieces jointes  : 0
+2026-03-09 01:13:09 | INFO     | Déconnexion propre réussie
+2026-03-09 01:13:09 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:13:46 | INFO     | Scheduler arrete par l'utilisateur
+2026-03-09 01:13:46 | INFO     | ╔══════════════════════════════════════╗
+2026-03-09 01:13:46 | INFO     | ║        STATISTIQUES DE SESSION       ║
+2026-03-09 01:13:46 | INFO     | ╠══════════════════════════════════════╣
+2026-03-09 01:13:46 | INFO     | ║  Durée         : 00h 01m 41s
+2026-03-09 01:13:46 | INFO     | ║  Cycles        : 2
+2026-03-09 01:13:46 | INFO     | ║  Emails traités: 0
+2026-03-09 01:13:46 | INFO     | ║  Pièces jointes: 0
+2026-03-09 01:13:46 | INFO     | ║  Échecs        : 0
+2026-03-09 01:13:46 | INFO     | ╚══════════════════════════════════════╝
+2026-03-09 01:13:49 | INFO     | ==========================================
+2026-03-09 01:13:49 | INFO     |      SCHEDULER PFE — DEMARRAGE
+2026-03-09 01:13:49 | INFO     | ==========================================
+2026-03-09 01:13:49 | INFO     | Intervalle      : 1 minute(s)
+2026-03-09 01:13:49 | INFO     | Reconnexion     : 3 tentatives / 5s d'intervalle
+2026-03-09 01:13:49 | INFO     | Mode            : Nouveaux seulement (UNSEEN)
+2026-03-09 01:13:49 | INFO     | Ctrl+C pour arreter
+2026-03-09 01:13:49 | INFO     | ==========================================
+
+2026-03-09 01:13:49 | INFO     | ==========================================
+2026-03-09 01:13:49 | INFO     |   CYCLE #1 — 09/03/2026 01:13:49
+2026-03-09 01:13:49 | INFO     | ==========================================
+2026-03-09 01:13:49 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:13:49 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:13:50 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:13:50 | INFO     | Connexion établie avec succès
+2026-03-09 01:13:51 | INFO     | 2 nouveau(x) email(s) trouvé(s) dans INBOX
+2026-03-09 01:13:51 | INFO     | 2 email(s) a traiter
+2026-03-09 01:13:51 | INFO     | ------------------------------------------
+2026-03-09 01:13:51 | INFO     | [1/2] Traitement email ID 10...
+2026-03-09 01:13:51 | INFO     |   Sujet      : Candidature pour un stage PFE
+2026-03-09 01:13:51 | INFO     |   De         : bouchaala yosra <yosra.bouchaala.isims@gmail.com>
+2026-03-09 01:13:51 | INFO     |   Date       : Mon, 9 Mar 2026 00:03:37 +0100
+2026-03-09 01:13:51 | INFO     |   CV sauvegarde : attachments\CV Razgui chaima .pdf
+2026-03-09 01:13:51 | INFO     |   1 CV sauvegarde(s)
+2026-03-09 01:13:51 | INFO     |   JSON sauvegarde : emails\email_10.json
+2026-03-09 01:13:52 | ERROR    | Erreur inattendue durant le cycle #1 : 'fichiers'
+2026-03-09 01:13:52 | INFO     | Déconnexion propre réussie
+2026-03-09 01:13:52 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:14:52 | INFO     | ==========================================
+2026-03-09 01:14:52 | INFO     |   CYCLE #2 — 09/03/2026 01:14:52
+2026-03-09 01:14:52 | INFO     | ==========================================
+2026-03-09 01:14:52 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:14:52 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:14:53 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:14:53 | INFO     | Connexion établie avec succès
+2026-03-09 01:14:54 | INFO     | 1 nouveau(x) email(s) trouvé(s) dans INBOX
+2026-03-09 01:14:54 | INFO     | 1 email(s) a traiter
+2026-03-09 01:14:54 | INFO     | ------------------------------------------
+2026-03-09 01:14:54 | INFO     | [1/1] Traitement email ID 11...
+2026-03-09 01:14:54 | INFO     |   Sujet      : Candidature pour un stage de PFE
+2026-03-09 01:14:54 | INFO     |   De         : Amal Jallouli <jallouliamal754@gmail.com>
+2026-03-09 01:14:54 | INFO     |   Date       : Mon, 9 Mar 2026 00:07:16 +0100
+2026-03-09 01:14:54 | INFO     |   CV sauvegarde : attachments\AmalJallouli_cv.pdf
+2026-03-09 01:14:54 | INFO     |   1 CV sauvegarde(s)
+2026-03-09 01:14:54 | INFO     |   JSON sauvegarde : emails\email_11.json
+2026-03-09 01:14:54 | ERROR    | Erreur inattendue durant le cycle #2 : 'fichiers'
+2026-03-09 01:14:55 | INFO     | Déconnexion propre réussie
+2026-03-09 01:14:55 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:15:55 | INFO     | ==========================================
+2026-03-09 01:15:55 | INFO     |   CYCLE #3 — 09/03/2026 01:15:55
+2026-03-09 01:15:55 | INFO     | ==========================================
+2026-03-09 01:15:55 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:15:55 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:15:56 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:15:56 | INFO     | Connexion établie avec succès
+2026-03-09 01:15:57 | INFO     | Aucun nouveau email trouvé
+2026-03-09 01:15:57 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 01:15:57 | INFO     | Résumé cycle #3
+2026-03-09 01:15:57 | INFO     |   Emails traites  : 0
+2026-03-09 01:15:57 | INFO     |   Pieces jointes  : 0
+2026-03-09 01:15:57 | INFO     | Déconnexion propre réussie
+2026-03-09 01:15:57 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:16:00 | INFO     | Scheduler arrete par l'utilisateur
+2026-03-09 01:16:00 | INFO     | ╔══════════════════════════════════════╗
+2026-03-09 01:16:00 | INFO     | ║        STATISTIQUES DE SESSION       ║
+2026-03-09 01:16:00 | INFO     | ╠══════════════════════════════════════╣
+2026-03-09 01:16:00 | INFO     | ║  Durée         : 00h 02m 10s
+2026-03-09 01:16:00 | INFO     | ║  Cycles        : 3
+2026-03-09 01:16:00 | INFO     | ║  Emails traités: 0
+2026-03-09 01:16:00 | INFO     | ║  Pièces jointes: 0
+2026-03-09 01:16:00 | INFO     | ║  Échecs        : 2
+2026-03-09 01:16:00 | INFO     | ╚══════════════════════════════════════╝
+2026-03-09 01:19:19 | INFO     | ==========================================
+2026-03-09 01:19:19 | INFO     |      SCHEDULER PFE — DEMARRAGE
+2026-03-09 01:19:19 | INFO     | ==========================================
+2026-03-09 01:19:19 | INFO     | Intervalle      : 1 minute(s)
+2026-03-09 01:19:19 | INFO     | Reconnexion     : 3 tentatives / 5s d'intervalle
+2026-03-09 01:19:19 | INFO     | Mode            : Nouveaux seulement (UNSEEN)
+2026-03-09 01:19:19 | INFO     | Ctrl+C pour arreter
+2026-03-09 01:19:19 | INFO     | ==========================================
+
+2026-03-09 01:19:19 | INFO     | ==========================================
+2026-03-09 01:19:19 | INFO     |   CYCLE #1 — 09/03/2026 01:19:19
+2026-03-09 01:19:19 | INFO     | ==========================================
+2026-03-09 01:19:19 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:19:19 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:19:21 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:19:21 | INFO     | Connexion établie avec succès
+2026-03-09 01:19:21 | INFO     | 2 nouveau(x) email(s) trouvé(s) dans INBOX
+2026-03-09 01:19:21 | INFO     | 2 email(s) a traiter
+2026-03-09 01:19:21 | INFO     | ------------------------------------------
+2026-03-09 01:19:21 | INFO     | [1/2] Traitement email ID 10...
+2026-03-09 01:19:22 | INFO     |   Sujet      : Candidature pour un stage PFE
+2026-03-09 01:19:22 | INFO     |   De         : bouchaala yosra <yosra.bouchaala.isims@gmail.com>
+2026-03-09 01:19:22 | INFO     |   Date       : Mon, 9 Mar 2026 00:03:37 +0100
+2026-03-09 01:19:22 | INFO     |   CV sauvegarde : attachments\CV Razgui chaima .pdf
+2026-03-09 01:19:22 | INFO     |   1 CV sauvegarde(s)
+2026-03-09 01:19:22 | INFO     |   JSON sauvegarde : data\raw\email_10.json
+2026-03-09 01:19:22 | ERROR    | Erreur inattendue durant le cycle #1 : 'fichiers'
+2026-03-09 01:19:22 | INFO     | Déconnexion propre réussie
+2026-03-09 01:19:22 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:20:22 | INFO     | ==========================================
+2026-03-09 01:20:22 | INFO     |   CYCLE #2 — 09/03/2026 01:20:22
+2026-03-09 01:20:22 | INFO     | ==========================================
+2026-03-09 01:20:22 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:20:22 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:20:25 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:20:25 | INFO     | Connexion établie avec succès
+2026-03-09 01:20:26 | INFO     | 1 nouveau(x) email(s) trouvé(s) dans INBOX
+2026-03-09 01:20:26 | INFO     | 1 email(s) a traiter
+2026-03-09 01:20:26 | INFO     | ------------------------------------------
+2026-03-09 01:20:26 | INFO     | [1/1] Traitement email ID 11...
+2026-03-09 01:20:27 | INFO     |   Sujet      : Candidature pour un stage de PFE
+2026-03-09 01:20:27 | INFO     |   De         : Amal Jallouli <jallouliamal754@gmail.com>
+2026-03-09 01:20:27 | INFO     |   Date       : Mon, 9 Mar 2026 00:07:16 +0100
+2026-03-09 01:20:27 | INFO     |   CV sauvegarde : attachments\AmalJallouli_cv.pdf
+2026-03-09 01:20:27 | INFO     |   1 CV sauvegarde(s)
+2026-03-09 01:20:27 | INFO     |   JSON sauvegarde : data\raw\email_11.json
+2026-03-09 01:20:27 | ERROR    | Erreur inattendue durant le cycle #2 : 'fichiers'
+2026-03-09 01:20:27 | INFO     | Déconnexion propre réussie
+2026-03-09 01:20:27 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:21:27 | INFO     | ==========================================
+2026-03-09 01:21:27 | INFO     |   CYCLE #3 — 09/03/2026 01:21:27
+2026-03-09 01:21:27 | INFO     | ==========================================
+2026-03-09 01:21:27 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:21:27 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:21:28 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:21:28 | INFO     | Connexion établie avec succès
+2026-03-09 01:21:29 | INFO     | Aucun nouveau email trouvé
+2026-03-09 01:21:29 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 01:21:29 | INFO     | Résumé cycle #3
+2026-03-09 01:21:29 | INFO     |   Emails traites  : 0
+2026-03-09 01:21:29 | INFO     |   Pieces jointes  : 0
+2026-03-09 01:21:29 | INFO     | Déconnexion propre réussie
+2026-03-09 01:21:29 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:22:29 | INFO     | ==========================================
+2026-03-09 01:22:29 | INFO     |   CYCLE #4 — 09/03/2026 01:22:29
+2026-03-09 01:22:29 | INFO     | ==========================================
+2026-03-09 01:22:29 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:22:29 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:22:30 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:22:30 | INFO     | Connexion établie avec succès
+2026-03-09 01:22:31 | INFO     | Aucun nouveau email trouvé
+2026-03-09 01:22:31 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 01:22:31 | INFO     | Résumé cycle #4
+2026-03-09 01:22:31 | INFO     |   Emails traites  : 0
+2026-03-09 01:22:31 | INFO     |   Pieces jointes  : 0
+2026-03-09 01:22:31 | INFO     | Déconnexion propre réussie
+2026-03-09 01:22:31 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:23:31 | INFO     | ==========================================
+2026-03-09 01:23:31 | INFO     |   CYCLE #5 — 09/03/2026 01:23:31
+2026-03-09 01:23:31 | INFO     | ==========================================
+2026-03-09 01:23:31 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:23:31 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:23:33 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:23:33 | INFO     | Connexion établie avec succès
+2026-03-09 01:23:33 | INFO     | Aucun nouveau email trouvé
+2026-03-09 01:23:33 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 01:23:33 | INFO     | Résumé cycle #5
+2026-03-09 01:23:33 | INFO     |   Emails traites  : 0
+2026-03-09 01:23:33 | INFO     |   Pieces jointes  : 0
+2026-03-09 01:23:34 | INFO     | Déconnexion propre réussie
+2026-03-09 01:23:34 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:24:34 | INFO     | ==========================================
+2026-03-09 01:24:34 | INFO     |   CYCLE #6 — 09/03/2026 01:24:34
+2026-03-09 01:24:34 | INFO     | ==========================================
+2026-03-09 01:24:34 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:24:34 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:24:35 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:24:35 | INFO     | Connexion établie avec succès
+2026-03-09 01:24:35 | INFO     | Aucun nouveau email trouvé
+2026-03-09 01:24:35 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 01:24:35 | INFO     | Résumé cycle #6
+2026-03-09 01:24:35 | INFO     |   Emails traites  : 0
+2026-03-09 01:24:35 | INFO     |   Pieces jointes  : 0
+2026-03-09 01:24:35 | INFO     | Déconnexion propre réussie
+2026-03-09 01:24:35 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:25:35 | INFO     | ==========================================
+2026-03-09 01:25:35 | INFO     |   CYCLE #7 — 09/03/2026 01:25:35
+2026-03-09 01:25:35 | INFO     | ==========================================
+2026-03-09 01:25:36 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:25:36 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:25:36 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:25:37 | INFO     | Connexion établie avec succès
+2026-03-09 01:25:37 | INFO     | Aucun nouveau email trouvé
+2026-03-09 01:25:37 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 01:25:37 | INFO     | Résumé cycle #7
+2026-03-09 01:25:37 | INFO     |   Emails traites  : 0
+2026-03-09 01:25:37 | INFO     |   Pieces jointes  : 0
+2026-03-09 01:25:37 | INFO     | Déconnexion propre réussie
+2026-03-09 01:25:37 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:26:37 | INFO     | ==========================================
+2026-03-09 01:26:37 | INFO     |   CYCLE #8 — 09/03/2026 01:26:37
+2026-03-09 01:26:37 | INFO     | ==========================================
+2026-03-09 01:26:37 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:26:37 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:26:38 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:26:38 | INFO     | Connexion établie avec succès
+2026-03-09 01:26:39 | INFO     | Aucun nouveau email trouvé
+2026-03-09 01:26:39 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 01:26:39 | INFO     | Résumé cycle #8
+2026-03-09 01:26:39 | INFO     |   Emails traites  : 0
+2026-03-09 01:26:39 | INFO     |   Pieces jointes  : 0
+2026-03-09 01:26:39 | INFO     | Déconnexion propre réussie
+2026-03-09 01:26:39 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:27:39 | INFO     | ==========================================
+2026-03-09 01:27:39 | INFO     |   CYCLE #9 — 09/03/2026 01:27:39
+2026-03-09 01:27:39 | INFO     | ==========================================
+2026-03-09 01:27:39 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:27:39 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:27:40 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:27:40 | INFO     | Connexion établie avec succès
+2026-03-09 01:27:40 | INFO     | Aucun nouveau email trouvé
+2026-03-09 01:27:40 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 01:27:40 | INFO     | Résumé cycle #9
+2026-03-09 01:27:40 | INFO     |   Emails traites  : 0
+2026-03-09 01:27:40 | INFO     |   Pieces jointes  : 0
+2026-03-09 01:27:41 | INFO     | Déconnexion propre réussie
+2026-03-09 01:27:41 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:28:41 | INFO     | ==========================================
+2026-03-09 01:28:41 | INFO     |   CYCLE #10 — 09/03/2026 01:28:41
+2026-03-09 01:28:41 | INFO     | ==========================================
+2026-03-09 01:28:41 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:28:41 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:28:42 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:28:42 | INFO     | Connexion établie avec succès
+2026-03-09 01:28:42 | INFO     | Aucun nouveau email trouvé
+2026-03-09 01:28:42 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 01:28:42 | INFO     | Résumé cycle #10
+2026-03-09 01:28:42 | INFO     |   Emails traites  : 0
+2026-03-09 01:28:42 | INFO     |   Pieces jointes  : 0
+2026-03-09 01:28:42 | INFO     | Déconnexion propre réussie
+2026-03-09 01:28:42 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:29:42 | INFO     | ==========================================
+2026-03-09 01:29:42 | INFO     |   CYCLE #11 — 09/03/2026 01:29:42
+2026-03-09 01:29:42 | INFO     | ==========================================
+2026-03-09 01:29:42 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:29:42 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:29:43 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:29:44 | INFO     | Connexion établie avec succès
+2026-03-09 01:29:44 | INFO     | Aucun nouveau email trouvé
+2026-03-09 01:29:44 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 01:29:44 | INFO     | Résumé cycle #11
+2026-03-09 01:29:44 | INFO     |   Emails traites  : 0
+2026-03-09 01:29:44 | INFO     |   Pieces jointes  : 0
+2026-03-09 01:29:44 | INFO     | Déconnexion propre réussie
+2026-03-09 01:29:44 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:30:44 | INFO     | ==========================================
+2026-03-09 01:30:44 | INFO     |   CYCLE #12 — 09/03/2026 01:30:44
+2026-03-09 01:30:44 | INFO     | ==========================================
+2026-03-09 01:30:44 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:30:44 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:30:45 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:30:45 | INFO     | Connexion établie avec succès
+2026-03-09 01:30:46 | INFO     | Aucun nouveau email trouvé
+2026-03-09 01:30:46 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 01:30:46 | INFO     | Résumé cycle #12
+2026-03-09 01:30:46 | INFO     |   Emails traites  : 0
+2026-03-09 01:30:46 | INFO     |   Pieces jointes  : 0
+2026-03-09 01:30:46 | INFO     | Déconnexion propre réussie
+2026-03-09 01:30:46 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:31:46 | INFO     | ==========================================
+2026-03-09 01:31:46 | INFO     |   CYCLE #13 — 09/03/2026 01:31:46
+2026-03-09 01:31:46 | INFO     | ==========================================
+2026-03-09 01:31:46 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:31:46 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:31:47 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:31:47 | INFO     | Connexion établie avec succès
+2026-03-09 01:31:48 | INFO     | Aucun nouveau email trouvé
+2026-03-09 01:31:48 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 01:31:48 | INFO     | Résumé cycle #13
+2026-03-09 01:31:48 | INFO     |   Emails traites  : 0
+2026-03-09 01:31:48 | INFO     |   Pieces jointes  : 0
+2026-03-09 01:31:48 | INFO     | Déconnexion propre réussie
+2026-03-09 01:31:48 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:32:48 | INFO     | ==========================================
+2026-03-09 01:32:48 | INFO     |   CYCLE #14 — 09/03/2026 01:32:48
+2026-03-09 01:32:48 | INFO     | ==========================================
+2026-03-09 01:32:48 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:32:48 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:32:49 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:32:49 | INFO     | Connexion établie avec succès
+2026-03-09 01:32:50 | INFO     | Aucun nouveau email trouvé
+2026-03-09 01:32:50 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 01:32:50 | INFO     | Résumé cycle #14
+2026-03-09 01:32:50 | INFO     |   Emails traites  : 0
+2026-03-09 01:32:50 | INFO     |   Pieces jointes  : 0
+2026-03-09 01:32:50 | INFO     | Déconnexion propre réussie
+2026-03-09 01:32:50 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:33:50 | INFO     | ==========================================
+2026-03-09 01:33:50 | INFO     |   CYCLE #15 — 09/03/2026 01:33:50
+2026-03-09 01:33:50 | INFO     | ==========================================
+2026-03-09 01:33:50 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:33:50 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:33:51 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:33:51 | INFO     | Connexion établie avec succès
+2026-03-09 01:33:52 | INFO     | Aucun nouveau email trouvé
+2026-03-09 01:33:52 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 01:33:52 | INFO     | Résumé cycle #15
+2026-03-09 01:33:52 | INFO     |   Emails traites  : 0
+2026-03-09 01:33:52 | INFO     |   Pieces jointes  : 0
+2026-03-09 01:33:52 | INFO     | Déconnexion propre réussie
+2026-03-09 01:33:52 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:34:52 | INFO     | ==========================================
+2026-03-09 01:34:52 | INFO     |   CYCLE #16 — 09/03/2026 01:34:52
+2026-03-09 01:34:52 | INFO     | ==========================================
+2026-03-09 01:34:52 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:34:52 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:34:53 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:34:53 | INFO     | Connexion établie avec succès
+2026-03-09 01:34:54 | INFO     | Aucun nouveau email trouvé
+2026-03-09 01:34:54 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 01:34:54 | INFO     | Résumé cycle #16
+2026-03-09 01:34:54 | INFO     |   Emails traites  : 0
+2026-03-09 01:34:54 | INFO     |   Pieces jointes  : 0
+2026-03-09 01:34:54 | INFO     | Déconnexion propre réussie
+2026-03-09 01:34:54 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:35:54 | INFO     | ==========================================
+2026-03-09 01:35:54 | INFO     |   CYCLE #17 — 09/03/2026 01:35:54
+2026-03-09 01:35:54 | INFO     | ==========================================
+2026-03-09 01:35:54 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:35:54 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:35:55 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:35:56 | INFO     | Connexion établie avec succès
+2026-03-09 01:35:57 | INFO     | Aucun nouveau email trouvé
+2026-03-09 01:35:57 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 01:35:57 | INFO     | Résumé cycle #17
+2026-03-09 01:35:57 | INFO     |   Emails traites  : 0
+2026-03-09 01:35:57 | INFO     |   Pieces jointes  : 0
+2026-03-09 01:35:57 | INFO     | Déconnexion propre réussie
+2026-03-09 01:35:57 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:36:57 | INFO     | ==========================================
+2026-03-09 01:36:57 | INFO     |   CYCLE #18 — 09/03/2026 01:36:57
+2026-03-09 01:36:57 | INFO     | ==========================================
+2026-03-09 01:36:57 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:36:57 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:36:58 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:36:58 | INFO     | Connexion établie avec succès
+2026-03-09 01:36:59 | INFO     | Aucun nouveau email trouvé
+2026-03-09 01:36:59 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 01:36:59 | INFO     | Résumé cycle #18
+2026-03-09 01:36:59 | INFO     |   Emails traites  : 0
+2026-03-09 01:36:59 | INFO     |   Pieces jointes  : 0
+2026-03-09 01:36:59 | INFO     | Déconnexion propre réussie
+2026-03-09 01:36:59 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:37:59 | INFO     | ==========================================
+2026-03-09 01:37:59 | INFO     |   CYCLE #19 — 09/03/2026 01:37:59
+2026-03-09 01:37:59 | INFO     | ==========================================
+2026-03-09 01:37:59 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:37:59 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:38:00 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:38:00 | INFO     | Connexion établie avec succès
+2026-03-09 01:38:01 | INFO     | Aucun nouveau email trouvé
+2026-03-09 01:38:01 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 01:38:01 | INFO     | Résumé cycle #19
+2026-03-09 01:38:01 | INFO     |   Emails traites  : 0
+2026-03-09 01:38:01 | INFO     |   Pieces jointes  : 0
+2026-03-09 01:38:01 | INFO     | Déconnexion propre réussie
+2026-03-09 01:38:01 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:39:01 | INFO     | ==========================================
+2026-03-09 01:39:01 | INFO     |   CYCLE #20 — 09/03/2026 01:39:01
+2026-03-09 01:39:01 | INFO     | ==========================================
+2026-03-09 01:39:01 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:39:01 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:39:02 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:39:02 | INFO     | Connexion établie avec succès
+2026-03-09 01:39:02 | INFO     | Aucun nouveau email trouvé
+2026-03-09 01:39:02 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 01:39:02 | INFO     | Résumé cycle #20
+2026-03-09 01:39:02 | INFO     |   Emails traites  : 0
+2026-03-09 01:39:02 | INFO     |   Pieces jointes  : 0
+2026-03-09 01:39:03 | INFO     | Déconnexion propre réussie
+2026-03-09 01:39:03 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:40:03 | INFO     | ==========================================
+2026-03-09 01:40:03 | INFO     |   CYCLE #21 — 09/03/2026 01:40:03
+2026-03-09 01:40:03 | INFO     | ==========================================
+2026-03-09 01:40:03 | INFO     | Tentative de connexion 1/3...
+2026-03-09 01:40:03 | INFO     | Tentative de connexion IMAP...
+2026-03-09 01:40:04 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 01:40:04 | INFO     | Connexion établie avec succès
+2026-03-09 01:40:04 | INFO     | Aucun nouveau email trouvé
+2026-03-09 01:40:04 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 01:40:04 | INFO     | Résumé cycle #21
+2026-03-09 01:40:04 | INFO     |   Emails traites  : 0
+2026-03-09 01:40:04 | INFO     |   Pieces jointes  : 0
+2026-03-09 01:40:04 | INFO     | Déconnexion propre réussie
+2026-03-09 01:40:04 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 01:40:55 | INFO     | Scheduler arrete par l'utilisateur
+2026-03-09 01:40:55 | INFO     | ╔══════════════════════════════════════╗
+2026-03-09 01:40:55 | INFO     | ║        STATISTIQUES DE SESSION       ║
+2026-03-09 01:40:55 | INFO     | ╠══════════════════════════════════════╣
+2026-03-09 01:40:55 | INFO     | ║  Durée         : 00h 21m 36s
+2026-03-09 01:40:55 | INFO     | ║  Cycles        : 21
+2026-03-09 01:40:55 | INFO     | ║  Emails traités: 0
+2026-03-09 01:40:55 | INFO     | ║  Pièces jointes: 0
+2026-03-09 01:40:55 | INFO     | ║  Échecs        : 2
+2026-03-09 01:40:55 | INFO     | ╚══════════════════════════════════════╝
+2026-03-09 02:05:08 | INFO     | ==========================================
+2026-03-09 02:05:08 | INFO     |      SCHEDULER PFE — DEMARRAGE
+2026-03-09 02:05:08 | INFO     | ==========================================
+2026-03-09 02:05:08 | INFO     | Intervalle      : 1 minute(s)
+2026-03-09 02:05:08 | INFO     | Reconnexion     : 3 tentatives / 5s d'intervalle
+2026-03-09 02:05:08 | INFO     | Mode            : Nouveaux seulement (UNSEEN)
+2026-03-09 02:05:08 | INFO     | Ctrl+C pour arreter
+2026-03-09 02:05:08 | INFO     | ==========================================
+
+2026-03-09 02:05:08 | INFO     | ==========================================
+2026-03-09 02:05:08 | INFO     |   CYCLE #1 — 09/03/2026 02:05:08
+2026-03-09 02:05:08 | INFO     | ==========================================
+2026-03-09 02:05:08 | INFO     | Tentative de connexion 1/3...
+2026-03-09 02:05:08 | INFO     | Tentative de connexion IMAP...
+2026-03-09 02:05:09 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 02:05:09 | INFO     | Connexion établie avec succès
+2026-03-09 02:05:09 | INFO     | Aucun nouveau email trouvé
+2026-03-09 02:05:09 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 02:05:09 | INFO     | Résumé cycle #1
+2026-03-09 02:05:09 | INFO     |   Emails traites  : 0
+2026-03-09 02:05:09 | INFO     |   Pieces jointes  : 0
+2026-03-09 02:05:10 | INFO     | Déconnexion propre réussie
+2026-03-09 02:05:10 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 02:06:10 | INFO     | ==========================================
+2026-03-09 02:06:10 | INFO     |   CYCLE #2 — 09/03/2026 02:06:10
+2026-03-09 02:06:10 | INFO     | ==========================================
+2026-03-09 02:06:10 | INFO     | Tentative de connexion 1/3...
+2026-03-09 02:06:10 | INFO     | Tentative de connexion IMAP...
+2026-03-09 02:06:11 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 02:06:11 | INFO     | Connexion établie avec succès
+2026-03-09 02:06:11 | INFO     | Aucun nouveau email trouvé
+2026-03-09 02:06:11 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 02:06:11 | INFO     | Résumé cycle #2
+2026-03-09 02:06:11 | INFO     |   Emails traites  : 0
+2026-03-09 02:06:11 | INFO     |   Pieces jointes  : 0
+2026-03-09 02:06:11 | INFO     | Déconnexion propre réussie
+2026-03-09 02:06:11 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 02:07:11 | INFO     | ==========================================
+2026-03-09 02:07:11 | INFO     |   CYCLE #3 — 09/03/2026 02:07:11
+2026-03-09 02:07:11 | INFO     | ==========================================
+2026-03-09 02:07:11 | INFO     | Tentative de connexion 1/3...
+2026-03-09 02:07:11 | INFO     | Tentative de connexion IMAP...
+2026-03-09 02:07:12 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 02:07:13 | INFO     | Connexion établie avec succès
+2026-03-09 02:07:13 | INFO     | Aucun nouveau email trouvé
+2026-03-09 02:07:13 | INFO     | Aucun nouveau email — en attente du prochain cycle
+2026-03-09 02:07:13 | INFO     | Résumé cycle #3
+2026-03-09 02:07:13 | INFO     |   Emails traites  : 0
+2026-03-09 02:07:13 | INFO     |   Pieces jointes  : 0
+2026-03-09 02:07:13 | INFO     | Déconnexion propre réussie
+2026-03-09 02:07:13 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 02:08:13 | INFO     | ==========================================
+2026-03-09 02:08:13 | INFO     |   CYCLE #4 — 09/03/2026 02:08:13
+2026-03-09 02:08:13 | INFO     | ==========================================
+2026-03-09 02:08:13 | INFO     | Tentative de connexion 1/3...
+2026-03-09 02:08:13 | INFO     | Tentative de connexion IMAP...
+2026-03-09 02:08:14 | INFO     | Scheduler arrete par l'utilisateur
+2026-03-09 02:08:14 | INFO     | ╔══════════════════════════════════════╗
+2026-03-09 02:08:14 | INFO     | ║        STATISTIQUES DE SESSION       ║
+2026-03-09 02:08:14 | INFO     | ╠══════════════════════════════════════╣
+2026-03-09 02:08:14 | INFO     | ║  Durée         : 00h 03m 06s
+2026-03-09 02:08:14 | INFO     | ║  Cycles        : 4
+2026-03-09 02:08:14 | INFO     | ║  Emails traités: 0
+2026-03-09 02:08:14 | INFO     | ║  Pièces jointes: 0
+2026-03-09 02:08:14 | INFO     | ║  Échecs        : 0
+2026-03-09 02:08:14 | INFO     | ╚══════════════════════════════════════╝
+2026-03-09 02:08:21 | INFO     | ==========================================
+2026-03-09 02:08:21 | INFO     |      SCHEDULER PFE — DEMARRAGE
+2026-03-09 02:08:21 | INFO     | ==========================================
+2026-03-09 02:08:21 | INFO     | Intervalle      : 1 minute(s)
+2026-03-09 02:08:21 | INFO     | Reconnexion     : 3 tentatives / 5s d'intervalle
+2026-03-09 02:08:21 | INFO     | Mode            : Nouveaux seulement (UNSEEN)
+2026-03-09 02:08:21 | INFO     | Ctrl+C pour arreter
+2026-03-09 02:08:21 | INFO     | ==========================================
+
+2026-03-09 02:08:21 | INFO     | ==========================================
+2026-03-09 02:08:21 | INFO     |   CYCLE #1 — 09/03/2026 02:08:21
+2026-03-09 02:08:21 | INFO     | ==========================================
+2026-03-09 02:08:21 | INFO     | Tentative de connexion 1/3...
+2026-03-09 02:08:21 | INFO     | Tentative de connexion IMAP...
+2026-03-09 02:08:22 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 02:08:23 | INFO     | Connexion établie avec succès
+2026-03-09 02:08:24 | INFO     | 2 nouveau(x) email(s) trouvé(s) dans INBOX
+2026-03-09 02:08:24 | INFO     | 2 email(s) a traiter
+2026-03-09 02:08:24 | INFO     | ------------------------------------------
+2026-03-09 02:08:24 | INFO     | [1/2] Traitement email ID 10...
+2026-03-09 02:08:24 | INFO     |   Sujet      : Candidature pour un stage PFE
+2026-03-09 02:08:24 | INFO     |   De         : bouchaala yosra <yosra.bouchaala.isims@gmail.com>
+2026-03-09 02:08:24 | INFO     |   Date       : Mon, 9 Mar 2026 00:03:37 +0100
+2026-03-09 02:08:24 | INFO     |   CV sauvegarde : attachments\CV Razgui chaima .pdf
+2026-03-09 02:08:24 | INFO     |   1 CV sauvegarde(s)
+2026-03-09 02:08:24 | INFO     |   JSON sauvegarde : data\raw\email_10.json
+2026-03-09 02:08:25 | ERROR    |   Erreur indexation Elasticsearch : BadRequestError(400, 'None')
+2026-03-09 02:08:25 | ERROR    | Erreur inattendue durant le cycle #1 : 'fichiers'
+2026-03-09 02:08:26 | INFO     | Déconnexion propre réussie
+2026-03-09 02:08:26 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 02:09:26 | INFO     | ==========================================
+2026-03-09 02:09:26 | INFO     |   CYCLE #2 — 09/03/2026 02:09:26
+2026-03-09 02:09:26 | INFO     | ==========================================
+2026-03-09 02:09:26 | INFO     | Tentative de connexion 1/3...
+2026-03-09 02:09:26 | INFO     | Tentative de connexion IMAP...
+2026-03-09 02:09:26 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-09 02:09:27 | INFO     | Connexion établie avec succès
+2026-03-09 02:09:27 | INFO     | 1 nouveau(x) email(s) trouvé(s) dans INBOX
+2026-03-09 02:09:27 | INFO     | 1 email(s) a traiter
+2026-03-09 02:09:27 | INFO     | ------------------------------------------
+2026-03-09 02:09:27 | INFO     | [1/1] Traitement email ID 11...
+2026-03-09 02:09:28 | INFO     |   Sujet      : Candidature pour un stage de PFE
+2026-03-09 02:09:28 | INFO     |   De         : Amal Jallouli <jallouliamal754@gmail.com>
+2026-03-09 02:09:28 | INFO     |   Date       : Mon, 9 Mar 2026 00:07:16 +0100
+2026-03-09 02:09:28 | INFO     |   CV sauvegarde : attachments\AmalJallouli_cv.pdf
+2026-03-09 02:09:28 | INFO     |   1 CV sauvegarde(s)
+2026-03-09 02:09:28 | INFO     |   JSON sauvegarde : data\raw\email_11.json
+2026-03-09 02:09:28 | ERROR    |   Erreur indexation Elasticsearch : BadRequestError(400, 'None')
+2026-03-09 02:09:28 | ERROR    | Erreur inattendue durant le cycle #2 : 'fichiers'
+2026-03-09 02:09:28 | INFO     | Déconnexion propre réussie
+2026-03-09 02:09:28 | INFO     | Prochain cycle dans 1 minute(s)
+
+2026-03-09 02:10:11 | INFO     | Scheduler arrete par l'utilisateur
+2026-03-09 02:10:11 | INFO     | ╔══════════════════════════════════════╗
+2026-03-09 02:10:11 | INFO     | ║        STATISTIQUES DE SESSION       ║
+2026-03-09 02:10:11 | INFO     | ╠══════════════════════════════════════╣
+2026-03-09 02:10:11 | INFO     | ║  Durée         : 00h 01m 49s
+2026-03-09 02:10:11 | INFO     | ║  Cycles        : 2
+2026-03-09 02:10:11 | INFO     | ║  Emails traités: 0
+2026-03-09 02:10:11 | INFO     | ║  Pièces jointes: 0
+2026-03-09 02:10:11 | INFO     | ║  Échecs        : 2
+2026-03-09 02:10:11 | INFO     | ╚══════════════════════════════════════╝
