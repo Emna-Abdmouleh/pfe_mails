@@ -1,0 +1,435 @@
+{
+  "metriques": {
+    "methode": "llm_mistral",
+    "nb_cvs_traites": 4,
+    "nb_succes": 4,
+    "nb_erreurs": 0,
+    "taux_succes_pct": 100.0,
+    "taux_erreur_pct": 0.0,
+    "temps_moyen_sec": 3.99,
+    "temps_min_sec": 3.07,
+    "temps_max_sec": 4.45
+  },
+  "resultats": [
+    {
+      "informations_personnelles": {
+        "nom": "Amal Jallouli",
+        "email": "jallouliamal754@gmail.com",
+        "telephone": "+216 52 776 444",
+        "ville": ""
+      },
+      "formation": [
+        {
+          "ecole": "Faculté des Sciences de Sfax",
+          "diplome": "Licence en Sciences de l’Informatique",
+          "domaine": "Informatique, spécialisation en génie logiciel",
+          "date_debut": "2020",
+          "date_fin": "2023"
+        },
+        {
+          "ecole": "Faculté des Sciences de Sfax",
+          "diplome": "Cycle préparatoire intégré en sciences de l’informatique",
+          "domaine": "Informatique",
+          "date_debut": "2019",
+          "date_fin": "2020"
+        },
+        {
+          "ecole": "Institut International de Technologie (IIT)",
+          "diplome": "Cycle d’ingénierie en informatique",
+          "domaine": "Informatique",
+          "date_debut": "2024",
+          "date_fin": "Présent"
+        },
+        {
+          "ecole": "Lycée Abou el Kacem Chebbi",
+          "diplome": "Baccalauréat en sciences expérimentales",
+          "domaine": "",
+          "date_debut": "2019",
+          "date_fin": "2020"
+        }
+      ],
+      "experiences": [
+        {
+          "entreprise": "Société I4NET",
+          "poste": "Stage de fin d’études",
+          "date_debut": "2024",
+          "date_fin": "2024",
+          "description": "Développement d’une solution d’essayage virtuel en 3D des lunettes en utilisant la Réalité Augmentée pour les applications web, avec un système de recommandation basé sur l’Intelligence Artificielle."
+        }
+      ],
+      "competences_techniques": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "PHP",
+        "C",
+        "C++",
+        "MySQL",
+        "MongoDB",
+        "XML",
+        "HTML",
+        "UML",
+        "GitHub",
+        "Docker",
+        "Maven",
+        "Django",
+        "TensorFlow",
+        "OpenCV",
+        "Jupyter",
+        "SFML"
+      ],
+      "domaines_competence": [
+        "Data cleaning and preprocessing avec pandas",
+        "Convolutional neural Networks avec TensorFlow en Python",
+        "Deep Learning avec TensorFlow",
+        "Machine Learning in Python",
+        "Introduction to Jupyter",
+        "The machine Learning Algorithm A-Z"
+      ],
+      "projets": [
+        {
+          "titre": "ChatBot",
+          "technologies": [
+            "Transformers"
+          ],
+          "description": "Développement d’un chatbot générative pour les étudiants."
+        },
+        {
+          "titre": "Classification des émotions humaines en temps réel",
+          "technologies": [
+            "Python",
+            "TensorFlow",
+            "OpenCV",
+            "CNN",
+            "Django"
+          ],
+          "description": "Développement d’une solution de classification des émotions humaines en temps réel."
+        },
+        {
+          "titre": "Olivia",
+          "technologies": [
+            "Python",
+            "CNN",
+            "OpenCV",
+            "TensorFlow",
+            "Jupyter"
+          ],
+          "description": "Développement d’une solution qui classifie le niveau de maturité des olives à partir des images."
+        },
+        {
+          "titre": "Application mobile",
+          "technologies": [
+            "Java"
+          ],
+          "description": "Développement d’une application mobile pour mesurer les niveaux de glucose sanguin."
+        },
+        {
+          "titre": "Jeu",
+          "technologies": [
+            "C++",
+            "SFML"
+          ],
+          "description": "Développement d’un Jeu."
+        }
+      ],
+      "langues": [
+        "Arabe",
+        "Anglais",
+        "Français"
+      ],
+      "cv_filename": "AmalJallouli_cv.pdf",
+      "extraction_method": "llm_mistral",
+      "temps_reponse_sec": 4.45,
+      "succes": true,
+      "erreur": null
+    },
+    {
+      "informations_personnelles": {
+        "nom": "Samar SAADAOUI",
+        "email": "samarsaadawi3@gmail.com",
+        "telephone": "97508938",
+        "ville": "sfax, tunis"
+      },
+      "formation": [
+        {
+          "ecole": "Institut International de Technologie (IIT), Sfax",
+          "diplome": "Licence en Génie Logiciel et Systèmes d’Information",
+          "domaine": "Génie Logiciel et Systèmes d’Information",
+          "date_debut": "2023",
+          "date_fin": "2026 (en cours)"
+        },
+        {
+          "ecole": "Lycée Abou Elkacem Chebbi",
+          "diplome": "Baccalauréat",
+          "domaine": "Mathématiques",
+          "date_debut": "2023",
+          "date_fin": "2023"
+        }
+      ],
+      "experiences": [
+        {
+          "entreprise": "IIT, Sfax",
+          "poste": "Développement d’une application web en React pour la gestion des clubs étudiants",
+          "date_debut": "Août 2025",
+          "date_fin": "Août 2025",
+          "description": ""
+        },
+        {
+          "entreprise": "Tunisie Télécom",
+          "poste": "Stage d’été – Découverte des réseaux mobiles",
+          "date_debut": "Juillet 2025",
+          "date_fin": "Juillet 2025",
+          "description": ""
+        },
+        {
+          "entreprise": "Saker Othman",
+          "poste": "UI/UX Design avec Figma – Conception d’une application Import/Export",
+          "date_debut": "Août 2024",
+          "date_fin": "Août 2024",
+          "description": ""
+        },
+        {
+          "entreprise": "IEEE WIE IIT",
+          "poste": "Média Manager",
+          "date_debut": "2025",
+          "date_fin": "2025",
+          "description": "Gestion des réseaux sociaux et création de contenus visuels. Coordination des équipes pour les événements et campagnes."
+        },
+        {
+          "entreprise": "IEEE WIE IIT",
+          "poste": "Secrétaire",
+          "date_debut": "2024",
+          "date_fin": "2024",
+          "description": "Organisation des réunions, rédaction des comptes rendus. Soutien à la communication interne et externe."
+        },
+        {
+          "entreprise": "AIESEC Tunisie",
+          "poste": "Membre participante",
+          "date_debut": "2024",
+          "date_fin": "2024",
+          "description": "Développement des compétences en leadership et communication interculturelle."
+        }
+      ],
+      "competences_techniques": [
+        "C++",
+        "Java",
+        "JavaScript",
+        "PHP",
+        "HTML",
+        "CSS",
+        "React",
+        "SQL",
+        "Trello",
+        "Photoshop",
+        "Figma"
+      ],
+      "domaines_competence": [
+        "UI/UX Design",
+        "Développement full-stack",
+        "Esprit d’équipe et leadership",
+        "Organisation et gestion du temps",
+        "Adaptabilité et autonomie",
+        "Communication claire et créativité"
+      ],
+      "projets": [],
+      "langues": [
+        {
+          "langue": "Arabe",
+          "niveau": "Langue maternelle"
+        },
+        {
+          "langue": "Français",
+          "niveau": "Bon niveau"
+        },
+        {
+          "langue": "Anglais",
+          "niveau": "Courant"
+        }
+      ],
+      "cv_filename": "cv samar saadaoui (1).pdf",
+      "extraction_method": "llm_mistral",
+      "temps_reponse_sec": 4.18,
+      "succes": true,
+      "erreur": null
+    },
+    {
+      "informations_personnelles": {
+        "nom": "Emna Abdmouleh",
+        "email": "abdmoulehemna0@gmail.com",
+        "telephone": "(+216) 44604955",
+        "ville": "Sfax"
+      },
+      "formation": [
+        {
+          "ecole": "Institut Supérieur d'Informatique et de Multimédia de Sfax",
+          "diplome": "Licence en big data et analyse de données",
+          "domaine": "Big Data et Analyse de Données",
+          "date_debut": "12/09/2023",
+          "date_fin": "En cours"
+        },
+        {
+          "ecole": "Lycée Abou Kacem Chebbi",
+          "diplome": "Baccalauréat en Mathématiques",
+          "domaine": "Mathématiques",
+          "date_debut": "15/09/2019",
+          "date_fin": "23/06/2023"
+        }
+      ],
+      "experiences": [
+        {
+          "entreprise": "MpSoft",
+          "poste": "Stagiaire",
+          "date_debut": "19/06/2025",
+          "date_fin": "08/08/2025",
+          "description": "Stage de fin d'année: Outil d’Analyse IA pour la Maintenance Préventive du Système Bancaire pour UNIBANK."
+        },
+        {
+          "entreprise": "Saker Othmen SARL",
+          "poste": "Stagiaire",
+          "date_debut": "16/07/2024",
+          "date_fin": "23/08/2024",
+          "description": "Stage d'été: Développer un tableau de bord BI complet pour fournir des insights exploitables aux processus décisionnels de l'entreprise. Technologie utilisée: Power BI"
+        }
+      ],
+      "competences_techniques": [
+        "C",
+        "C++",
+        "Python",
+        "PHP",
+        "SQL",
+        "Java",
+        "API REST",
+        "Laravel",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "XML",
+        "MySQL",
+        "NoSQL",
+        "MongoDB",
+        "Android",
+        "UML",
+        "Scrum",
+        "Power BI",
+        "VS Code",
+        "VirtualBox",
+        "Postman"
+      ],
+      "domaines_competence": [
+        "Développement Backend",
+        "Développement Frontend",
+        "Bases de données et Data",
+        "Développement Mobile",
+        "Modélisation et Méthodologies",
+        "Business Intelligence"
+      ],
+      "projets": [],
+      "langues": [
+        "Arabe",
+        "Français",
+        "Anglais",
+        "Allemand"
+      ],
+      "cv_filename": "CV_Emna_Abdmouleh_Stage_PFE_2025 (3) (1) (1).pdf",
+      "extraction_method": "llm_mistral",
+      "temps_reponse_sec": 4.26,
+      "succes": true,
+      "erreur": null
+    },
+    {
+      "informations_personnelles": {
+        "nom": "Yosra Bouchaala",
+        "email": "yosrabouchaala6@gmail.com",
+        "telephone": "29409009",
+        "ville": "Sfax"
+      },
+      "formation": [
+        {
+          "ecole": "Institut Supérieur d'Informatique et de Multimédia de Sfax",
+          "diplome": "Licence en informatique, spécialité Big Data et Analyse de Données",
+          "domaine": "Informatique",
+          "date_debut": "2023",
+          "date_fin": "Present"
+        },
+        {
+          "ecole": "Abou Kacem Chebbi",
+          "diplome": "Bac Scientifique",
+          "domaine": "",
+          "date_debut": "2019",
+          "date_fin": "2023"
+        }
+      ],
+      "experiences": [],
+      "competences_techniques": [
+        "C",
+        "Python",
+        "XML",
+        "UML",
+        "SQL",
+        "NoSQL",
+        "HTML",
+        "CSS",
+        "PHP",
+        "Laravel",
+        "JavaScript",
+        "Développement Mobile"
+      ],
+      "domaines_competence": [
+        "Réactivité",
+        "Capacité d'adaptation",
+        "Sens des responsabilités"
+      ],
+      "projets": [
+        {
+          "titre": "CARPART — Full-Stack Auto Parts Management Platform",
+          "technologies": [
+            "React",
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "JWT",
+            "CRUD"
+          ],
+          "description": "Développement d'une plateforme web MERN pour la gestion des pièces automobiles avec authentification JWT, gestion des rôles, CRUD produits, réservation et filtres dynamiques."
+        },
+        {
+          "titre": "Application mobile de gestion du budget",
+          "technologies": [
+            "Java",
+            "XML",
+            "Android Studio"
+          ],
+          "description": "Projet académique : Développement d'une application mobile en Java et XML sous Android Studio pour la gestion du budget."
+        },
+        {
+          "titre": "Site de films et séries",
+          "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+          ],
+          "description": "Projet académique : Création d'un site web pour consulter des films et séries."
+        }
+      ],
+      "langues": [
+        {
+          "langue": "Arabe",
+          "niveau": ""
+        },
+        {
+          "langue": "Anglais",
+          "niveau": "B1"
+        },
+        {
+          "langue": "Français",
+          "niveau": "C1"
+        }
+      ],
+      "cv_filename": "MonCv.pdf",
+      "extraction_method": "llm_mistral",
+      "temps_reponse_sec": 3.07,
+      "succes": true,
+      "erreur": null
+    }
+  ]
+}

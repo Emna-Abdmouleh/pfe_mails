@@ -1,0 +1,22 @@
+2026-03-04 20:46:24 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-04 20:46:29 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-04 20:46:34 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-04 20:46:34 | ERROR    | Nombre maximum de tentatives atteint — abandon
+2026-03-04 20:46:34 | ERROR    | Impossible de se connecter après 3 tentatives — cycle ignoré
+2026-03-04 20:47:34 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-04 20:47:39 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-04 20:47:44 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-04 20:47:44 | ERROR    | Nombre maximum de tentatives atteint — abandon
+2026-03-04 20:47:44 | ERROR    | Impossible de se connecter après 3 tentatives — cycle ignoré
+2026-03-04 20:48:44 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-04 20:48:49 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-04 20:48:54 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-04 20:48:54 | ERROR    | Nombre maximum de tentatives atteint — abandon
+2026-03-04 20:48:54 | ERROR    | Impossible de se connecter après 3 tentatives — cycle ignoré
+2026-03-04 20:52:50 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-04 20:52:55 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-04 21:03:27 | CRITICAL | Erreur inattendue : [WinError 10065] Une opération a été tentée sur un hôte impossible à atteindre
+2026-03-04 21:03:32 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-04 21:03:37 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-04 21:03:37 | ERROR    | Nombre maximum de tentatives atteint — abandon
+2026-03-04 21:03:37 | ERROR    | Impossible de se connecter après 3 tentatives — cycle ignoré

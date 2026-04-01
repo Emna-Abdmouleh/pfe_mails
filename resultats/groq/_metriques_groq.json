@@ -1,0 +1,11 @@
+{
+  "methode": "llm_groq_llama3",
+  "nb_cvs_traites": 4,
+  "nb_succes": 4,
+  "nb_erreurs": 0,
+  "taux_succes_pct": 100.0,
+  "taux_erreur_pct": 0.0,
+  "temps_moyen_sec": 1.52,
+  "temps_min_sec": 1.18,
+  "temps_max_sec": 2.12
+}

@@ -1,0 +1,300 @@
+2026-03-21 17:34:47 | INFO     | Tentative de connexion IMAP...
+2026-03-21 17:34:48 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-21 17:34:51 | INFO     |   15 email(s) trouve(s) dans INBOX
+2026-03-21 17:34:53 | INFO     |   Sujet      : Alerte de sécurité
+2026-03-21 17:34:53 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:34:53 | INFO     |   Date       : Thu, 19 Feb 2026 11:19:32 GMT
+2026-03-21 17:34:53 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:34:53 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_1.json
+2026-03-21 17:34:53 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:35:11 | INFO     |   Sujet      : Candidature stage PFE
+2026-03-21 17:35:11 | INFO     |   De         : emna abdmouleh <abdmoulehemna0@gmail.com>
+2026-03-21 17:35:11 | INFO     |   Date       : Thu, 19 Feb 2026 12:22:48 +0100
+2026-03-21 17:35:11 | INFO     |   CV sauvegarde : C:\Users\user\pfe_mails\cv_attachments\cv_attachments\attachments\CV_Emna_Abdmouleh_Stage_PFE_2025 (3) (1) (1).pdf
+2026-03-21 17:35:11 | INFO     |   1 CV sauvegarde(s)
+2026-03-21 17:35:11 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_2.json
+2026-03-21 17:35:11 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:35:12 | INFO     |   Sujet      : Validation en deux étapes activée
+2026-03-21 17:35:12 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:35:12 | INFO     |   Date       : Thu, 19 Feb 2026 22:24:12 GMT
+2026-03-21 17:35:12 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:35:12 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_3.json
+2026-03-21 17:35:12 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:35:13 | INFO     |   Sujet      : Alerte de sécurité
+2026-03-21 17:35:13 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:35:13 | INFO     |   Date       : Thu, 19 Feb 2026 22:31:23 GMT
+2026-03-21 17:35:13 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:35:13 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_4.json
+2026-03-21 17:35:13 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:35:22 | INFO     |   Sujet      : (sans sujet)
+2026-03-21 17:35:22 | INFO     |   De         : Yosra Bouchaala <yosrabouchaala6@gmail.com>
+2026-03-21 17:35:22 | INFO     |   Date       : Fri, 20 Feb 2026 00:13:19 +0100
+2026-03-21 17:35:22 | INFO     |   CV sauvegarde : C:\Users\user\pfe_mails\cv_attachments\cv_attachments\attachments\MonCv.pdf
+2026-03-21 17:35:22 | INFO     |   1 CV sauvegarde(s)
+2026-03-21 17:35:22 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_5.json
+2026-03-21 17:35:22 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:35:23 | INFO     |   Sujet      : Alerte de sécurité
+2026-03-21 17:35:23 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:35:23 | INFO     |   Date       : Sun, 22 Feb 2026 20:27:35 GMT
+2026-03-21 17:35:23 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:35:23 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_6.json
+2026-03-21 17:35:23 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:35:24 | INFO     |   Sujet      : Alerte de sécurité
+2026-03-21 17:35:24 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:35:24 | INFO     |   Date       : Sun, 22 Feb 2026 20:34:27 GMT
+2026-03-21 17:35:24 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:35:24 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_7.json
+2026-03-21 17:35:24 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:35:25 | INFO     |   Sujet      : Votre compte Google a bien été récupéré
+2026-03-21 17:35:25 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:35:25 | INFO     |   Date       : Sun, 08 Mar 2026 22:57:59 GMT
+2026-03-21 17:35:25 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:35:25 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_8.json
+2026-03-21 17:35:25 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:35:26 | INFO     |   Sujet      : Alerte de sécurité
+2026-03-21 17:35:26 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:35:26 | INFO     |   Date       : Sun, 08 Mar 2026 22:57:59 GMT
+2026-03-21 17:35:26 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:35:26 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_9.json
+2026-03-21 17:35:26 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:35:33 | INFO     |   Sujet      : Candidature pour un stage PFE
+2026-03-21 17:35:33 | INFO     |   De         : bouchaala yosra <yosra.bouchaala.isims@gmail.com>
+2026-03-21 17:35:33 | INFO     |   Date       : Mon, 9 Mar 2026 00:03:37 +0100
+2026-03-21 17:35:33 | INFO     |   CV sauvegarde : C:\Users\user\pfe_mails\cv_attachments\cv_attachments\attachments\CV Razgui chaima .pdf
+2026-03-21 17:35:33 | INFO     |   1 CV sauvegarde(s)
+2026-03-21 17:35:33 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_10.json
+2026-03-21 17:35:33 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:35:42 | INFO     |   Sujet      : Candidature pour un stage de PFE
+2026-03-21 17:35:42 | INFO     |   De         : Amal Jallouli <jallouliamal754@gmail.com>
+2026-03-21 17:35:42 | INFO     |   Date       : Mon, 9 Mar 2026 00:07:16 +0100
+2026-03-21 17:35:42 | INFO     |   CV sauvegarde : C:\Users\user\pfe_mails\cv_attachments\cv_attachments\attachments\AmalJallouli_cv.pdf
+2026-03-21 17:35:42 | INFO     |   1 CV sauvegarde(s)
+2026-03-21 17:35:42 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_11.json
+2026-03-21 17:35:43 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:36:05 | INFO     |   Sujet      : Application PFE stage 2026
+2026-03-21 17:36:05 | INFO     |   De         : Samar Saadaoui <samarsaadawi3@gmail.com>
+2026-03-21 17:36:05 | INFO     |   Date       : Mon, 9 Mar 2026 09:52:12 +0100
+2026-03-21 17:36:05 | INFO     |   CV sauvegarde : C:\Users\user\pfe_mails\cv_attachments\cv_attachments\attachments\cv samar saadaoui (1).pdf
+2026-03-21 17:36:05 | INFO     |   1 CV sauvegarde(s)
+2026-03-21 17:36:05 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_12.json
+2026-03-21 17:36:05 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:36:17 | INFO     |   Sujet      : Candidature pour un stage PFE en Développement / DevOps
+2026-03-21 17:36:17 | INFO     |   De         : emna abdmouleh <abdmoulehemna0@gmail.com>
+2026-03-21 17:36:17 | INFO     |   Date       : Mon, 9 Mar 2026 14:11:08 +0100
+2026-03-21 17:36:17 | INFO     |   CV sauvegarde : C:\Users\user\pfe_mails\cv_attachments\cv_attachments\attachments\CV_Ahmed_Snoussi.pdf
+2026-03-21 17:36:17 | INFO     |   1 CV sauvegarde(s)
+2026-03-21 17:36:17 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_13.json
+2026-03-21 17:36:17 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:36:17 | INFO     |   Sujet      : Alerte de sécurité
+2026-03-21 17:36:17 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:36:17 | INFO     |   Date       : Thu, 12 Mar 2026 01:56:31 GMT
+2026-03-21 17:36:17 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:36:17 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_14.json
+2026-03-21 17:36:17 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:36:18 | INFO     |   Sujet      : Alerte de sécurité
+2026-03-21 17:36:18 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:36:18 | INFO     |   Date       : Sat, 21 Mar 2026 12:19:36 GMT
+2026-03-21 17:36:18 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:36:18 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_15.json
+2026-03-21 17:36:18 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:36:19 | INFO     | Déconnexion propre réussie
+2026-03-21 17:39:49 | INFO     | Tentative de connexion IMAP...
+2026-03-21 17:40:13 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-21 17:40:23 | INFO     |   15 email(s) trouve(s) dans INBOX
+2026-03-21 17:40:43 | INFO     |   Sujet      : Alerte de sécurité
+2026-03-21 17:40:43 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:40:43 | INFO     |   Date       : Thu, 19 Feb 2026 11:19:32 GMT
+2026-03-21 17:40:43 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:40:43 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\mail\data\raw\email_1.json
+2026-03-21 17:40:43 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:41:26 | INFO     |   Sujet      : Candidature stage PFE
+2026-03-21 17:41:26 | INFO     |   De         : emna abdmouleh <abdmoulehemna0@gmail.com>
+2026-03-21 17:41:26 | INFO     |   Date       : Thu, 19 Feb 2026 12:22:48 +0100
+2026-03-21 17:41:26 | INFO     |   CV sauvegarde : C:\Users\user\pfe_mails\cv_attachments\mail\attachments\CV_Emna_Abdmouleh_Stage_PFE_2025 (3) (1) (1).pdf
+2026-03-21 17:41:26 | INFO     |   1 CV sauvegarde(s)
+2026-03-21 17:41:26 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\mail\data\raw\email_2.json
+2026-03-21 17:41:26 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:41:27 | INFO     |   Sujet      : Validation en deux étapes activée
+2026-03-21 17:41:27 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:41:27 | INFO     |   Date       : Thu, 19 Feb 2026 22:24:12 GMT
+2026-03-21 17:41:27 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:41:27 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\mail\data\raw\email_3.json
+2026-03-21 17:41:27 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:41:27 | INFO     |   Sujet      : Alerte de sécurité
+2026-03-21 17:41:27 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:41:27 | INFO     |   Date       : Thu, 19 Feb 2026 22:31:23 GMT
+2026-03-21 17:41:27 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:41:27 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\mail\data\raw\email_4.json
+2026-03-21 17:41:27 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:41:29 | INFO     |   Sujet      : (sans sujet)
+2026-03-21 17:41:29 | INFO     |   De         : Yosra Bouchaala <yosrabouchaala6@gmail.com>
+2026-03-21 17:41:29 | INFO     |   Date       : Fri, 20 Feb 2026 00:13:19 +0100
+2026-03-21 17:41:29 | INFO     |   CV sauvegarde : C:\Users\user\pfe_mails\cv_attachments\mail\attachments\MonCv.pdf
+2026-03-21 17:41:29 | INFO     |   1 CV sauvegarde(s)
+2026-03-21 17:41:29 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\mail\data\raw\email_5.json
+2026-03-21 17:41:29 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:41:30 | INFO     |   Sujet      : Alerte de sécurité
+2026-03-21 17:41:30 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:41:30 | INFO     |   Date       : Sun, 22 Feb 2026 20:27:35 GMT
+2026-03-21 17:41:30 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:41:30 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\mail\data\raw\email_6.json
+2026-03-21 17:41:30 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:41:31 | INFO     |   Sujet      : Alerte de sécurité
+2026-03-21 17:41:31 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:41:31 | INFO     |   Date       : Sun, 22 Feb 2026 20:34:27 GMT
+2026-03-21 17:41:31 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:41:31 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\mail\data\raw\email_7.json
+2026-03-21 17:41:31 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:41:31 | INFO     |   Sujet      : Votre compte Google a bien été récupéré
+2026-03-21 17:41:31 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:41:31 | INFO     |   Date       : Sun, 08 Mar 2026 22:57:59 GMT
+2026-03-21 17:41:31 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:41:31 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\mail\data\raw\email_8.json
+2026-03-21 17:41:31 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:41:32 | INFO     |   Sujet      : Alerte de sécurité
+2026-03-21 17:41:32 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:41:32 | INFO     |   Date       : Sun, 08 Mar 2026 22:57:59 GMT
+2026-03-21 17:41:32 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:41:32 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\mail\data\raw\email_9.json
+2026-03-21 17:41:32 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:41:33 | INFO     |   Sujet      : Candidature pour un stage PFE
+2026-03-21 17:41:33 | INFO     |   De         : bouchaala yosra <yosra.bouchaala.isims@gmail.com>
+2026-03-21 17:41:33 | INFO     |   Date       : Mon, 9 Mar 2026 00:03:37 +0100
+2026-03-21 17:41:33 | INFO     |   CV sauvegarde : C:\Users\user\pfe_mails\cv_attachments\mail\attachments\CV Razgui chaima .pdf
+2026-03-21 17:41:33 | INFO     |   1 CV sauvegarde(s)
+2026-03-21 17:41:33 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\mail\data\raw\email_10.json
+2026-03-21 17:41:33 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:41:35 | INFO     |   Sujet      : Candidature pour un stage de PFE
+2026-03-21 17:41:35 | INFO     |   De         : Amal Jallouli <jallouliamal754@gmail.com>
+2026-03-21 17:41:35 | INFO     |   Date       : Mon, 9 Mar 2026 00:07:16 +0100
+2026-03-21 17:41:35 | INFO     |   CV sauvegarde : C:\Users\user\pfe_mails\cv_attachments\mail\attachments\AmalJallouli_cv.pdf
+2026-03-21 17:41:35 | INFO     |   1 CV sauvegarde(s)
+2026-03-21 17:41:35 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\mail\data\raw\email_11.json
+2026-03-21 17:41:35 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:41:37 | INFO     |   Sujet      : Application PFE stage 2026
+2026-03-21 17:41:37 | INFO     |   De         : Samar Saadaoui <samarsaadawi3@gmail.com>
+2026-03-21 17:41:37 | INFO     |   Date       : Mon, 9 Mar 2026 09:52:12 +0100
+2026-03-21 17:41:37 | INFO     |   CV sauvegarde : C:\Users\user\pfe_mails\cv_attachments\mail\attachments\cv samar saadaoui (1).pdf
+2026-03-21 17:41:37 | INFO     |   1 CV sauvegarde(s)
+2026-03-21 17:41:37 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\mail\data\raw\email_12.json
+2026-03-21 17:41:37 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:41:42 | INFO     |   Sujet      : Candidature pour un stage PFE en Développement / DevOps
+2026-03-21 17:41:42 | INFO     |   De         : emna abdmouleh <abdmoulehemna0@gmail.com>
+2026-03-21 17:41:42 | INFO     |   Date       : Mon, 9 Mar 2026 14:11:08 +0100
+2026-03-21 17:41:42 | INFO     |   CV sauvegarde : C:\Users\user\pfe_mails\cv_attachments\mail\attachments\CV_Ahmed_Snoussi.pdf
+2026-03-21 17:41:42 | INFO     |   1 CV sauvegarde(s)
+2026-03-21 17:41:42 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\mail\data\raw\email_13.json
+2026-03-21 17:41:42 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:41:43 | INFO     |   Sujet      : Alerte de sécurité
+2026-03-21 17:41:43 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:41:43 | INFO     |   Date       : Thu, 12 Mar 2026 01:56:31 GMT
+2026-03-21 17:41:43 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:41:43 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\mail\data\raw\email_14.json
+2026-03-21 17:41:43 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:41:43 | INFO     |   Sujet      : Alerte de sécurité
+2026-03-21 17:41:43 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:41:43 | INFO     |   Date       : Sat, 21 Mar 2026 12:19:36 GMT
+2026-03-21 17:41:43 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:41:43 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\mail\data\raw\email_15.json
+2026-03-21 17:41:43 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:41:44 | INFO     | Déconnexion propre réussie
+2026-03-21 17:44:47 | INFO     | Tentative de connexion IMAP...
+2026-03-21 17:44:49 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-03-21 17:44:50 | INFO     |   15 email(s) trouve(s) dans INBOX
+2026-03-21 17:44:50 | INFO     |   Sujet      : Alerte de sécurité
+2026-03-21 17:44:50 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:44:50 | INFO     |   Date       : Thu, 19 Feb 2026 11:19:32 GMT
+2026-03-21 17:44:50 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:44:50 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_1.json
+2026-03-21 17:44:50 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:44:55 | INFO     |   Sujet      : Candidature stage PFE
+2026-03-21 17:44:55 | INFO     |   De         : emna abdmouleh <abdmoulehemna0@gmail.com>
+2026-03-21 17:44:55 | INFO     |   Date       : Thu, 19 Feb 2026 12:22:48 +0100
+2026-03-21 17:44:55 | INFO     |   CV sauvegarde : C:\Users\user\pfe_mails\cv_attachments\attachments\CV_Emna_Abdmouleh_Stage_PFE_2025 (3) (1) (1).pdf
+2026-03-21 17:44:55 | INFO     |   1 CV sauvegarde(s)
+2026-03-21 17:44:55 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_2.json
+2026-03-21 17:44:55 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:44:55 | INFO     |   Sujet      : Validation en deux étapes activée
+2026-03-21 17:44:55 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:44:55 | INFO     |   Date       : Thu, 19 Feb 2026 22:24:12 GMT
+2026-03-21 17:44:55 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:44:55 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_3.json
+2026-03-21 17:44:55 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:44:56 | INFO     |   Sujet      : Alerte de sécurité
+2026-03-21 17:44:56 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:44:56 | INFO     |   Date       : Thu, 19 Feb 2026 22:31:23 GMT
+2026-03-21 17:44:56 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:44:56 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_4.json
+2026-03-21 17:44:56 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:44:57 | INFO     |   Sujet      : (sans sujet)
+2026-03-21 17:44:57 | INFO     |   De         : Yosra Bouchaala <yosrabouchaala6@gmail.com>
+2026-03-21 17:44:57 | INFO     |   Date       : Fri, 20 Feb 2026 00:13:19 +0100
+2026-03-21 17:44:57 | INFO     |   CV sauvegarde : C:\Users\user\pfe_mails\cv_attachments\attachments\MonCv.pdf
+2026-03-21 17:44:57 | INFO     |   1 CV sauvegarde(s)
+2026-03-21 17:44:57 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_5.json
+2026-03-21 17:44:57 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:44:58 | INFO     |   Sujet      : Alerte de sécurité
+2026-03-21 17:44:58 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:44:58 | INFO     |   Date       : Sun, 22 Feb 2026 20:27:35 GMT
+2026-03-21 17:44:58 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:44:58 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_6.json
+2026-03-21 17:44:58 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:44:58 | INFO     |   Sujet      : Alerte de sécurité
+2026-03-21 17:44:58 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:44:58 | INFO     |   Date       : Sun, 22 Feb 2026 20:34:27 GMT
+2026-03-21 17:44:58 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:44:58 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_7.json
+2026-03-21 17:44:58 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:44:59 | INFO     |   Sujet      : Votre compte Google a bien été récupéré
+2026-03-21 17:44:59 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:44:59 | INFO     |   Date       : Sun, 08 Mar 2026 22:57:59 GMT
+2026-03-21 17:44:59 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:44:59 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_8.json
+2026-03-21 17:44:59 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:45:00 | INFO     |   Sujet      : Alerte de sécurité
+2026-03-21 17:45:00 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:45:00 | INFO     |   Date       : Sun, 08 Mar 2026 22:57:59 GMT
+2026-03-21 17:45:00 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:45:00 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_9.json
+2026-03-21 17:45:00 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:45:02 | INFO     |   Sujet      : Candidature pour un stage PFE
+2026-03-21 17:45:02 | INFO     |   De         : bouchaala yosra <yosra.bouchaala.isims@gmail.com>
+2026-03-21 17:45:02 | INFO     |   Date       : Mon, 9 Mar 2026 00:03:37 +0100
+2026-03-21 17:45:02 | INFO     |   CV sauvegarde : C:\Users\user\pfe_mails\cv_attachments\attachments\CV Razgui chaima .pdf
+2026-03-21 17:45:02 | INFO     |   1 CV sauvegarde(s)
+2026-03-21 17:45:02 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_10.json
+2026-03-21 17:45:02 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:45:03 | INFO     |   Sujet      : Candidature pour un stage de PFE
+2026-03-21 17:45:03 | INFO     |   De         : Amal Jallouli <jallouliamal754@gmail.com>
+2026-03-21 17:45:03 | INFO     |   Date       : Mon, 9 Mar 2026 00:07:16 +0100
+2026-03-21 17:45:03 | INFO     |   CV sauvegarde : C:\Users\user\pfe_mails\cv_attachments\attachments\AmalJallouli_cv.pdf
+2026-03-21 17:45:03 | INFO     |   1 CV sauvegarde(s)
+2026-03-21 17:45:03 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_11.json
+2026-03-21 17:45:03 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:45:05 | INFO     |   Sujet      : Application PFE stage 2026
+2026-03-21 17:45:05 | INFO     |   De         : Samar Saadaoui <samarsaadawi3@gmail.com>
+2026-03-21 17:45:05 | INFO     |   Date       : Mon, 9 Mar 2026 09:52:12 +0100
+2026-03-21 17:45:05 | INFO     |   CV sauvegarde : C:\Users\user\pfe_mails\cv_attachments\attachments\cv samar saadaoui (1).pdf
+2026-03-21 17:45:05 | INFO     |   1 CV sauvegarde(s)
+2026-03-21 17:45:05 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_12.json
+2026-03-21 17:45:05 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:45:12 | INFO     |   Sujet      : Candidature pour un stage PFE en Développement / DevOps
+2026-03-21 17:45:12 | INFO     |   De         : emna abdmouleh <abdmoulehemna0@gmail.com>
+2026-03-21 17:45:12 | INFO     |   Date       : Mon, 9 Mar 2026 14:11:08 +0100
+2026-03-21 17:45:12 | INFO     |   CV sauvegarde : C:\Users\user\pfe_mails\cv_attachments\attachments\CV_Ahmed_Snoussi.pdf
+2026-03-21 17:45:12 | INFO     |   1 CV sauvegarde(s)
+2026-03-21 17:45:12 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_13.json
+2026-03-21 17:45:12 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:45:12 | INFO     |   Sujet      : Alerte de sécurité
+2026-03-21 17:45:12 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:45:12 | INFO     |   Date       : Thu, 12 Mar 2026 01:56:31 GMT
+2026-03-21 17:45:12 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:45:12 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_14.json
+2026-03-21 17:45:12 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:45:13 | INFO     |   Sujet      : Alerte de sécurité
+2026-03-21 17:45:13 | INFO     |   De         : Google <no-reply@accounts.google.com>
+2026-03-21 17:45:13 | INFO     |   Date       : Sat, 21 Mar 2026 12:19:36 GMT
+2026-03-21 17:45:13 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-03-21 17:45:13 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_15.json
+2026-03-21 17:45:13 | INFO     |   Indexe dans Elasticsearch
+2026-03-21 17:45:14 | INFO     | Déconnexion propre réussie

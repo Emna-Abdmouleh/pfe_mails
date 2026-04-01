@@ -1,0 +1,11 @@
+{
+  "methode": "llm_mistral",
+  "nb_cvs_traites": 4,
+  "nb_succes": 4,
+  "nb_erreurs": 0,
+  "taux_succes_pct": 100.0,
+  "taux_erreur_pct": 0.0,
+  "temps_moyen_sec": 3.99,
+  "temps_min_sec": 3.07,
+  "temps_max_sec": 4.45
+}

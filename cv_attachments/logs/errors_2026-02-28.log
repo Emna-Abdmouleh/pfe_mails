@@ -1,0 +1,4 @@
+2026-03-01 23:30:30 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-01 23:30:30 | ERROR    | Erreur durant la vérification : [Errno 11001] getaddrinfo failed
+2026-03-03 01:22:13 | ERROR    | Échec connexion IMAP : socket error: EOF
+2026-03-03 01:22:13 | ERROR    | Erreur durant la vérification : socket error: EOF

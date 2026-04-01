@@ -1,0 +1,95 @@
+{
+  "informations_personnelles": {
+    "nom": "Yosra Bouchaala",
+    "email": "yosrabouchaala6@gmail.com",
+    "telephone": "29409009",
+    "ville": "Sfax"
+  },
+  "formation": [
+    {
+      "ecole": "Institut Supérieur d'Informatique et de Multimédia de Sfax",
+      "diplome": "Licence en informatique, spécialité Big Data et Analyse de Données",
+      "domaine": "Informatique",
+      "date_debut": "2023",
+      "date_fin": "Present"
+    },
+    {
+      "ecole": "Abou Kacem Chebbi",
+      "diplome": "Bac Scientifique",
+      "domaine": "",
+      "date_debut": "2019",
+      "date_fin": "2023"
+    }
+  ],
+  "experiences": [],
+  "competences_techniques": [
+    "C",
+    "Python",
+    "XML",
+    "UML",
+    "SQL",
+    "NoSQL",
+    "HTML",
+    "CSS",
+    "PHP",
+    "Laravel",
+    "JavaScript",
+    "Développement Mobile"
+  ],
+  "domaines_competence": [
+    "Réactivité",
+    "Capacité d'adaptation",
+    "Sens des responsabilités"
+  ],
+  "projets": [
+    {
+      "titre": "CARPART — Full-Stack Auto Parts Management Platform",
+      "technologies": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "JWT",
+        "CRUD"
+      ],
+      "description": "Développement d'une plateforme web MERN pour la gestion des pièces automobiles avec authentification JWT, gestion des rôles, CRUD produits, réservation et filtres dynamiques."
+    },
+    {
+      "titre": "Application mobile de gestion du budget",
+      "technologies": [
+        "Java",
+        "XML",
+        "Android Studio"
+      ],
+      "description": "Projet académique : Développement d'une application mobile en Java et XML sous Android Studio pour la gestion du budget."
+    },
+    {
+      "titre": "Site de films et séries",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "description": "Projet académique : Création d'un site web pour consulter des films et séries."
+    }
+  ],
+  "langues": [
+    {
+      "langue": "Arabe",
+      "niveau": ""
+    },
+    {
+      "langue": "Anglais",
+      "niveau": "B1"
+    },
+    {
+      "langue": "Français",
+      "niveau": "C1"
+    }
+  ],
+  "cv_filename": "MonCv.pdf",
+  "extraction_method": "llm_mistral",
+  "temps_reponse_sec": 3.07,
+  "succes": true,
+  "erreur": null
+}

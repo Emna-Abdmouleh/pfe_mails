@@ -1,0 +1,132 @@
+{
+  "informations_personnelles": {
+    "nom": "Amal Jallouli",
+    "email": "jallouliamal754@gmail.com",
+    "telephone": "+216 52 776 444",
+    "ville": ""
+  },
+  "formation": [
+    {
+      "ecole": "Faculté des Sciences de Sfax",
+      "diplome": "Licence en Sciences de l’Informatique",
+      "domaine": "Informatique, spécialisation en génie logiciel",
+      "date_debut": "2020",
+      "date_fin": "2023"
+    },
+    {
+      "ecole": "Faculté des Sciences de Sfax",
+      "diplome": "Cycle préparatoire intégré en sciences de l’informatique",
+      "domaine": "Informatique",
+      "date_debut": "2019",
+      "date_fin": "2020"
+    },
+    {
+      "ecole": "Institut International de Technologie (IIT)",
+      "diplome": "Cycle d’ingénierie en informatique",
+      "domaine": "Informatique",
+      "date_debut": "2024",
+      "date_fin": "Présent"
+    },
+    {
+      "ecole": "Lycée Abou el Kacem Chebbi",
+      "diplome": "Baccalauréat en sciences expérimentales",
+      "domaine": "",
+      "date_debut": "2019",
+      "date_fin": "2020"
+    }
+  ],
+  "experiences": [
+    {
+      "entreprise": "Société I4NET",
+      "poste": "Stage de fin d’études",
+      "date_debut": "2024",
+      "date_fin": "2024",
+      "description": "Développement d’une solution d’essayage virtuel en 3D des lunettes en utilisant la Réalité Augmentée pour les applications web, avec un système de recommandation basé sur l’Intelligence Artificielle."
+    }
+  ],
+  "competences_techniques": [
+    "Java",
+    "Python",
+    "JavaScript",
+    "PHP",
+    "C",
+    "C++",
+    "MySQL",
+    "MongoDB",
+    "XML",
+    "HTML",
+    "UML",
+    "GitHub",
+    "Docker",
+    "Maven",
+    "Django",
+    "TensorFlow",
+    "OpenCV",
+    "Jupyter",
+    "SFML"
+  ],
+  "domaines_competence": [
+    "Data cleaning and preprocessing avec pandas",
+    "Convolutional neural Networks avec TensorFlow en Python",
+    "Deep Learning avec TensorFlow",
+    "Machine Learning in Python",
+    "Introduction to Jupyter",
+    "The machine Learning Algorithm A-Z"
+  ],
+  "projets": [
+    {
+      "titre": "ChatBot",
+      "technologies": [
+        "Transformers"
+      ],
+      "description": "Développement d’un chatbot générative pour les étudiants."
+    },
+    {
+      "titre": "Classification des émotions humaines en temps réel",
+      "technologies": [
+        "Python",
+        "TensorFlow",
+        "OpenCV",
+        "CNN",
+        "Django"
+      ],
+      "description": "Développement d’une solution de classification des émotions humaines en temps réel."
+    },
+    {
+      "titre": "Olivia",
+      "technologies": [
+        "Python",
+        "CNN",
+        "OpenCV",
+        "TensorFlow",
+        "Jupyter"
+      ],
+      "description": "Développement d’une solution qui classifie le niveau de maturité des olives à partir des images."
+    },
+    {
+      "titre": "Application mobile",
+      "technologies": [
+        "Java"
+      ],
+      "description": "Développement d’une application mobile pour mesurer les niveaux de glucose sanguin."
+    },
+    {
+      "titre": "Jeu",
+      "technologies": [
+        "C++",
+        "SFML"
+      ],
+      "description": "Développement d’un Jeu."
+    }
+  ],
+  "langues": [
+    "Arabe",
+    "Anglais",
+    "Français"
+  ],
+  "cv_filename": "AmalJallouli_cv.pdf",
+  "extraction_method": "llm_mistral",
+  "temps_reponse_sec": 4.45,
+  "succes": true,
+  "erreur": null
+}

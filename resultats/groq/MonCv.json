@@ -1,0 +1,93 @@
+{
+  "informations_personnelles": {
+    "nom": "Yosra Bouchaala",
+    "email": "yosrabouchaala6@gmail.com",
+    "telephone": "29409009",
+    "ville": "sfax"
+  },
+  "formation": [
+    {
+      "ecole": "l'institut supérieur d'informatique et de multimédia de Sfax",
+      "diplome": "licence en informatique",
+      "domaine": "Big Data et analyse de données",
+      "date_debut": "2019",
+      "date_fin": "2023"
+    },
+    {
+      "ecole": "Abou Kacem Chebbi",
+      "diplome": "Bac Scientifique",
+      "domaine": "",
+      "date_debut": "",
+      "date_fin": ""
+    }
+  ],
+  "experiences": [],
+  "competences_techniques": [
+    "C",
+    "Python",
+    "XML",
+    "UML",
+    "SQL",
+    "NoSQL",
+    "Html",
+    "CSS",
+    "Php",
+    "Laravel",
+    "JavaScript",
+    "Dev mobile"
+  ],
+  "domaines_competence": [
+    "Réactivité",
+    "Capacité d'adaptation",
+    "Sens des responsabilités"
+  ],
+  "projets": [
+    {
+      "titre": "CARPART — Full-Stack Auto Parts Management Platform (PFA)",
+      "technologies": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ],
+      "description": "Développement d'une plateforme web MERN pour la gestion des pièces automobiles. Authentification JWT, gestion des rôles, CRUD produits, réservation et filtres dynamiques."
+    },
+    {
+      "titre": "Application mobile de gestion du budget",
+      "technologies": [
+        "Java",
+        "XML",
+        "Android Studio"
+      ],
+      "description": "Développement d'une application mobile en Java et XML sous Android Studio dans le cadre d'un projet universitaire."
+    },
+    {
+      "titre": "Site de films et séries",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "description": "Création d'un site web pour consulter des films et séries."
+    }
+  ],
+  "langues": [
+    {
+      "langue": "arabe",
+      "niveau": ""
+    },
+    {
+      "langue": "anglais",
+      "niveau": "B1"
+    },
+    {
+      "langue": "français",
+      "niveau": "C1"
+    }
+  ],
+  "cv_filename": "MonCv.pdf",
+  "extraction_method": "llm_groq_llama3",
+  "temps_reponse_sec": 1.18,
+  "succes": true,
+  "erreur": null
+}

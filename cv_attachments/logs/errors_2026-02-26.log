@@ -1,0 +1,15 @@
+2026-02-26 07:23:11 | ERROR    | Erreur récupération emails : command: SELECT => socket error: EOF
+2026-02-26 16:40:35 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-02-26 16:40:35 | ERROR    | Erreur durant la vérification : [Errno 11001] getaddrinfo failed
+2026-02-26 16:41:35 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-02-26 16:41:35 | ERROR    | Erreur durant la vérification : [Errno 11001] getaddrinfo failed
+2026-02-26 16:42:35 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-02-26 16:42:35 | ERROR    | Erreur durant la vérification : [Errno 11001] getaddrinfo failed
+2026-02-26 16:43:35 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-02-26 16:43:35 | ERROR    | Erreur durant la vérification : [Errno 11001] getaddrinfo failed
+2026-02-26 16:44:35 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-02-26 16:44:35 | ERROR    | Erreur durant la vérification : [Errno 11001] getaddrinfo failed
+2026-02-26 16:45:35 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-02-26 16:45:35 | ERROR    | Erreur durant la vérification : [Errno 11001] getaddrinfo failed
+2026-02-28 15:02:28 | ERROR    | Échec connexion IMAP : socket error: EOF
+2026-02-28 15:02:28 | ERROR    | Erreur durant la vérification : socket error: EOF

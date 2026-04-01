@@ -1,0 +1,41 @@
+2026-03-12 03:16:35 | ERROR    | Erreur inattendue durant le cycle #1 : 'fichiers'
+2026-03-14 05:04:20 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-14 05:04:25 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-14 05:04:30 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-14 05:04:30 | ERROR    | Nombre maximum de tentatives atteint — abandon
+2026-03-14 05:04:30 | ERROR    | Impossible de se connecter après 3 tentatives — cycle #77 ignoré
+2026-03-14 05:05:30 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-14 05:05:35 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-14 05:05:40 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-14 05:05:40 | ERROR    | Nombre maximum de tentatives atteint — abandon
+2026-03-14 05:05:40 | ERROR    | Impossible de se connecter après 3 tentatives — cycle #78 ignoré
+2026-03-14 05:06:40 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-14 05:06:45 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-14 05:06:50 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-14 05:06:50 | ERROR    | Nombre maximum de tentatives atteint — abandon
+2026-03-14 05:06:50 | ERROR    | Impossible de se connecter après 3 tentatives — cycle #79 ignoré
+2026-03-14 05:07:50 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-14 05:07:55 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-14 05:08:00 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-14 05:08:00 | ERROR    | Nombre maximum de tentatives atteint — abandon
+2026-03-14 05:08:00 | ERROR    | Impossible de se connecter après 3 tentatives — cycle #80 ignoré
+2026-03-14 05:09:00 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-14 05:09:05 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-14 05:09:10 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-14 05:09:10 | ERROR    | Nombre maximum de tentatives atteint — abandon
+2026-03-14 05:09:10 | ERROR    | Impossible de se connecter après 3 tentatives — cycle #81 ignoré
+2026-03-14 05:10:10 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-14 05:10:15 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-14 05:10:20 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-14 05:10:20 | ERROR    | Nombre maximum de tentatives atteint — abandon
+2026-03-14 05:10:20 | ERROR    | Impossible de se connecter après 3 tentatives — cycle #82 ignoré
+2026-03-14 05:11:20 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-14 05:11:25 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-14 05:11:32 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-14 05:11:32 | ERROR    | Nombre maximum de tentatives atteint — abandon
+2026-03-14 05:11:32 | ERROR    | Impossible de se connecter après 3 tentatives — cycle #83 ignoré
+2026-03-14 05:12:33 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-14 05:12:38 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-14 05:12:43 | CRITICAL | Erreur inattendue : [Errno 11001] getaddrinfo failed
+2026-03-14 05:12:43 | ERROR    | Nombre maximum de tentatives atteint — abandon
+2026-03-14 05:12:43 | ERROR    | Impossible de se connecter après 3 tentatives — cycle #84 ignoré

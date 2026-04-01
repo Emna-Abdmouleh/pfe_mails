@@ -1,0 +1,100 @@
+{
+  "informations_personnelles": {
+    "nom": "Samar SAADAOUI",
+    "email": "samarsaadawi3@gmail.com",
+    "telephone": "97508938",
+    "ville": "sfax, tunis"
+  },
+  "formation": [
+    {
+      "ecole": "Institut International de Technologie (IIT)",
+      "diplome": "Licence en Génie Logiciel et Systèmes d’Information",
+      "domaine": "Génie Logiciel et Systèmes d’Information",
+      "date_debut": "2023",
+      "date_fin": "2026"
+    },
+    {
+      "ecole": "Lycée Abou Elkacem Chebbi",
+      "diplome": "Baccalauréat",
+      "domaine": "Mathématiques",
+      "date_debut": "",
+      "date_fin": "2023"
+    }
+  ],
+  "experiences": [
+    {
+      "entreprise": "IIT",
+      "poste": "Développement d’une application web",
+      "date_debut": "Août 2025",
+      "date_fin": "",
+      "description": "Développement d’une application web en React pour la gestion des clubs étudiants"
+    },
+    {
+      "entreprise": "Tunisie Télécom",
+      "poste": "Stage d’été",
+      "date_debut": "Juillet 2025",
+      "date_fin": "",
+      "description": "Découverte des réseaux mobiles"
+    },
+    {
+      "entreprise": "Saker Othman",
+      "poste": "UI/UX Design",
+      "date_debut": "Août 2024",
+      "date_fin": "",
+      "description": "Conception d’une application Import/Export avec Figma"
+    },
+    {
+      "entreprise": "IEEE WIE IIT",
+      "poste": "Média Manager",
+      "date_debut": "2025",
+      "date_fin": "",
+      "description": "Gestion des réseaux sociaux et création de contenus visuels, coordination des équipes pour les événements et campagnes"
+    },
+    {
+      "entreprise": "IEEE WIE IIT",
+      "poste": "Secrétaire",
+      "date_debut": "2024",
+      "date_fin": "",
+      "description": "Organisation des réunions, rédaction des comptes rendus, soutien à la communication interne et externe"
+    },
+    {
+      "entreprise": "AIESEC Tunisie",
+      "poste": "Membre participante",
+      "date_debut": "2024",
+      "date_fin": "",
+      "description": "Développement des compétences en leadership et communication interculturelle"
+    }
+  ],
+  "competences_techniques": [
+    "C++",
+    "Java",
+    "JavaScript",
+    "PHP",
+    "HTML",
+    "CSS",
+    "React",
+    "SQL",
+    "Trello",
+    "Photoshop",
+    "Figma"
+  ],
+  "domaines_competence": [
+    "UI/UX Design",
+    "Développement full-stack",
+    "Esprit d’équipe et leadership",
+    "Organisation et gestion du temps",
+    "Adaptabilité et autonomie",
+    "Communication claire et créativité"
+  ],
+  "projets": [],
+  "langues": [
+    "Arabe",
+    "Français",
+    "Anglais"
+  ],
+  "cv_filename": "cv samar saadaoui (1).pdf",
+  "extraction_method": "llm_groq_llama3",
+  "temps_reponse_sec": 1.5,
+  "succes": true,
+  "erreur": null
+}
