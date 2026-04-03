@@ -17,17 +17,15 @@ import os
 import sys
 import json
 import glob
-import time
 from pathlib import Path
 from dotenv import load_dotenv
 
 load_dotenv(r"C:\Users\user\pfe_mails\.env")
 
-# ── Imports des modules existants ─────────────────────────────────────────────
-from verifier_apis     import mistral_disponible, groq_disponible
-from extraire_mistral  import extraire_cv_mistral
-from extraire_groq     import extraire_cv
-from extraire_spacy_r  import extraire_cv_spacy
+from Verifier_apis    import mistral_disponible, groq_disponible
+from extraire_mistral import extraire_cv_mistral
+from extraire    import extraire_cv
+from extraire_spacy_r import extraire_cv_spacy
 
 try:
     from lire_cv import lire_cv
@@ -47,50 +45,79 @@ except ImportError:
 
 
 # =============================================================================
-# 1.  PIPELINE HYBRIDE — rollback en cascade
+# VÉRIFICATION DES APIS — faite UNE SEULE FOIS au démarrage
 # =============================================================================
 
-def extraire_cv_pipeline(chemin_cv: str, forcer_offline: bool = False) -> dict:
+def verifier_services():
+    print("\n[INFO] Vérification des services disponibles...")
+    mistral_ok = mistral_disponible()
+    groq_ok    = groq_disponible()
+    print(f"  Mistral : {'✓ disponible' if mistral_ok else '✗ indisponible'}")
+    print(f"  Groq    : {'✓ disponible' if groq_ok    else '✗ indisponible'}")
+    print(f"  SpaCy   : ✓ disponible (offline, toujours actif)\n")
+    return mistral_ok, groq_ok
+
+
+# =============================================================================
+# PIPELINE HYBRIDE — rollback en cascade
+# =============================================================================
+
+def extraire_cv_pipeline(
+    chemin_cv: str,
+    mistral_ok: bool = True,
+    groq_ok: bool = True,
+    forcer_offline: bool = False,
+) -> dict:
+    """
+    Cascade stricte : Mistral → Groq → SpaCy
+    Les LLMs sont toujours tentés si disponibles,
+    même si le texte est vide (PDF scanné).
+    """
     nom_fichier = os.path.basename(chemin_cv)
     tentatives  = []
 
+    # Lecture du texte — peut être vide si PDF scanné
     texte = ""
     try:
         texte = lire_cv(chemin_cv)
     except Exception as e:
-        print(f"  [WARN] Impossible de lire le fichier : {e}")
+        print(f"  [WARN] lire_cv échoué : {e}")
+
+    if not texte.strip():
+        print(f"  [WARN] Texte vide — PDF probablement scanné (image)")
+        # Pour les PDFs scannés, on envoie un placeholder aux LLMs
+        # afin qu'ils retournent un JSON vide structuré plutôt que de planter
+        texte = "[PDF scanné — aucun texte extractible. Retourne le JSON avec des champs vides.]"
 
     # ── Étape 1 : Mistral ─────────────────────────────────────────────────────
-    if not forcer_offline and texte:
+    if not forcer_offline and mistral_ok:
         print(f"  [1/3] Tentative Mistral...")
-        if mistral_disponible():
-            resultat = extraire_cv_mistral(texte, nom_fichier)
-            tentatives.append({"methode": "mistral", "succes": resultat.get("succes", False)})
-            if resultat.get("succes"):
-                resultat["methode_utilisee"] = "mistral"
-                resultat["tentatives"]       = tentatives
-                print(f"  ✓ Mistral OK ({resultat.get('temps_reponse_sec', '?')}s)")
-                return resultat
-            print(f"  ✗ Mistral KO : {resultat.get('erreur')}")
-        else:
-            tentatives.append({"methode": "mistral", "succes": False, "raison": "API indisponible"})
-            print(f"  ✗ Mistral indisponible")
+        resultat = extraire_cv_mistral(texte, nom_fichier)
+        tentatives.append({"methode": "mistral", "succes": resultat.get("succes", False)})
+        if resultat.get("succes"):
+            resultat["methode_utilisee"] = "mistral"
+            resultat["tentatives"]       = tentatives
+            print(f"  ✓ Mistral OK ({resultat.get('temps_reponse_sec', '?')}s)")
+            return resultat
+        print(f"  ✗ Mistral KO : {resultat.get('erreur')}")
+    elif not forcer_offline and not mistral_ok:
+        tentatives.append({"methode": "mistral", "succes": False, "raison": "indisponible"})
+        print(f"  [1/3] Mistral ignoré (indisponible)")
 
     # ── Étape 2 : Groq ────────────────────────────────────────────────────────
-    if not forcer_offline and texte:
+    if not forcer_offline and groq_ok:
         print(f"  [2/3] Tentative Groq...")
-        if groq_disponible():
-            resultat = extraire_cv(texte, nom_fichier)
-            tentatives.append({"methode": "groq", "succes": resultat.get("succes", False)})
-            if resultat.get("succes"):
-                resultat["methode_utilisee"] = "groq"
-                resultat["tentatives"]       = tentatives
-                print(f"  ✓ Groq OK ({resultat.get('temps_reponse_sec', '?')}s)")
-                return resultat
-            print(f"  ✗ Groq KO : {resultat.get('erreur')}")
-        else:
-            tentatives.append({"methode": "groq", "succes": False, "raison": "API indisponible"})
-            print(f"  ✗ Groq indisponible")
+        resultat = extraire_cv(texte, nom_fichier)
+        tentatives.append({"methode": "groq", "succes": resultat.get("succes", False)})
+        if resultat.get("succes"):
+            resultat["methode_utilisee"] = "groq"
+            resultat["tentatives"]       = tentatives
+            print(f"  ✓ Groq OK ({resultat.get('temps_reponse_sec', '?')}s)")
+            return resultat
+        print(f"  ✗ Groq KO : {resultat.get('erreur')}")
+    elif not forcer_offline and not groq_ok:
+        tentatives.append({"methode": "groq", "succes": False, "raison": "indisponible"})
+        print(f"  [2/3] Groq ignoré (indisponible)")
 
     # ── Étape 3 : SpaCy/Regex offline ─────────────────────────────────────────
     print(f"  [3/3] Fallback SpaCy/Regex offline...")
@@ -104,10 +131,14 @@ def extraire_cv_pipeline(chemin_cv: str, forcer_offline: bool = False) -> dict:
 
 
 # =============================================================================
-# 2.  TRAITEMENT EN LOT + MÉTRIQUES
+# TRAITEMENT EN LOT + MÉTRIQUES
 # =============================================================================
 
-def traiter_dossier(dossier_cv: str, dossier_sortie: str, forcer_offline: bool = False) -> dict:
+def traiter_dossier(
+    dossier_cv: str,
+    dossier_sortie: str,
+    forcer_offline: bool = False,
+) -> dict:
     os.makedirs(dossier_sortie, exist_ok=True)
 
     chemins = (
@@ -119,7 +150,13 @@ def traiter_dossier(dossier_cv: str, dossier_sortie: str, forcer_offline: bool =
         print(f"[ERREUR] Aucun CV trouvé dans : {dossier_cv}")
         return {}
 
-    print(f"\n[INFO] {len(chemins)} CV(s) trouvé(s)\n" + "=" * 55)
+    if forcer_offline:
+        mistral_ok, groq_ok = False, False
+        print("\n[INFO] Mode offline forcé — SpaCy uniquement\n")
+    else:
+        mistral_ok, groq_ok = verifier_services()
+
+    print(f"[INFO] {len(chemins)} CV(s) trouvé(s)\n" + "=" * 55)
 
     tous_les_resultats = []
     compteurs          = {"mistral": 0, "groq": 0, "spacy_offline": 0, "echec": 0}
@@ -130,7 +167,12 @@ def traiter_dossier(dossier_cv: str, dossier_sortie: str, forcer_offline: bool =
     for chemin in chemins:
         nom = os.path.basename(chemin)
         print(f"\n[CV] {nom}")
-        resultat = extraire_cv_pipeline(chemin, forcer_offline=forcer_offline)
+        resultat = extraire_cv_pipeline(
+            chemin,
+            mistral_ok=mistral_ok,
+            groq_ok=groq_ok,
+            forcer_offline=forcer_offline,
+        )
 
         methode = resultat.get("methode_utilisee", "echec")
         compteurs[methode] = compteurs.get(methode, 0) + 1
@@ -163,6 +205,7 @@ def traiter_dossier(dossier_cv: str, dossier_sortie: str, forcer_offline: bool =
 
     metriques = {
         "methode":              "pipeline_hybride_cascade",
+        "services_detectes":    {"mistral": mistral_ok, "groq": groq_ok, "spacy": True},
         "nb_cvs_traites":       nb_total,
         "nb_succes":            nb_succes,
         "nb_erreurs":           nb_erreurs,
@@ -174,6 +217,7 @@ def traiter_dossier(dossier_cv: str, dossier_sortie: str, forcer_offline: bool =
     print("\n" + "=" * 55)
     print("        MÉTRIQUES PIPELINE HYBRIDE")
     print("=" * 55)
+    print(f"  Services  : Mistral={'OK' if mistral_ok else 'KO'}  Groq={'OK' if groq_ok else 'KO'}  SpaCy=OK")
     print(f"  CVs traités : {nb_total}  |  Succès : {nb_succes} ({taux_succes}%)  |  Erreurs : {nb_erreurs}")
     print(f"\n  Répartition :")
     for m, c in compteurs.items():
@@ -192,7 +236,7 @@ def traiter_dossier(dossier_cv: str, dossier_sortie: str, forcer_offline: bool =
 
 
 # =============================================================================
-# 3.  POINT D'ENTRÉE
+# POINT D'ENTRÉE
 # =============================================================================
 
 if __name__ == "__main__":
@@ -205,8 +249,9 @@ if __name__ == "__main__":
     if args_fichiers:
         arg = args_fichiers[0]
         if os.path.isfile(arg):
+            mistral_ok, groq_ok = (False, False) if FORCER_OFFLINE else verifier_services()
             print(f"\n[INFO] Fichier unique : {arg}")
-            res = extraire_cv_pipeline(arg, forcer_offline=FORCER_OFFLINE)
+            res = extraire_cv_pipeline(arg, mistral_ok=mistral_ok, groq_ok=groq_ok, forcer_offline=FORCER_OFFLINE)
             print(json.dumps(res, ensure_ascii=False, indent=2))
         elif os.path.isdir(arg):
             traiter_dossier(arg, DOSSIER_SORTIE, forcer_offline=FORCER_OFFLINE)

@@ -21,7 +21,8 @@ def mistral_disponible() -> bool:
         r = requests.get(
             "https://api.mistral.ai/v1/models",
             headers={"Authorization": f"Bearer {api_key}"},
-            timeout=5,
+            timeout=10,
+
         )
         return r.status_code == 200
     except Exception as e:

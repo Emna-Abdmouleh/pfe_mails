@@ -18,16 +18,18 @@ from pathlib import Path
 # ── SpaCy ────────────────────────────────────────────────────────────────────
 try:
     import spacy
-    try:
-        nlp = spacy.load("fr_core_news_lg")
-    except OSError:
+    nlp = None
+    for model in ["fr_core_news_lg", "fr_core_news_md", "fr_core_news_sm"]:
         try:
-            nlp = spacy.load("fr_core_news_md")
+            nlp = spacy.load(model)
+            break
         except OSError:
-            nlp = spacy.load("fr_core_news_sm")
+            continue
+    if nlp is None:
+        print("[WARN] Aucun modèle SpaCy français trouvé – NER désactivé, regex seul actif.")
 except ImportError:
     nlp = None
-    print("[WARN] SpaCy non installé – les entités NER ne seront pas utilisées.")
+    print("[WARN] SpaCy non installé – regex seul actif.")
 
 # ── PDF reader ────────────────────────────────────────────────────────────────
 try:
