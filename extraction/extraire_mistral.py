@@ -8,52 +8,25 @@ load_dotenv(r"C:\Users\user\pfe_mails\.env")
 client = Mistral(api_key=os.getenv("MISTRAL_API_KEY"))
 
 def extraire_cv_mistral(texte_cv, nom_fichier=""):
+    """Alias appelé par pipeline_hybride.py"""
     prompt = f"""
-    Analyse ce CV et extrais les informations en JSON.
-    Réponds UNIQUEMENT avec le JSON, sans texte avant ou après, sans ```json```.
-
-    Format attendu :
-    {{
-        "informations_personnelles": {{
-            "nom": "",
-            "email": "",
-            "telephone": "",
-            "ville": ""
-        }},
-        "formation": [
-            {{
-                "ecole": "",
-                "diplome": "",
-                "domaine": "",
-                "date_debut": "",
-                "date_fin": ""
-            }}
-        ],
-        "experiences": [
-            {{
-                "entreprise": "",
-                "poste": "",
-                "date_debut": "",
-                "date_fin": "",
-                "description": ""
-            }}
-        ],
-        "competences_techniques": [],
-        "domaines_competence": [],
-        "projets": [
-            {{
-                "titre": "",
-                "technologies": [],
-                "description": ""
-            }}
-        ],
-        "langues": []
-    }}
-
-    CV :
-    {texte_cv}
-    """
-
+Analyse ce CV et extrais les informations en JSON.
+Réponds UNIQUEMENT avec le JSON, sans texte avant ou après, sans ```json```.
+ 
+Format attendu :
+{{
+    "informations_personnelles": {{"nom":"","email":"","telephone":"","ville":""}},
+    "formation": [{{"ecole":"","diplome":"","domaine":"","date_debut":"","date_fin":""}}],
+    "experiences": [{{"entreprise":"","poste":"","date_debut":"","date_fin":"","description":""}}],
+    "competences_techniques": [],
+    "domaines_competence": [],
+    "projets": [{{"titre":"","technologies":[],"description":""}}],
+    "langues": []
+}}
+ 
+CV :
+{texte_cv}
+"""
     debut = time.time()
     try:
         response = client.chat.complete(
@@ -61,39 +34,28 @@ def extraire_cv_mistral(texte_cv, nom_fichier=""):
             messages=[{"role": "user", "content": prompt}]
         )
         duree = round(time.time() - debut, 2)
-
         texte = response.choices[0].message.content.strip()
         texte = texte.replace("```json", "").replace("```", "").strip()
-        data = json.loads(texte)
-        data["cv_filename"]        = nom_fichier
-        data["extraction_method"]  = "llm_mistral"
-        data["temps_reponse_sec"]  = duree
-        data["succes"]             = True
-        data["erreur"]             = None
-        print(f"Extraction Mistral réussie pour {nom_fichier} ({duree}s)")
+        data  = json.loads(texte)
+        data.update({
+            "cv_filename":       nom_fichier,
+            "extraction_method": "llm_mistral",
+            "temps_reponse_sec": duree,
+            "succes":            True,
+            "erreur":            None,
+        })
+        print(f"  ✅ Extraction Mistral réussie pour {nom_fichier} ({duree}s)")
         return data
-
-    except json.JSONDecodeError as e:
-        duree = round(time.time() - debut, 2)
-        print(f"JSON invalide pour {nom_fichier} ({duree}s) : {e}")
-        return {
-            "cv_filename"       : nom_fichier,
-            "extraction_method" : "llm_mistral",
-            "temps_reponse_sec" : duree,
-            "succes"            : False,
-            "erreur"            : f"JSON invalide : {e}"
-        }
     except Exception as e:
         duree = round(time.time() - debut, 2)
-        print(f"Erreur API pour {nom_fichier} ({duree}s) : {e}")
+        print(f"  ✗ Erreur Mistral pour {nom_fichier} : {e}")
         return {
-            "cv_filename"       : nom_fichier,
-            "extraction_method" : "llm_mistral",
-            "temps_reponse_sec" : duree,
-            "succes"            : False,
-            "erreur"            : f"Erreur API : {e}"
+            "cv_filename":       nom_fichier,
+            "extraction_method": "llm_mistral",
+            "temps_reponse_sec": duree,
+            "succes":            False,
+            "erreur":            str(e),
         }
-
 
 if __name__ == "__main__":
     from lire_cv import lire_cv
