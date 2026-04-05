@@ -7,7 +7,8 @@ Usage :
     python injecter_elasticsearch.py           # nettoie + injecte
     python injecter_elasticsearch.py --reset   # supprime TOUT et repart de zéro
 """
-ES_HOST = "http://192.168.x.x:9200"
+
+
 import os
 import sys
 import json
@@ -18,7 +19,7 @@ from nettoyer_json import nettoyer_dossier
 # CONFIGURATION — adapte l'IP de ta VM
 # =============================================================================
 
-ES_HOST        = "http://192.168.x.x:9200"   # ← remplace par l'IP de ta VM Ubuntu
+ES_HOST = "http://127.0.0.1:9200"
 INDEX_CVS      = "cvs"
 DOSSIER_BRUT   = r"C:\Users\user\pfe_mails\resultats\pipeline_hybride"
 DOSSIER_PROPRE = r"C:\Users\user\pfe_mails\resultats\json_propres"
