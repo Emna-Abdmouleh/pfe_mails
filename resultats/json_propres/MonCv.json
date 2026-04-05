@@ -1,0 +1,99 @@
+{
+  "cv_filename": "MonCv.pdf",
+  "nom": "Yosra Bouchaala",
+  "email": "yosrabouchaala6@gmail.com",
+  "telephone": "29409009",
+  "ville": "Sfax",
+  "formation": [
+    {
+      "ecole": "Institut supérieur d'informatique et de multimédia de Sfax",
+      "diplome": "Licence en informatique",
+      "domaine": "Big Data et Analyse de Données",
+      "date_debut": 2023,
+      "date_fin": null
+    },
+    {
+      "ecole": "Abou Kacem Chebbi, Sfax",
+      "diplome": "Bac Scientifique",
+      "domaine": "",
+      "date_debut": 2019,
+      "date_fin": 2023
+    }
+  ],
+  "experiences": [],
+  "competences_techniques": [
+    "C",
+    "Python",
+    "XML",
+    "UML",
+    "SQL",
+    "NoSQL",
+    "HTML",
+    "CSS",
+    "PHP",
+    "Laravel",
+    "JavaScript",
+    "Dev mobile",
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "JWT",
+    "Android Studio"
+  ],
+  "domaines_competence": [
+    "Réactivité",
+    "Capacité d'adaptation",
+    "Sens des responsabilités"
+  ],
+  "projets": [
+    {
+      "titre": "CARPART — Full-Stack Auto Parts Management Platform",
+      "technologies": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "JWT"
+      ],
+      "description": "Développement d’une plateforme web MERN pour la gestion des pièces automobiles avec authentification JWT, gestion des rôles, CRUD produits, réservation et filtres dynamiques."
+    },
+    {
+      "titre": "Application mobile de gestion du budget",
+      "technologies": [
+        "Java",
+        "XML",
+        "Android Studio"
+      ],
+      "description": "Projet académique : Développement d'une application mobile en Java et XML sous Android Studio pour la gestion du budget."
+    },
+    {
+      "titre": "Site de films et séries",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "description": "Projet académique : Création d'un site web pour consulter des films et séries."
+    }
+  ],
+  "langues": [
+    {
+      "langue": "Arabe",
+      "niveau": null
+    },
+    {
+      "langue": "Anglais",
+      "niveau": "B1"
+    },
+    {
+      "langue": "Français",
+      "niveau": "C1"
+    }
+  ],
+  "certificats": [],
+  "experiences_associatives": [],
+  "extraction_method": "llm_mistral",
+  "methode_utilisee": "mistral",
+  "date_indexation": "2026-04-04T12:10:16Z"
+}

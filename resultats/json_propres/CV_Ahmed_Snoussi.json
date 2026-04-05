@@ -1,0 +1,18 @@
+{
+  "cv_filename": "CV_Ahmed_Snoussi.pdf",
+  "nom": "",
+  "email": "",
+  "telephone": "",
+  "ville": "",
+  "formation": [],
+  "experiences": [],
+  "competences_techniques": [],
+  "domaines_competence": [],
+  "projets": [],
+  "langues": [],
+  "certificats": [],
+  "experiences_associatives": [],
+  "extraction_method": "llm_mistral",
+  "methode_utilisee": "mistral",
+  "date_indexation": "2026-04-04T12:10:16Z"
+}

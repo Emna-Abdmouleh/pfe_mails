@@ -1,0 +1,103 @@
+{
+  "informations_personnelles": {
+    "nom": "Emna Abdmouleh",
+    "email": "abdmoulehemna0@gmail.com",
+    "telephone": "(+216) 44604955",
+    "ville": "Sfax"
+  },
+  "formation": [
+    {
+      "ecole": "Institut Supérieur d'Informatique et de Multimédia de Sfax",
+      "diplome": "Licence en big data et analyse de données",
+      "domaine": "Big Data et Analyse de Données",
+      "date_debut": "12/09/2023",
+      "date_fin": "En cours"
+    },
+    {
+      "ecole": "Lycée Abou Kacem Chebbi",
+      "diplome": "Baccalauréat en Mathématiques",
+      "domaine": "Mathématiques",
+      "date_debut": "15/09/2019",
+      "date_fin": "23/06/2023"
+    }
+  ],
+  "experiences": [
+    {
+      "entreprise": "MpSoft",
+      "poste": "Stagiaire",
+      "date_debut": "19/06/2025",
+      "date_fin": "08/08/2025",
+      "description": "Stage de fin d'année: Outil d’Analyse IA pour la Maintenance Préventive du Système Bancaire pour UNIBANK."
+    },
+    {
+      "entreprise": "Saker Othmen SARL",
+      "poste": "Stagiaire",
+      "date_debut": "16/07/2024",
+      "date_fin": "23/08/2024",
+      "description": "Stage d'été: Développer un tableau de bord BI complet pour fournir des insights exploitables aux processus décisionnels de l'entreprise. Technologie utilisée: Power BI"
+    }
+  ],
+  "competences_techniques": [
+    "C",
+    "C++",
+    "Python",
+    "PHP",
+    "SQL",
+    "Java",
+    "API REST",
+    "Laravel",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "XML",
+    "MySQL",
+    "NoSQL",
+    "MongoDB",
+    "Android",
+    "UML",
+    "Scrum",
+    "Power BI",
+    "VS Code",
+    "VirtualBox",
+    "Postman"
+  ],
+  "domaines_competence": [
+    "Développement Backend",
+    "Développement Frontend",
+    "Bases de données et Data",
+    "Développement Mobile",
+    "Modélisation et Méthodologies",
+    "Business Intelligence"
+  ],
+  "projets": [],
+  "langues": [
+    {
+      "langue": "Arabe",
+      "niveau": "Langue maternelle"
+    },
+    {
+      "langue": "Français",
+      "niveau": "Courant"
+    },
+    {
+      "langue": "Anglais",
+      "niveau": "Courant"
+    },
+    {
+      "langue": "Allemand",
+      "niveau": "Courant"
+    }
+  ],
+  "cv_filename": "CV_Emna_Abdmouleh_Stage_PFE_2025 (3) (1) (1).pdf",
+  "extraction_method": "llm_mistral",
+  "temps_reponse_sec": 3.57,
+  "succes": true,
+  "erreur": null,
+  "methode_utilisee": "mistral",
+  "tentatives": [
+    {
+      "methode": "mistral",
+      "succes": true
+    }
+  ]
+}

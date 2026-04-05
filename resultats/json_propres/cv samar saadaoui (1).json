@@ -1,0 +1,104 @@
+{
+  "cv_filename": "cv samar saadaoui (1).pdf",
+  "nom": "Samar SAADAOUI",
+  "email": "samarsaadawi3@gmail.com",
+  "telephone": "97508938",
+  "ville": "Sfax, Tunis",
+  "formation": [
+    {
+      "ecole": "Institut International de Technologie (IIT)",
+      "diplome": "Licence",
+      "domaine": "Génie Logiciel et Systèmes d’Information",
+      "date_debut": 2023,
+      "date_fin": 2026
+    },
+    {
+      "ecole": "Lycée Abou Elkacem Chebbi",
+      "diplome": "Baccalauréat",
+      "domaine": "Mathématiques",
+      "date_debut": 2023,
+      "date_fin": 2023
+    }
+  ],
+  "experiences": [
+    {
+      "entreprise": "IIT, Sfax",
+      "poste": "Développement d’une application web en React pour la gestion des clubs étudiants",
+      "date_debut": 2025,
+      "date_fin": 2025,
+      "description": ""
+    },
+    {
+      "entreprise": "Tunisie Télécom",
+      "poste": "Stage d’été – Découverte des réseaux mobiles",
+      "date_debut": 2025,
+      "date_fin": 2025,
+      "description": ""
+    },
+    {
+      "entreprise": "Saker Othman",
+      "poste": "UI/UX Design avec Figma – Conception d’une application Import/Export",
+      "date_debut": 2024,
+      "date_fin": 2024,
+      "description": ""
+    },
+    {
+      "entreprise": "IEEE WIE IIT",
+      "poste": "Média Manager",
+      "date_debut": 2025,
+      "date_fin": 2025,
+      "description": "Gestion des réseaux sociaux et création de contenus visuels. Coordination des équipes pour les événements et campagnes."
+    },
+    {
+      "entreprise": "IEEE WIE IIT",
+      "poste": "Secrétaire",
+      "date_debut": 2024,
+      "date_fin": 2024,
+      "description": "Organisation des réunions, rédaction des comptes rendus. Soutien à la communication interne et externe."
+    },
+    {
+      "entreprise": "AIESEC Tunisie",
+      "poste": "Membre participante",
+      "date_debut": 2024,
+      "date_fin": 2024,
+      "description": "Développement des compétences en leadership et communication interculturelle."
+    }
+  ],
+  "competences_techniques": [
+    "C++",
+    "Java",
+    "JavaScript",
+    "PHP",
+    "HTML",
+    "CSS",
+    "React",
+    "SQL",
+    "Trello",
+    "Photoshop",
+    "Figma"
+  ],
+  "domaines_competence": [
+    "UI/UX Design",
+    "Développement full-stack"
+  ],
+  "projets": [],
+  "langues": [
+    {
+      "langue": "Arabe",
+      "niveau": "Langue maternelle"
+    },
+    {
+      "langue": "Français",
+      "niveau": "Bon niveau"
+    },
+    {
+      "langue": "Anglais",
+      "niveau": "Courant"
+    }
+  ],
+  "certificats": [],
+  "experiences_associatives": [],
+  "extraction_method": "llm_mistral",
+  "methode_utilisee": "mistral",
+  "date_indexation": "2026-04-04T12:10:16Z"
+}

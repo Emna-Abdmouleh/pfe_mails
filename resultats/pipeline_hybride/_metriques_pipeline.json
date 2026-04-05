@@ -1,0 +1,35 @@
+{
+  "methode": "pipeline_hybride_cascade",
+  "services_detectes": {
+    "mistral": true,
+    "groq": true,
+    "spacy": true
+  },
+  "nb_cvs_traites": 6,
+  "nb_succes": 6,
+  "nb_erreurs": 0,
+  "taux_succes_pct": 100.0,
+  "repartition_methodes": {
+    "mistral": 6,
+    "groq": 0,
+    "spacy_offline": 0,
+    "echec": 0
+  },
+  "temps_par_methode": {
+    "mistral": {
+      "moyen": 3.55,
+      "min": 0.62,
+      "max": 9.14
+    },
+    "groq": {
+      "moyen": 0,
+      "min": 0,
+      "max": 0
+    },
+    "spacy_offline": {
+      "moyen": 0,
+      "min": 0,
+      "max": 0
+    }
+  }
+}
