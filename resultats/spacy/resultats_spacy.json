@@ -8,36 +8,33 @@
     },
     "formation": [
       {
-        "ecole": "Langages de programmation : Java, Etudiante en cycle d’ingénierie en Informatique dans l’Institut International",
-        "diplome": "de Technologie IIT et Récemment diplômée d'une Licence en Sciences de",
+        "ecole": "cycle d’ingénierie en Informatique dans l’Institut International",
+        "diplome": "IIT et Récemment diplômée d'une Licence en Sciences de",
         "domaine": "Informatique",
         "date_debut": "",
-        "date_fin": ""
-      },
-      {
-        "ecole": "",
-        "diplome": "2023-",
-        "domaine": "",
-        "date_debut": "2023",
         "date_fin": ""
       }
     ],
     "experiences": [
       {
-        "entreprise": "Bases de données : MySQL, Sciences de Sfax, je suis actuellement à la recherche d'un stage d’été pour",
-        "poste": "Langages de programmation : Java, Etudiante en cycle d’ingénierie en Informatique dans l’Institut International",
+        "entreprise": "Stage de fin",
+        "poste": "cycle d’ingénierie en Informatique dans l’Institut International",
         "date_debut": "",
         "date_fin": "",
-        "description": "Stage de fin d’études Lauréate du premier prix au Institut International de Technologie Developer Student FSS Club Faculté des sciences de Sfax"
+        "description": "Sfax, je suis actuellement à la recherche d'un stage d’été pour Lauréate du premier prix au Institut International Developer Student FSS Club Faculté des"
       }
     ],
     "competences_techniques": [
-      "Java",
       "Python",
+      "TensorFlow",
+      "OpenCV",
+      "Django",
+      "Java",
+      "C++",
+      "SFML",
       "JavaScript",
       "PHP",
       "C",
-      "C++",
       "MySQL",
       "MongoDB",
       "XML",
@@ -46,13 +43,9 @@
       "GitHub",
       "Docker",
       "Maven",
-      "Django",
       "pandas",
       "Transformers",
-      "TensorFlow",
-      "OpenCV",
-      "Jupyter",
-      "SFML"
+      "Jupyter"
     ],
     "domaines_competence": [
       "génie logiciel",
@@ -66,7 +59,7 @@
     ],
     "cv_filename": "AmalJallouli_cv.pdf",
     "extraction_method": "spacy_regex_offline",
-    "temps_reponse_sec": 0.59,
+    "temps_reponse_sec": 1.11,
     "succes": true,
     "erreur": null
   },
@@ -85,94 +78,73 @@
     "langues": [],
     "cv_filename": "CV Razgui chaima .pdf",
     "extraction_method": "spacy_regex_offline",
-    "temps_reponse_sec": 0.01,
+    "temps_reponse_sec": 0.02,
     "succes": true,
     "erreur": null
   },
   {
     "informations_personnelles": {
-      "nom": "",
+      "nom": "Rsaadaoui En",
       "email": "samarsaadawi3@gmail.com",
-      "telephone": "",
-      "ville": "Tunis"
+      "telephone": "97508938",
+      "ville": "Sfax"
     },
     "formation": [
       {
-        "ecole": "d’Information à l’IIT Sfax, passionnée par le développement logiciel, le",
-        "diplome": "ETUDIANTE EN 3ÈME LICENCE GÉNIE",
+        "ecole": "à l’IIT Sfax, passionnée par le développement logiciel, le",
+        "diplome": "EN 3ÈME LICENCE GÉNIE",
         "domaine": "",
         "date_debut": "",
-        "date_fin": ""
-      },
-      {
-        "ecole": "",
-        "diplome": "2023 –",
-        "domaine": "",
-        "date_debut": "2023",
-        "date_fin": ""
-      },
-      {
-        "ecole": "2026 (en cours) – Institut International de",
-        "diplome": "Licence en Génie Logiciel et Systèmes d’Information",
-        "domaine": "",
-        "date_debut": "2026",
-        "date_fin": ""
-      },
-      {
-        "ecole": "2025 – IIT, Sfax",
-        "diplome": "2025 – IIT, Sfax",
-        "domaine": "",
-        "date_debut": "2025",
-        "date_fin": ""
-      },
-      {
-        "ecole": "2025 – IEEE WIE IIT – Média Manager",
-        "diplome": "2025 – IEEE WIE IIT – Média Manager",
-        "domaine": "",
-        "date_debut": "2025",
-        "date_fin": ""
-      },
-      {
-        "ecole": "2024 – IEEE WIE IIT – Secrétaire",
-        "diplome": "2024 – IEEE WIE IIT – Secrétaire",
-        "domaine": "",
-        "date_debut": "2024",
         "date_fin": ""
       }
     ],
     "experiences": [
       {
-        "entreprise": "web et les technologies innovantes. Je recherche un stage de PFE pour",
-        "poste": "À LA RECHERCHE D’UN STAGE PFE",
+        "entreprise": "TECHNIQUES",
+        "poste": "",
         "date_debut": "",
         "date_fin": "",
         "description": ""
       },
       {
-        "entreprise": "2023 –",
-        "poste": "",
-        "date_debut": "2023",
+        "entreprise": "React",
+        "poste": "Stage d’été –",
+        "date_debut": "2025",
         "date_fin": "",
         "description": ""
       },
       {
-        "entreprise": "STAGE PROFESSIONNEL",
-        "poste": "2026 (en cours) – Institut International de",
-        "date_debut": "2026",
+        "entreprise": "",
+        "poste": "Développement full-stack",
+        "date_debut": "2024",
         "date_fin": "",
-        "description": "Stage d’été – Découverte des réseaux mobiles Développement full-stack"
+        "description": "Outils & Collaboration : Trello Import/Export Photoshop, Figma Concepts : UI/UX Design,"
       },
       {
-        "entreprise": "Soutien à la communication interne et externe",
-        "poste": "2025 – IEEE WIE IIT – Média Manager",
+        "entreprise": "2025 – IEEE",
+        "poste": "",
         "date_debut": "2025",
+        "date_fin": "",
+        "description": "Arabe — Langue maternelle Français — Bon niveau"
+      },
+      {
+        "entreprise": "2024 – IEEE Anglais — Courant",
+        "poste": "",
+        "date_debut": "2024",
+        "date_fin": "",
+        "description": ""
+      },
+      {
+        "entreprise": "2024 – AIESEC",
+        "poste": "",
+        "date_debut": "2024",
         "date_fin": "",
         "description": ""
       }
     ],
     "competences_techniques": [
-      "C++",
       "React",
+      "C++",
       "Java",
       "JavaScript",
       "PHP",
@@ -181,8 +153,8 @@
     ],
     "domaines_competence": [
       "Génie Logiciel",
-      "Développement Web",
       "réseau",
+      "Développement Web",
       "Bases de données"
     ],
     "projets": [],
@@ -193,7 +165,7 @@
     ],
     "cv_filename": "cv samar saadaoui (1).pdf",
     "extraction_method": "spacy_regex_offline",
-    "temps_reponse_sec": 0.39,
+    "temps_reponse_sec": 0.82,
     "succes": true,
     "erreur": null
   },
@@ -212,28 +184,28 @@
     "langues": [],
     "cv_filename": "CV_Ahmed_Snoussi.pdf",
     "extraction_method": "spacy_regex_offline",
-    "temps_reponse_sec": 0.0,
+    "temps_reponse_sec": 0.04,
     "succes": true,
     "erreur": null
   },
   {
     "informations_personnelles": {
       "nom": "Emna Abdmouleh",
-      "email": "abdmoulehemna0@gmail.com",
+      "email": "ulehemna0@gmail.com",
       "telephone": "(+216) 44604955",
-      "ville": "Tunis"
+      "ville": "Sfax"
     },
     "formation": [
       {
-        "ecole": "Etudiante en troisième année de licence en big data et analyse de données à l’Institut Supérieur",
-        "diplome": "Etudiante en troisième année de licence en big data et analyse de données à l’Institut Supérieur",
+        "ecole": "e licence en big data et analyse de données à l’Institut Supérieur",
+        "diplome": "e licence en big data et analyse de données à l’Institut Supérieur",
         "domaine": "big data",
         "date_debut": "",
         "date_fin": ""
       },
       {
-        "ecole": "Institut Supérieur d'Informatique et de Multimédia de Sfax https://isimsf.rnu.tn/",
-        "diplome": "2023 – En cours ] Licence en big data et analyse de données",
+        "ecole": "Institut Supérieur d'Informatiqu",
+        "diplome": "2023 – En cours ] Licence en big data et analy",
         "domaine": "big data",
         "date_debut": "2023",
         "date_fin": ""
@@ -241,36 +213,15 @@
     ],
     "experiences": [
       {
-        "entreprise": "[ 19/06/",
-        "poste": "",
-        "date_debut": "",
-        "date_fin": "",
-        "description": ""
-      },
-      {
-        "entreprise": "2025 – 08/08/",
-        "poste": "",
+        "entreprise": "Stage de fin d'année: Outil d’Ana",
+        "poste": "Stagiaire",
         "date_debut": "2025",
         "date_fin": "",
         "description": ""
       },
       {
-        "entreprise": "Stage de fin d'année: Outil d’Analyse IA pour la Maintenance Préventive du Système Bancaire",
-        "poste": "2025 ] Stagiaire",
-        "date_debut": "2025",
-        "date_fin": "",
-        "description": ""
-      },
-      {
-        "entreprise": "2024 – 23/08/",
-        "poste": "",
-        "date_debut": "2024",
-        "date_fin": "",
-        "description": ""
-      },
-      {
-        "entreprise": "Stage d'été: Développer un tableau de bord BI complet pour fournir des insights exploitables aux",
-        "poste": "2024 ] Stagiaire",
+        "entreprise": "Stage d'été: Développer un table",
+        "poste": "Stagiaire",
         "date_debut": "2024",
         "date_fin": "",
         "description": "Développement Backend Développement Frontend"
@@ -281,13 +232,11 @@
       "C++",
       "Python",
       "PHP",
-      "Java",
       "REST",
       "Laravel",
       "HTML",
       "CSS",
       "JavaScript",
-      "XML",
       "MySQL",
       "MongoDB",
       "UML"
@@ -299,14 +248,13 @@
     ],
     "projets": [],
     "langues": [
-      "Arabe",
       "Français",
       "Anglais",
       "Allemand"
     ],
     "cv_filename": "CV_Emna_Abdmouleh_Stage_PFE_2025 (3) (1) (1).pdf",
     "extraction_method": "spacy_regex_offline",
-    "temps_reponse_sec": 0.2,
+    "temps_reponse_sec": 0.47,
     "succes": true,
     "erreur": null
   },
@@ -320,21 +268,14 @@
     "formation": [
       {
         "ecole": "",
-        "diplome": "2023 – Present licence en informatique, lʼinstitut supérieur dʼinformatique et de multimédia de Sfax",
+        "diplome": "2023 – Present licence en informatique, lʼinstit",
         "domaine": "informatique",
         "date_debut": "2023",
         "date_fin": ""
       },
       {
         "ecole": "",
-        "diplome": "2019 –",
-        "domaine": "",
-        "date_debut": "2019",
-        "date_fin": ""
-      },
-      {
-        "ecole": "",
-        "diplome": "2023 Bac Scientifique, Abou Kacem Chebbi ,sfax",
+        "diplome": "2023 Bac Scientifique, Abou Kacem C",
         "domaine": "",
         "date_debut": "2023",
         "date_fin": ""
@@ -342,46 +283,42 @@
     ],
     "experiences": [
       {
-        "entreprise": "2025 – 08/",
-        "poste": "",
-        "date_debut": "2025",
-        "date_fin": "",
-        "description": ""
-      },
-      {
         "entreprise": "",
-        "poste": "2025 CARPART — Full-Stack Auto Parts Management Platform (PFA), • Développement",
+        "poste": "2025 CARPART — Full-Stack Auto Par",
         "date_debut": "2025",
         "date_fin": "",
         "description": ""
       }
     ],
     "competences_techniques": [
-      "C",
-      "Python",
-      "XML",
-      "UML",
+      "React",
+      "xml",
       "HTML",
       "CSS",
+      "JavaScript",
+      "C",
+      "Python",
+      "UML",
       "Php",
       "Laravel",
-      "JavaScript",
-      "React",
       "Node.js",
       "Express",
       "MongoDB",
       "Java"
     ],
-    "domaines_competence": [],
+    "domaines_competence": [
+      "big data",
+      "multimédia"
+    ],
     "projets": [],
     "langues": [
+      "Français",
       "Arabe",
-      "Anglais",
-      "Français"
+      "Anglais"
     ],
     "cv_filename": "MonCv.pdf",
     "extraction_method": "spacy_regex_offline",
-    "temps_reponse_sec": 0.33,
+    "temps_reponse_sec": 0.63,
     "succes": true,
     "erreur": null
   }
