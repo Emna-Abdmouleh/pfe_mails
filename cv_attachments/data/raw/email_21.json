@@ -1,0 +1,20 @@
+{
+    "id": "21",
+    "from": "Mohamed Bouzid <bouzidmed33@gmail.com>",
+    "to": "pfe.candidatures@gmail.com",
+    "subject": "lettre de motivation & cv",
+    "date": "Wed, 1 Apr 2026 17:56:34 +0100",
+    "body": "",
+    "attachments": [
+        {
+            "filename": "lettre de motivation mb.pdf",
+            "filepath": "C:/Users/user/pfe_mails/cv_attachments/attachments/lettre de motivation mb.pdf",
+            "type": "application/pdf"
+        },
+        {
+            "filename": "cv med bouzid (1).pdf",
+            "filepath": "C:/Users/user/pfe_mails/cv_attachments/attachments/cv med bouzid (1).pdf",
+            "type": "application/pdf"
+        }
+    ]
+}

@@ -9,14 +9,14 @@
     {
       "ecole": "Institut supérieur d'informatique et de multimédia de Sfax",
       "diplome": "Licence en informatique",
-      "domaine": "Big Data et Analyse de Données",
+      "domaine": "Big Data et analyse de données",
       "date_debut": "2023",
-      "date_fin": null
+      "date_fin": "Present"
     },
     {
-      "ecole": "Abou Kacem Chebbi, Sfax",
+      "ecole": "Abou Kacem Chebbi",
       "diplome": "Bac Scientifique",
-      "domaine": null,
+      "domaine": "",
       "date_debut": "2019",
       "date_fin": "2023"
     }
@@ -66,7 +66,7 @@
         "XML",
         "Android Studio"
       ],
-      "description": "Projet académique : Développement d'une application mobile en Java et XML sous Android Studio pour la gestion du budget."
+      "description": "Développement d'une application mobile en Java et XML sous Android Studio dans le cadre d’un projet universitaire."
     },
     {
       "titre": "Site de films et séries",
@@ -75,13 +75,13 @@
         "CSS",
         "JavaScript"
       ],
-      "description": "Projet académique : Création d'un site web pour consulter des films et séries."
+      "description": "Création d’un site web pour consulter des films et séries."
     }
   ],
   "langues": [
     {
       "langue": "Arabe",
-      "niveau": null
+      "niveau": ""
     },
     {
       "langue": "Anglais",
@@ -94,7 +94,7 @@
   ],
   "cv_filename": "MonCv.pdf",
   "extraction_method": "llm_mistral",
-  "temps_reponse_sec": 3.14,
+  "temps_reponse_sec": 3.32,
   "succes": true,
   "erreur": null,
   "methode_utilisee": "mistral",

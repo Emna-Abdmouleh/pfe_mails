@@ -1,0 +1,146 @@
+{
+  "cv_filename": "CV Ahlem .pdf",
+  "nom": "Ahlem Tounsi",
+  "email": "ahlemtounsi@outlook.com",
+  "telephone": "+216 58 495 498",
+  "ville": "Sfax",
+  "formation": [
+    {
+      "ecole": "Faculté des sciences de Sfax",
+      "diplome": "Licence en sciences de l’informatique (spécialité Génie Logiciel)",
+      "domaine": "Informatique",
+      "date_debut": 2023,
+      "date_fin": 2026
+    },
+    {
+      "ecole": "Faculté des sciences de Sfax",
+      "diplome": "Cycle préparatoire intégré en sciences de l’informatique",
+      "domaine": "Informatique",
+      "date_debut": 2023,
+      "date_fin": 2025
+    },
+    {
+      "ecole": "Lycée Abou El Kacem Chebbi",
+      "diplome": "Bac sciences expérimentale",
+      "domaine": "Sciences",
+      "date_debut": 2022,
+      "date_fin": 2023
+    }
+  ],
+  "experiences": [
+    {
+      "entreprise": "IEEE",
+      "poste": "membre et social media writer",
+      "date_debut": 2021,
+      "date_fin": 2023,
+      "description": ""
+    },
+    {
+      "entreprise": "GSDC",
+      "poste": "membre",
+      "date_debut": 2021,
+      "date_fin": 2023,
+      "description": ""
+    },
+    {
+      "entreprise": "Securinets",
+      "poste": "membre",
+      "date_debut": 2023,
+      "date_fin": null,
+      "description": ""
+    },
+    {
+      "entreprise": "IT",
+      "poste": "membre",
+      "date_debut": 2020,
+      "date_fin": 2022,
+      "description": ""
+    },
+    {
+      "entreprise": "Hult Prize",
+      "poste": "participante",
+      "date_debut": 2020,
+      "date_fin": 2021,
+      "description": ""
+    }
+  ],
+  "competences_techniques": [
+    "Python",
+    "C",
+    "C++",
+    "Java",
+    "Angular",
+    "SpringBoot",
+    "OpenCV",
+    "Keras",
+    "TensorFlow",
+    "Android Studio"
+  ],
+  "domaines_competence": [
+    "Génie Logiciel",
+    "Deep Learning",
+    "Traitement d'images",
+    "Développement d'applications mobiles",
+    "Développement web",
+    "Organisation d'événements"
+  ],
+  "projets": [
+    {
+      "titre": "Plateforme de e-learning",
+      "technologies": [
+        "SpringBoot",
+        "Angular"
+      ],
+      "description": "Une plateforme de e-learning pour les étudiants et les professeurs."
+    },
+    {
+      "titre": "Détection des émotions humaines",
+      "technologies": [
+        "OpenCV",
+        "Keras",
+        "Python",
+        "TensorFlow"
+      ],
+      "description": "Projet de détection des émotions humaines à partir d'images en Deep Learning."
+    },
+    {
+      "titre": "Application Mobile - Mesure de glycémie",
+      "technologies": [
+        "Java",
+        "Android Studio"
+      ],
+      "description": "Application mobile permettant le calcul de la valeur de la glycémie."
+    }
+  ],
+  "langues": [
+    "Arabe",
+    "Anglais",
+    "Français"
+  ],
+  "certificats": [
+    {
+      "titre": "Certificat Coursera Language C",
+      "organisme": "",
+      "date": null
+    },
+    {
+      "titre": "Certificat Excel",
+      "organisme": "",
+      "date": null
+    },
+    {
+      "titre": "Certificat d’organisation IEEEXTREME 16.0",
+      "organisme": "",
+      "date": null
+    },
+    {
+      "titre": "Certificat Management",
+      "organisme": "",
+      "date": null
+    }
+  ],
+  "experiences_associatives": [],
+  "extraction_method": "llm_mistral",
+  "methode_utilisee": "mistral",
+  "date_indexation": "2026-04-10T20:52:40Z"
+}

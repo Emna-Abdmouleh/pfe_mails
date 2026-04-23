@@ -1,0 +1,166 @@
+{
+  "cv_filename": "cv mariem.pdf",
+  "nom": "Mariem Boussarsar",
+  "email": "mariemboussarsar00@gmail.com",
+  "telephone": "+216 59 478 565",
+  "ville": "Route de Tunis Km 8.5",
+  "formation": [
+    {
+      "ecole": "Faculté des Sciences de Sfax",
+      "diplome": "Licence en Sciences de l'Informatique",
+      "domaine": "Informatique",
+      "date_debut": 2022,
+      "date_fin": 2025
+    },
+    {
+      "ecole": "BAC",
+      "diplome": "BAC MATHÉMATIQUES",
+      "domaine": "",
+      "date_debut": 2021,
+      "date_fin": 2022
+    },
+    {
+      "ecole": "Institut International de Technologie IIT",
+      "diplome": "Cycle d’ingénierie en Informatique",
+      "domaine": "Informatique",
+      "date_debut": 2026,
+      "date_fin": null
+    }
+  ],
+  "experiences": [
+    {
+      "entreprise": "",
+      "poste": "Stage de Projet fin d’études",
+      "date_debut": null,
+      "date_fin": null,
+      "description": "Développement d’un modèle prédictif basé sur le machine learning permettant d’anticiper la demande en transport urbain afin d’optimiser la planification des ressources."
+    },
+    {
+      "entreprise": "",
+      "poste": "Assistant virtuel intelligent pour les services universitaires",
+      "date_debut": null,
+      "date_fin": null,
+      "description": ""
+    },
+    {
+      "entreprise": "",
+      "poste": "Système de détection de fatigue du conducteur en temps réel",
+      "date_debut": null,
+      "date_fin": null,
+      "description": ""
+    },
+    {
+      "entreprise": "",
+      "poste": "Application mobile de suivi de santé avec analyse prédictive",
+      "date_debut": null,
+      "date_fin": null,
+      "description": ""
+    },
+    {
+      "entreprise": "",
+      "poste": "Jeu intelligent avec IA adaptative",
+      "date_debut": null,
+      "date_fin": null,
+      "description": ""
+    }
+  ],
+  "competences_techniques": [
+    "Java",
+    "Python",
+    "JavaScript",
+    "PHP",
+    "C",
+    "C++",
+    "MySQL",
+    "PL/SQL",
+    "MongoDB",
+    "Git",
+    "GitHub",
+    "Git Bash",
+    "Docker",
+    "Maven",
+    "Django",
+    "Pandas",
+    "Scikit-learn",
+    "Matplotlib",
+    "TensorFlow",
+    "UML",
+    "XML",
+    "HTML",
+    "NLP",
+    "Transformers",
+    "FastAPI",
+    "OpenCV",
+    "CNN",
+    "Firebase",
+    "SFML",
+    "Algorithmes d’intelligence artificielle"
+  ],
+  "domaines_competence": [
+    "Résolution de problèmes",
+    "Planification d'événements",
+    "Communication efficace",
+    "Modélisation",
+    "Langages de balisage"
+  ],
+  "projets": [
+    {
+      "titre": "Système de recommandation intelligent pour e-learning",
+      "technologies": [
+        "Python",
+        "TensorFlow",
+        "Scikit-learn",
+        "Flask"
+      ],
+      "description": ""
+    },
+    {
+      "titre": "Assistant virtuel intelligent pour les services universitaires",
+      "technologies": [
+        "Python",
+        "NLP",
+        "Transformers",
+        "FastAPI"
+      ],
+      "description": ""
+    },
+    {
+      "titre": "Système de détection de fatigue du conducteur en temps réel",
+      "technologies": [
+        "Python",
+        "OpenCV",
+        "CNN",
+        "TensorFlow"
+      ],
+      "description": ""
+    },
+    {
+      "titre": "Application mobile de suivi de santé avec analyse prédictive",
+      "technologies": [
+        "Java / Kotlin",
+        "Firebase",
+        "Python"
+      ],
+      "description": ""
+    },
+    {
+      "titre": "Jeu intelligent avec IA adaptative",
+      "technologies": [
+        "C++",
+        "SFML",
+        "Algorithmes d’intelligence artificielle"
+      ],
+      "description": ""
+    }
+  ],
+  "langues": [
+    "Anglais",
+    "Français",
+    "Arabe"
+  ],
+  "certificats": [],
+  "experiences_associatives": [],
+  "extraction_method": "llm_mistral",
+  "methode_utilisee": "mistral",
+  "date_indexation": "2026-04-10T20:52:40Z"
+}

@@ -1,0 +1,121 @@
+{
+  "informations_personnelles": {
+    "nom": "Amal Abdelkafi",
+    "email": "amalabdelkafi2004@gmail.com",
+    "telephone": "+216 44 227 138",
+    "ville": "Sfax"
+  },
+  "formation": [
+    {
+      "ecole": "Université multimédia de Sfax",
+      "diplome": "Licence en Informatique",
+      "domaine": "Big Data",
+      "date_debut": null,
+      "date_fin": null
+    }
+  ],
+  "experiences": [
+    {
+      "entreprise": "GOMYCODE",
+      "poste": "Bootcamp en développement web",
+      "date_debut": "Août 2024",
+      "date_fin": "Août 2024",
+      "description": ""
+    }
+  ],
+  "competences_techniques": [
+    "java",
+    "c",
+    "python",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "php",
+    "XML",
+    "MySQL",
+    "Hadoop",
+    "Spark",
+    "Hive"
+  ],
+  "domaines_competence": [
+    "Développement Web",
+    "Développement Mobile",
+    "Big Data & Analyse de Données",
+    "Intelligence Artificielle"
+  ],
+  "projets": [
+    {
+      "titre": "clickRDV",
+      "technologies": [
+        "Java",
+        "XML"
+      ],
+      "description": "Création d’une application mobile dédiée à la gestion des rendez-vous médicaux"
+    },
+    {
+      "titre": "SITE E-COMMERCE",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JS"
+      ],
+      "description": "Création d’un site e-commerce pour la vente des vêtements"
+    },
+    {
+      "titre": "ESPOIR TRAVEL",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JS"
+      ],
+      "description": "Création d’un site d’une agence de voyage"
+    },
+    {
+      "titre": "FITLIFE GYM",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JS"
+      ],
+      "description": "Création d’un site salle de sport"
+    },
+    {
+      "titre": "Prédiction des Ventes (IA - POS)",
+      "technologies": [
+        "Python",
+        "Intelligence Artificielle"
+      ],
+      "description": "Système de Prédiction de Ventes basé sur l'Intelligence Artificielle pour une entreprise de Point de Vente (POS)"
+    }
+  ],
+  "langues": [
+    {
+      "langue": "arabe",
+      "niveau": "Natif"
+    },
+    {
+      "langue": "Français",
+      "niveau": "Intermédiaire"
+    },
+    {
+      "langue": "Anglais",
+      "niveau": "Intermédiaire"
+    },
+    {
+      "langue": "Espagnol",
+      "niveau": "Intermédiaire"
+    }
+  ],
+  "cv_filename": "cvamal.pdf",
+  "extraction_method": "llm_mistral",
+  "temps_reponse_sec": 3.93,
+  "succes": true,
+  "erreur": null,
+  "methode_utilisee": "mistral",
+  "tentatives": [
+    {
+      "methode": "mistral",
+      "succes": true
+    }
+  ]
+}

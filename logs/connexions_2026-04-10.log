@@ -1,0 +1,19 @@
+2026-04-10 21:41:34 | INFO     | Tentative de connexion IMAP...
+2026-04-10 21:41:36 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-04-10 21:41:37 | INFO     | 1 nouveau(x) email(s) trouvé(s) dans INBOX
+2026-04-10 21:41:38 | INFO     |   Sujet      : (sans sujet)
+2026-04-10 21:41:38 | INFO     |   De         : Rejeb Emna <emnarejeb123@gmail.com>
+2026-04-10 21:41:38 | INFO     |   Date       : Thu, 9 Apr 2026 15:22:34 +0100
+2026-04-10 21:41:38 | INFO     |   Ignore (pas un CV) : Rjeb Emna.pdf
+2026-04-10 21:41:38 | INFO     |   Aucun CV detecte — aucun fichier cree
+2026-04-10 21:41:38 | INFO     |   JSON sauvegarde : C:\Users\user\pfe_mails\cv_attachments\data\raw\email_31.json
+2026-04-10 21:41:38 | INFO     |   Indexe dans Elasticsearch
+2026-04-10 21:41:39 | INFO     | Déconnexion propre réussie
+2026-04-10 21:43:42 | INFO     | Tentative de connexion IMAP...
+2026-04-10 21:43:44 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-04-10 21:43:44 | INFO     | Aucun nouveau email trouvé
+2026-04-10 21:43:45 | INFO     | Déconnexion propre réussie
+2026-04-10 21:51:35 | INFO     | Tentative de connexion IMAP...
+2026-04-10 21:51:37 | INFO     | Connecté avec succès : pfe.candidatures@gmail.com
+2026-04-10 21:51:38 | INFO     | Aucun nouveau email trouvé
+2026-04-10 21:51:38 | INFO     | Déconnexion propre réussie

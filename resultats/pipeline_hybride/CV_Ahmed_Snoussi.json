@@ -13,7 +13,7 @@
   "langues": [],
   "cv_filename": "CV_Ahmed_Snoussi.pdf",
   "extraction_method": "llm_mistral",
-  "temps_reponse_sec": 0.62,
+  "temps_reponse_sec": 0.74,
   "succes": true,
   "erreur": null,
   "methode_utilisee": "mistral",

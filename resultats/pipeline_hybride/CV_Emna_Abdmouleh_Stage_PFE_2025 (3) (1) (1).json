@@ -73,7 +73,7 @@
   "langues": [
     {
       "langue": "Arabe",
-      "niveau": "Langue maternelle"
+      "niveau": "Maternelle"
     },
     {
       "langue": "Français",
@@ -85,12 +85,12 @@
     },
     {
       "langue": "Allemand",
-      "niveau": "Courant"
+      "niveau": "Non spécifié"
     }
   ],
   "cv_filename": "CV_Emna_Abdmouleh_Stage_PFE_2025 (3) (1) (1).pdf",
   "extraction_method": "llm_mistral",
-  "temps_reponse_sec": 3.57,
+  "temps_reponse_sec": 3.91,
   "succes": true,
   "erreur": null,
   "methode_utilisee": "mistral",

@@ -1,0 +1,211 @@
+{
+  "informations_personnelles": {
+    "nom": "Mariem Boussarsar",
+    "email": "mariemboussarsar00@gmail.com",
+    "telephone": "+216 59 478 565",
+    "ville": "Route de Tunis Km 8.5"
+  },
+  "formation": [
+    {
+      "ecole": "Faculté des Sciences de Sfax",
+      "diplome": "Licence en Sciences de l’Informatique",
+      "domaine": "Informatique, spécialisation en ingénierie logicielle",
+      "date_debut": "2022",
+      "date_fin": "2025"
+    },
+    {
+      "ecole": "Institut International de Technologie IIT",
+      "diplome": "Cycle d’ingénierie en Informatique",
+      "domaine": "Informatique",
+      "date_debut": "2026",
+      "date_fin": "Présent"
+    },
+    {
+      "ecole": "BAC",
+      "diplome": "BAC MATHÉMATIQUES",
+      "domaine": "",
+      "date_debut": "2021",
+      "date_fin": "2022"
+    }
+  ],
+  "experiences": [
+    {
+      "entreprise": "Stage de Projet fin d’études",
+      "poste": "Développement d’un modèle prédictif basé sur le machine learning",
+      "date_debut": "",
+      "date_fin": "",
+      "description": "Développement d’un modèle prédictif basé sur le machine learning permettant d’anticiper la demande en transport urbain afin d’optimiser la planification des ressources."
+    },
+    {
+      "entreprise": "Hackathon Olivia Hack",
+      "poste": "Lauréate du premier prix",
+      "date_debut": "",
+      "date_fin": "",
+      "description": ""
+    },
+    {
+      "entreprise": "DX Hackathon",
+      "poste": "Participante",
+      "date_debut": "",
+      "date_fin": "",
+      "description": ""
+    },
+    {
+      "entreprise": "Google Developer Student FSS Club",
+      "poste": "Social Media Writer",
+      "date_debut": "",
+      "date_fin": "",
+      "description": ""
+    },
+    {
+      "entreprise": "IEEREME 16.0",
+      "poste": "Organisatrice",
+      "date_debut": "",
+      "date_fin": "",
+      "description": ""
+    },
+    {
+      "entreprise": "Hult Prize 2020",
+      "poste": "Participante",
+      "date_debut": "",
+      "date_fin": "",
+      "description": ""
+    },
+    {
+      "entreprise": "Aiesec Thyna",
+      "poste": "Membre",
+      "date_debut": "",
+      "date_fin": "",
+      "description": ""
+    }
+  ],
+  "competences_techniques": [
+    "Java",
+    "Python",
+    "JavaScript",
+    "PHP",
+    "C",
+    "C++",
+    "MySQL",
+    "PL/SQL",
+    "MongoDB",
+    "Git",
+    "GitHub",
+    "Git Bash",
+    "Docker",
+    "Maven",
+    "Django",
+    "Pandas",
+    "Scikit-learn",
+    "Matplotlib",
+    "TensorFlow",
+    "UML",
+    "XML",
+    "HTML",
+    "Jupyter",
+    "FastAPI",
+    "OpenCV",
+    "CNN",
+    "SFML",
+    "Algorithmes d’intelligence artificielle",
+    "Firebase"
+  ],
+  "domaines_competence": [
+    "Résolution de problèmes",
+    "Planification d'événements",
+    "Communication efficace",
+    "Modélisation",
+    "Langages de balisage"
+  ],
+  "projets": [
+    {
+      "titre": "Système de recommandation intelligent pour e-learning",
+      "technologies": [
+        "Python",
+        "TensorFlow",
+        "Scikit-learn",
+        "Flask"
+      ],
+      "description": ""
+    },
+    {
+      "titre": "Assistant virtuel intelligent pour les services universitaires",
+      "technologies": [
+        "Python",
+        "NLP",
+        "Transformers",
+        "FastAPI"
+      ],
+      "description": ""
+    },
+    {
+      "titre": "Système de détection de fatigue du conducteur en temps réel",
+      "technologies": [
+        "Python",
+        "OpenCV",
+        "CNN",
+        "TensorFlow"
+      ],
+      "description": ""
+    },
+    {
+      "titre": "Application mobile de suivi de santé avec analyse prédictive",
+      "technologies": [
+        "Java / Kotlin",
+        "Firebase",
+        "Python"
+      ],
+      "description": ""
+    },
+    {
+      "titre": "Jeu intelligent avec IA adaptative",
+      "technologies": [
+        "C++",
+        "SFML",
+        "Algorithmes d’intelligence artificielle"
+      ],
+      "description": ""
+    }
+  ],
+  "langues": [
+    {
+      "langue": "Anglais",
+      "niveau": ""
+    },
+    {
+      "langue": "Français",
+      "niveau": ""
+    },
+    {
+      "langue": "Arabe",
+      "niveau": ""
+    }
+  ],
+  "certifications": [
+    "Data cleaning and preprocessing with pandas : Datascience360, 2024",
+    "Convolutional neural Networks with TensorFLow in Python",
+    "Deep Learning with TensorFlow",
+    "Machine Learning in Python",
+    "Introduction to Jupyter",
+    "The machine Learning Algorithm A-Z",
+    "Microsoft Excel : Certification Microsoft Office Specialist (MOS) - excel",
+    "Certificat de cours C : Coursera, 2021"
+  ],
+  "centres_interet": [
+    "Sports",
+    "Voyages",
+    "Photographie"
+  ],
+  "cv_filename": "cv mariem.pdf",
+  "extraction_method": "llm_mistral",
+  "temps_reponse_sec": 7.08,
+  "succes": true,
+  "erreur": null,
+  "methode_utilisee": "mistral",
+  "tentatives": [
+    {
+      "methode": "mistral",
+      "succes": true
+    }
+  ]
+}

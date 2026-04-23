@@ -6,21 +6,21 @@
       "groq": true,
       "spacy": true
     },
-    "nb_cvs_traites": 6,
-    "nb_succes": 6,
+    "nb_cvs_traites": 16,
+    "nb_succes": 16,
     "nb_erreurs": 0,
     "taux_succes_pct": 100.0,
     "repartition_methodes": {
-      "mistral": 6,
+      "mistral": 16,
       "groq": 0,
       "spacy_offline": 0,
       "echec": 0
     },
     "temps_par_methode": {
       "mistral": {
-        "moyen": 3.55,
-        "min": 0.62,
-        "max": 9.14
+        "moyen": 3.61,
+        "min": 0.64,
+        "max": 7.08
       },
       "groq": {
         "moyen": 0,
@@ -37,16 +37,104 @@
   "resultats": [
     {
       "informations_personnelles": {
-        "nom": "Amal Jallouli",
-        "email": "jallouliamal754@gmail.com",
-        "telephone": "+216 52 776 444",
-        "ville": "Sfax"
+        "nom": "Ahmed Ben Kraiem",
+        "email": "ahmedbenkraiem456@gmail.com",
+        "telephone": "26 160 616",
+        "ville": "Sfax, Tunisia"
       },
       "formation": [
         {
+          "ecole": "Higher Institute of Computer Science and Multimedia of Sfax",
+          "diplome": "Bachelor of Computer Science",
+          "domaine": "Computer Science",
+          "date_debut": "2023",
+          "date_fin": "Present"
+        },
+        {
+          "ecole": "Mohamed Ali High School – Sfax",
+          "diplome": "High School Diploma",
+          "domaine": "Experimental Sciences",
+          "date_debut": "2019",
+          "date_fin": "2023"
+        }
+      ],
+      "experiences": [],
+      "competences_techniques": [
+        "PHP",
+        "MYSQL",
+        "Hadoop/Spark",
+        "HTML/CSS/XML",
+        "PYTHON/C"
+      ],
+      "domaines_competence": [
+        "Leadership",
+        "Problem Solving"
+      ],
+      "projets": [
+        {
+          "titre": "Rush Food — Simple Restaurant Management Mobile Application",
+          "technologies": [
+            "Java",
+            "XML",
+            "Android Studio"
+          ],
+          "description": "Designed and developed a basic Android application for restaurant management. Included user authentication, interactive menu browsing, food ordering, and order confirmation."
+        },
+        {
+          "titre": "Movie4U — Static Film Showcase Website",
+          "technologies": [
+            "HTML",
+            "CSS"
+          ],
+          "description": "Developed a static website to present selection of movies. Displayed movie posters, titles, genres, and descriptions in an organized format."
+        }
+      ],
+      "langues": [
+        {
+          "langue": "Arabic",
+          "niveau": "Native"
+        },
+        {
+          "langue": "English",
+          "niveau": "C1"
+        },
+        {
+          "langue": "French",
+          "niveau": "B2"
+        }
+      ],
+      "cv_filename": "Ahmed-Ben-Kraiem-CV.pdf",
+      "extraction_method": "llm_mistral",
+      "temps_reponse_sec": 2.93,
+      "succes": true,
+      "erreur": null,
+      "methode_utilisee": "mistral",
+      "tentatives": [
+        {
+          "methode": "mistral",
+          "succes": true
+        }
+      ]
+    },
+    {
+      "informations_personnelles": {
+        "nom": "Amal Jallouli",
+        "email": "jallouliamal754@gmail.com",
+        "telephone": "+216 52 776 444",
+        "ville": "Thyna"
+      },
+      "formation": [
+        {
+          "ecole": "Institut International de Technologie (IIT)",
+          "diplome": "Cycle d’ingénierie en informatique",
+          "domaine": "Informatique",
+          "date_debut": "2024",
+          "date_fin": "Présent"
+        },
+        {
           "ecole": "Faculté des Sciences de Sfax",
           "diplome": "Licence en Sciences de l’Informatique",
-          "domaine": "Informatique, spécialisation en génie logiciel",
+          "domaine": "Génie logiciel",
           "date_debut": "2020",
           "date_fin": "2023"
         },
@@ -60,16 +148,9 @@
         {
           "ecole": "Lycée Abou el Kacem Chebbi",
           "diplome": "Baccalauréat en sciences expérimentales",
-          "domaine": "Sciences expérimentales",
+          "domaine": "",
           "date_debut": "2019",
           "date_fin": "2020"
-        },
-        {
-          "ecole": "Institut International de Technologie (IIT)",
-          "diplome": "Cycle d’ingénierie en informatique",
-          "domaine": "Informatique",
-          "date_debut": "2024",
-          "date_fin": "Présent"
         }
       ],
       "experiences": [
@@ -77,43 +158,8 @@
           "entreprise": "Société I4NET",
           "poste": "Stage de fin d’études",
           "date_debut": "2024",
-          "date_fin": "2024",
+          "date_fin": "",
           "description": "Développement d’une solution d’essayage virtuel en 3D des lunettes en utilisant la Réalité Augmentée pour les applications web, avec un système de recommandation basé sur l’Intelligence Artificielle."
-        },
-        {
-          "entreprise": "Projets académiques",
-          "poste": "Développement d’un chatbot génératif pour les étudiants",
-          "date_debut": "2025",
-          "date_fin": "2025",
-          "description": "Technologies : Transformers."
-        },
-        {
-          "entreprise": "Projets académiques",
-          "poste": "Développement d’une solution de classification des émotions humaines en temps réel",
-          "date_debut": "2025",
-          "date_fin": "2025",
-          "description": "Technologies : Python, TensorFlow, OpenCV, CNN, Django."
-        },
-        {
-          "entreprise": "Projets académiques",
-          "poste": "Développement d’une solution qui classifie le niveau de maturité des olives à partir des images",
-          "date_debut": "2025",
-          "date_fin": "2025",
-          "description": "Technologies : Python, CNN, OpenCV, TensorFlow, Jupyter."
-        },
-        {
-          "entreprise": "Projets académiques",
-          "poste": "Développement d’une application mobile pour mesurer les niveaux de glucose sanguin",
-          "date_debut": "2025",
-          "date_fin": "2025",
-          "description": "Technologies : Java."
-        },
-        {
-          "entreprise": "Projets académiques",
-          "poste": "Développement d’un jeu",
-          "date_debut": "2025",
-          "date_fin": "2025",
-          "description": "Technologies : C++, SFML."
         }
       ],
       "competences_techniques": [
@@ -131,12 +177,7 @@
         "GitHub",
         "Docker",
         "Maven",
-        "Django",
-        "Transformers",
-        "TensorFlow",
-        "OpenCV",
-        "CNN",
-        "Jupyter"
+        "Django"
       ],
       "domaines_competence": [
         "Data cleaning and preprocessing with pandas",
@@ -152,7 +193,7 @@
           "technologies": [
             "Transformers"
           ],
-          "description": "Développement d’un chatbot génératif pour les étudiants."
+          "description": "Développement d’un chatbot générative pour les étudiants."
         },
         {
           "titre": "Classification des émotions humaines en temps réel",
@@ -189,15 +230,7 @@
             "C++",
             "SFML"
           ],
-          "description": "Développement d’un jeu."
-        },
-        {
-          "titre": "Essaiage virtuel en 3D des lunettes",
-          "technologies": [
-            "Réalité Augmentée",
-            "Intelligence Artificielle"
-          ],
-          "description": "Développement d’une solution d’essayage virtuel en 3D des lunettes en utilisant la Réalité Augmentée pour les applications web, avec un système de recommandation basé sur l’Intelligence Artificielle."
+          "description": "Développement d’un Jeu."
         }
       ],
       "langues": [
@@ -207,70 +240,694 @@
       ],
       "certificats": [
         {
+          "titre": "Certificat langage C",
+          "organisme": "Coursera",
+          "annee": "2021"
+        },
+        {
           "titre": "Data cleaning and preprocessing with pandas",
           "organisme": "Datascience360",
-          "date": "2024"
+          "annee": "2024"
         },
         {
           "titre": "Convolutional neural Networks with TensorFlow in Python",
           "organisme": "Datascience360",
-          "date": "2024"
+          "annee": "2024"
         },
         {
           "titre": "Deep Learning with TensorFlow",
           "organisme": "Datascience360",
-          "date": "2024"
+          "annee": "2024"
         },
         {
           "titre": "Machine Learning in Python",
           "organisme": "Datascience360",
-          "date": "2024"
+          "annee": "2024"
         },
         {
           "titre": "Introduction to Jupyter",
           "organisme": "Datascience360",
-          "date": "2024"
+          "annee": "2024"
         },
         {
           "titre": "The machine Learning Algorithm A-Z",
           "organisme": "Datascience360",
-          "date": "2024"
-        },
-        {
-          "titre": "Certificat langage C",
-          "organisme": "Coursera",
-          "date": "2021"
+          "annee": "2024"
         }
       ],
       "experiences_associatives": [
         {
-          "titre": "Lauréate du premier prix au Hackathon Olivia Hack : Deep Learning",
-          "date": "2025"
+          "titre": "Lauréate du premier prix au Hackathon Olivia Hack : Deep Learning"
         },
         {
-          "titre": "Participante : DX Hackathon",
-          "date": "2025"
+          "titre": "Participante : DX Hackathon"
         },
         {
-          "titre": "Membre : Aiesec Thyna",
-          "date": "2025"
+          "titre": "Membre : Aiesec Thyna"
         },
         {
-          "titre": "Social Media Writer: Google Developer Student FSS Club",
-          "date": "2025"
+          "titre": "Social Media Writer: Google Developer Student FSS Club"
         },
         {
-          "titre": "Organisatrice : IEERXTREME 16.0",
-          "date": "2025"
+          "titre": "Organisatrice : IEERXTREME 16.0"
         },
         {
-          "titre": "Participante : Hult Prize 2020",
-          "date": "2020"
+          "titre": "Participante : Hult Prize 2020"
         }
       ],
       "cv_filename": "AmalJallouli_cv.pdf",
       "extraction_method": "llm_mistral",
-      "temps_reponse_sec": 9.14,
+      "temps_reponse_sec": 6.22,
+      "succes": true,
+      "erreur": null,
+      "methode_utilisee": "mistral",
+      "tentatives": [
+        {
+          "methode": "mistral",
+          "succes": true
+        }
+      ]
+    },
+    {
+      "informations_personnelles": {
+        "nom": "Amal Jallouli",
+        "email": "jallouliamal754@gmail.com",
+        "telephone": "+216 52 776 444",
+        "ville": "Sfax"
+      },
+      "formation": [
+        {
+          "ecole": "Faculté des Sciences de Sfax",
+          "diplome": "LICENCE EN SCIENCES DE L’INFORMATIQUE",
+          "domaine": "Génie Logiciel",
+          "date_debut": "Septembre 2023",
+          "date_fin": "Présent"
+        },
+        {
+          "ecole": "",
+          "diplome": "CYCLE PRÉPARATOIRE INTÉGRÉ EN SCIENCES DE L’INFORMATIQUE",
+          "domaine": "",
+          "date_debut": "2020",
+          "date_fin": "2023"
+        },
+        {
+          "ecole": "",
+          "diplome": "BAC SCIENCES EXPERIMENTALES",
+          "domaine": "",
+          "date_debut": "2019",
+          "date_fin": "2020"
+        }
+      ],
+      "experiences": [],
+      "competences_techniques": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "PHP",
+        "C",
+        "C++",
+        "MySQL",
+        "PL/SQL",
+        "Git",
+        "GitHub",
+        "Git Bash",
+        "Docker",
+        "Maven",
+        "XML",
+        "HTML",
+        "TensorFlow",
+        "Keras"
+      ],
+      "domaines_competence": [
+        "Résolution de problèmes",
+        "Planification d'événements",
+        "Communication efficace",
+        "Modélisation : UML",
+        "Analyse de données",
+        "Développement",
+        "Intelligence artificielle"
+      ],
+      "projets": [
+        {
+          "titre": "Application mobile de fitness",
+          "technologies": [
+            "Java"
+          ],
+          "description": ""
+        },
+        {
+          "titre": "Analyse des Émotions Humaines à partir d'Images (Machine Learning)",
+          "technologies": [
+            "Python",
+            "TensorFlow",
+            "Keras (Modèle séquentiel)"
+          ],
+          "description": ""
+        },
+        {
+          "titre": "Application mobile de mesure de la glycémie",
+          "technologies": [
+            "Java"
+          ],
+          "description": ""
+        },
+        {
+          "titre": "Jeu en C++",
+          "technologies": [
+            "C++"
+          ],
+          "description": ""
+        }
+      ],
+      "langues": [
+        {
+          "langue": "Arabe",
+          "niveau": "Langue maternelle"
+        },
+        {
+          "langue": "Français",
+          "niveau": "Niveau élevé"
+        },
+        {
+          "langue": "Anglais",
+          "niveau": "Niveau moyen"
+        }
+      ],
+      "certifications": [
+        "Certificat cours C : coursera",
+        "Microsoft Excel : Certification Microsoft Office Specialist (MOS) - Excel",
+        "Certificat d’organisation de IEEEXtreme 16.0",
+        "Certificat Maharat min Google : INJAZ Tunisie en partenariat avec Google Arabia",
+        "Certificat de participation Hult Prize"
+      ],
+      "centres_interet": [
+        "Sport",
+        "voyages solo",
+        "photographie"
+      ],
+      "liens": {
+        "linkedin": "https://www.linkedin.com/in/amal-jallouli-9073662a6/",
+        "github": "https://github.com/amal-jallouli"
+      },
+      "cv_filename": "CV    .pdf",
+      "extraction_method": "llm_mistral",
+      "temps_reponse_sec": 4.44,
+      "succes": true,
+      "erreur": null,
+      "methode_utilisee": "mistral",
+      "tentatives": [
+        {
+          "methode": "mistral",
+          "succes": true
+        }
+      ]
+    },
+    {
+      "informations_personnelles": {
+        "nom": "Ahlem Tounsi",
+        "email": "ahlemtounsi@outlook.com",
+        "telephone": "+216 58 495 498",
+        "ville": "Sfax"
+      },
+      "formation": [
+        {
+          "ecole": "Faculté des sciences de Sfax",
+          "diplome": "Licence en sciences de l’informatique (spécialité Génie Logiciel)",
+          "domaine": "Informatique",
+          "date_debut": "2023",
+          "date_fin": "2026"
+        },
+        {
+          "ecole": "Faculté des sciences de Sfax",
+          "diplome": "Cycle préparatoire intégré en sciences de l’informatique",
+          "domaine": "Informatique",
+          "date_debut": "2023",
+          "date_fin": "2025"
+        },
+        {
+          "ecole": "Lycée Abou El Kacem Chebbi",
+          "diplome": "Bac sciences expérimentale",
+          "domaine": "Sciences",
+          "date_debut": "2022",
+          "date_fin": "2023"
+        }
+      ],
+      "experiences": [
+        {
+          "entreprise": "IEEE",
+          "poste": "Membre et social media writer",
+          "date_debut": "2021",
+          "date_fin": "2023",
+          "description": "Participation active et gestion des réseaux sociaux."
+        },
+        {
+          "entreprise": "IEEEXTREME",
+          "poste": "Participante (15.0)",
+          "date_debut": "2021",
+          "date_fin": "2021",
+          "description": "Participation à l'événement IEEEXTREME 15.0."
+        },
+        {
+          "entreprise": "IEEEXTREME",
+          "poste": "Organisateur et participante (16.0)",
+          "date_debut": "2022",
+          "date_fin": "2022",
+          "description": "Organisation et participation à l'événement IEEEXTREME 16.0."
+        },
+        {
+          "entreprise": "GSDC",
+          "poste": "Membre",
+          "date_debut": "2021",
+          "date_fin": "2023",
+          "description": "Membre actif de GSDC."
+        },
+        {
+          "entreprise": "Securinets",
+          "poste": "Membre",
+          "date_debut": "2023",
+          "date_fin": null,
+          "description": "Membre actif de Securinets."
+        },
+        {
+          "entreprise": "IT",
+          "poste": "Membre",
+          "date_debut": "2020",
+          "date_fin": "2022",
+          "description": "Membre actif de IT."
+        },
+        {
+          "entreprise": "Hult Prize",
+          "poste": "Participante",
+          "date_debut": "2020",
+          "date_fin": "2021",
+          "description": "Participation à l'événement Hult Prize."
+        }
+      ],
+      "competences_techniques": [
+        "Python",
+        "C",
+        "C++",
+        "Java",
+        "Angular",
+        "SpringBoot",
+        "OpenCV",
+        "Keras",
+        "TensorFlow",
+        "Android Studio"
+      ],
+      "domaines_competence": [
+        "Génie Logiciel",
+        "Deep Learning",
+        "Traitement d'images",
+        "Développement d'applications mobiles",
+        "Développement web",
+        "Gestion de projets"
+      ],
+      "projets": [
+        {
+          "titre": "Plateforme de e-learning",
+          "technologies": [
+            "SpringBoot",
+            "Angular"
+          ],
+          "description": "Une plateforme de e-learning pour les étudiants et les professeurs."
+        },
+        {
+          "titre": "Détection des émotions humaines",
+          "technologies": [
+            "OpenCV",
+            "Keras",
+            "Python",
+            "TensorFlow"
+          ],
+          "description": "Projet de détection des émotions humaines à partir d'images en Deep Learning."
+        },
+        {
+          "titre": "Application Mobile - Mesure de glycémie",
+          "technologies": [
+            "Java",
+            "Android Studio"
+          ],
+          "description": "Application mobile réalisée par Android Studio permettant le calcul de la valeur de la glycémie."
+        }
+      ],
+      "langues": [
+        {
+          "langue": "Arabe",
+          "niveau": "avancé"
+        },
+        {
+          "langue": "Anglais",
+          "niveau": "avancé"
+        },
+        {
+          "langue": "Français",
+          "niveau": "avancé"
+        }
+      ],
+      "cv_filename": "CV Ahlem .pdf",
+      "extraction_method": "llm_mistral",
+      "temps_reponse_sec": 5.57,
+      "succes": true,
+      "erreur": null,
+      "methode_utilisee": "mistral",
+      "tentatives": [
+        {
+          "methode": "mistral",
+          "succes": true
+        }
+      ]
+    },
+    {
+      "informations_personnelles": {
+        "nom": "Mariem Boussarsar",
+        "email": "mariemboussarsar00@gmail.com",
+        "telephone": "+216 59 478 565",
+        "ville": "Route de Tunis Km 8.5"
+      },
+      "formation": [
+        {
+          "ecole": "Faculté des Sciences de Sfax",
+          "diplome": "Licence en Sciences de l’Informatique",
+          "domaine": "Informatique, spécialisation en ingénierie logicielle",
+          "date_debut": "2022",
+          "date_fin": "2025"
+        },
+        {
+          "ecole": "Institut International de Technologie IIT",
+          "diplome": "Cycle d’ingénierie en Informatique",
+          "domaine": "Informatique",
+          "date_debut": "2026",
+          "date_fin": "Présent"
+        },
+        {
+          "ecole": "BAC",
+          "diplome": "BAC MATHÉMATIQUES",
+          "domaine": "",
+          "date_debut": "2021",
+          "date_fin": "2022"
+        }
+      ],
+      "experiences": [
+        {
+          "entreprise": "Stage de Projet fin d’études",
+          "poste": "Développement d’un modèle prédictif basé sur le machine learning",
+          "date_debut": "",
+          "date_fin": "",
+          "description": "Développement d’un modèle prédictif basé sur le machine learning permettant d’anticiper la demande en transport urbain afin d’optimiser la planification des ressources."
+        },
+        {
+          "entreprise": "Hackathon Olivia Hack",
+          "poste": "Lauréate du premier prix",
+          "date_debut": "",
+          "date_fin": "",
+          "description": ""
+        },
+        {
+          "entreprise": "DX Hackathon",
+          "poste": "Participante",
+          "date_debut": "",
+          "date_fin": "",
+          "description": ""
+        },
+        {
+          "entreprise": "Google Developer Student FSS Club",
+          "poste": "Social Media Writer",
+          "date_debut": "",
+          "date_fin": "",
+          "description": ""
+        },
+        {
+          "entreprise": "IEEREME 16.0",
+          "poste": "Organisatrice",
+          "date_debut": "",
+          "date_fin": "",
+          "description": ""
+        },
+        {
+          "entreprise": "Hult Prize 2020",
+          "poste": "Participante",
+          "date_debut": "",
+          "date_fin": "",
+          "description": ""
+        },
+        {
+          "entreprise": "Aiesec Thyna",
+          "poste": "Membre",
+          "date_debut": "",
+          "date_fin": "",
+          "description": ""
+        }
+      ],
+      "competences_techniques": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "PHP",
+        "C",
+        "C++",
+        "MySQL",
+        "PL/SQL",
+        "MongoDB",
+        "Git",
+        "GitHub",
+        "Git Bash",
+        "Docker",
+        "Maven",
+        "Django",
+        "Pandas",
+        "Scikit-learn",
+        "Matplotlib",
+        "TensorFlow",
+        "UML",
+        "XML",
+        "HTML",
+        "Jupyter",
+        "FastAPI",
+        "OpenCV",
+        "CNN",
+        "SFML",
+        "Algorithmes d’intelligence artificielle",
+        "Firebase"
+      ],
+      "domaines_competence": [
+        "Résolution de problèmes",
+        "Planification d'événements",
+        "Communication efficace",
+        "Modélisation",
+        "Langages de balisage"
+      ],
+      "projets": [
+        {
+          "titre": "Système de recommandation intelligent pour e-learning",
+          "technologies": [
+            "Python",
+            "TensorFlow",
+            "Scikit-learn",
+            "Flask"
+          ],
+          "description": ""
+        },
+        {
+          "titre": "Assistant virtuel intelligent pour les services universitaires",
+          "technologies": [
+            "Python",
+            "NLP",
+            "Transformers",
+            "FastAPI"
+          ],
+          "description": ""
+        },
+        {
+          "titre": "Système de détection de fatigue du conducteur en temps réel",
+          "technologies": [
+            "Python",
+            "OpenCV",
+            "CNN",
+            "TensorFlow"
+          ],
+          "description": ""
+        },
+        {
+          "titre": "Application mobile de suivi de santé avec analyse prédictive",
+          "technologies": [
+            "Java / Kotlin",
+            "Firebase",
+            "Python"
+          ],
+          "description": ""
+        },
+        {
+          "titre": "Jeu intelligent avec IA adaptative",
+          "technologies": [
+            "C++",
+            "SFML",
+            "Algorithmes d’intelligence artificielle"
+          ],
+          "description": ""
+        }
+      ],
+      "langues": [
+        {
+          "langue": "Anglais",
+          "niveau": ""
+        },
+        {
+          "langue": "Français",
+          "niveau": ""
+        },
+        {
+          "langue": "Arabe",
+          "niveau": ""
+        }
+      ],
+      "certifications": [
+        "Data cleaning and preprocessing with pandas : Datascience360, 2024",
+        "Convolutional neural Networks with TensorFLow in Python",
+        "Deep Learning with TensorFlow",
+        "Machine Learning in Python",
+        "Introduction to Jupyter",
+        "The machine Learning Algorithm A-Z",
+        "Microsoft Excel : Certification Microsoft Office Specialist (MOS) - excel",
+        "Certificat de cours C : Coursera, 2021"
+      ],
+      "centres_interet": [
+        "Sports",
+        "Voyages",
+        "Photographie"
+      ],
+      "cv_filename": "cv mariem.pdf",
+      "extraction_method": "llm_mistral",
+      "temps_reponse_sec": 7.08,
+      "succes": true,
+      "erreur": null,
+      "methode_utilisee": "mistral",
+      "tentatives": [
+        {
+          "methode": "mistral",
+          "succes": true
+        }
+      ]
+    },
+    {
+      "informations_personnelles": {
+        "nom": "MOHAMED BOUZID",
+        "email": "bouzidmed33@gmail.com",
+        "telephone": "+216 23 636 700",
+        "ville": "Sfax, Tunisia"
+      },
+      "formation": [
+        {
+          "ecole": "International Institute of Technology (IIT)",
+          "diplome": "Licence in Software Engineering (GLSI)",
+          "domaine": "Software Engineering",
+          "date_debut": "2023-09",
+          "date_fin": "Present"
+        },
+        {
+          "ecole": "Lycée Majida Boulila",
+          "diplome": "Baccalaureate in Computer Science",
+          "domaine": "Computer Science",
+          "date_debut": null,
+          "date_fin": "2023-06"
+        }
+      ],
+      "experiences": [
+        {
+          "entreprise": "Mat IT",
+          "poste": "Web Development Intern",
+          "date_debut": "2025-06",
+          "date_fin": "2025-07",
+          "ville": "Tunis",
+          "description": "Engineered a travel agency platform using Spring Boot and Thymeleaf (MVC Architecture). Designed relational databases with MySQL and managed version control via GitHub."
+        },
+        {
+          "entreprise": "Clean Squad / Keara Designs",
+          "poste": "E-Commerce Founder & Developer",
+          "date_debut": "2023-09",
+          "date_fin": "Present",
+          "ville": "Remote",
+          "description": "Developed multiple Shopify stores with custom Liquid code, optimizing UX/UI. Managed end-to-end logistics and executed digital marketing campaigns to drive sales."
+        },
+        {
+          "entreprise": "Club Automobile de Sfax",
+          "poste": "Community Manager",
+          "date_debut": "2024-04",
+          "date_fin": "Present",
+          "ville": "Sfax",
+          "description": "Managed digital content strategy (photos/videos) to increase community engagement."
+        }
+      ],
+      "competences_techniques": [
+        "Java",
+        "Python",
+        "C#",
+        "PHP",
+        "JavaScript",
+        "SQL",
+        "Spring Boot",
+        "Thymeleaf",
+        "Flutter",
+        "Shopify Liquid",
+        "Machine Learning",
+        "Big Data",
+        "MySQL",
+        "Docker",
+        "Git"
+      ],
+      "domaines_competence": [
+        "E-commerce",
+        "Software Development",
+        "Web Development",
+        "Mobile Development",
+        "Data Analysis",
+        "Digital Marketing",
+        "UI/UX Optimization"
+      ],
+      "projets": [
+        {
+          "titre": "Mobile App for E-Commerce",
+          "technologies": [
+            "Flutter",
+            "Shopify Storefront API",
+            "Android"
+          ],
+          "description": "Developing an Android/Flutter app integrating with Shopify Storefront API to sync inventory. Focus on scalable architecture, secure API consumption, and real-time data updates."
+        },
+        {
+          "titre": "AI Data Analysis",
+          "technologies": [
+            "Python",
+            "Machine Learning"
+          ],
+          "description": "Analyzed datasets using Python and ML libraries to predict trends and visualize patterns."
+        },
+        {
+          "titre": ".NET Desktop Application",
+          "technologies": [
+            ".NET",
+            "C#"
+          ],
+          "description": "Developed a management application using .NET with complex business logic."
+        }
+      ],
+      "langues": [
+        {
+          "langue": "Arabe",
+          "niveau": "Native"
+        },
+        {
+          "langue": "Français",
+          "niveau": "Professional"
+        },
+        {
+          "langue": "Anglais",
+          "niveau": "Technical"
+        }
+      ],
+      "cv_filename": "cv med bouzid (1).pdf",
+      "extraction_method": "llm_mistral",
+      "temps_reponse_sec": 4.26,
       "succes": true,
       "erreur": null,
       "methode_utilisee": "mistral",
@@ -296,7 +953,7 @@
       "langues": [],
       "cv_filename": "CV Razgui chaima .pdf",
       "extraction_method": "llm_mistral",
-      "temps_reponse_sec": 0.89,
+      "temps_reponse_sec": 0.64,
       "succes": true,
       "erreur": null,
       "methode_utilisee": "mistral",
@@ -317,7 +974,7 @@
       "formation": [
         {
           "ecole": "Institut International de Technologie (IIT)",
-          "diplome": "Licence",
+          "diplome": "Licence en Génie Logiciel et Systèmes d’Information",
           "domaine": "Génie Logiciel et Systèmes d’Information",
           "date_debut": "2023",
           "date_fin": "2026 (en cours)"
@@ -336,35 +993,35 @@
           "poste": "Développement d’une application web en React pour la gestion des clubs étudiants",
           "date_debut": "Août 2025",
           "date_fin": "Août 2025",
-          "description": ""
+          "description": "Stage de développement d'une application web en React."
         },
         {
           "entreprise": "Tunisie Télécom",
           "poste": "Stage d’été – Découverte des réseaux mobiles",
           "date_debut": "Juillet 2025",
           "date_fin": "Juillet 2025",
-          "description": ""
+          "description": "Stage d'été axé sur la découverte des réseaux mobiles."
         },
         {
           "entreprise": "Saker Othman",
           "poste": "UI/UX Design avec Figma – Conception d’une application Import/Export",
           "date_debut": "Août 2024",
           "date_fin": "Août 2024",
-          "description": ""
+          "description": "Conception d'une application avec Figma et UI/UX Design."
         },
         {
           "entreprise": "IEEE WIE IIT",
           "poste": "Média Manager",
           "date_debut": "2025",
           "date_fin": "2025",
-          "description": "Gestion des réseaux sociaux et création de contenus visuels. Coordination des équipes pour les événements et campagnes."
+          "description": "Gestion des réseaux sociaux, création de contenus visuels et coordination des équipes pour les événements et campagnes."
         },
         {
           "entreprise": "IEEE WIE IIT",
           "poste": "Secrétaire",
           "date_debut": "2024",
           "date_fin": "2024",
-          "description": "Organisation des réunions, rédaction des comptes rendus. Soutien à la communication interne et externe."
+          "description": "Organisation des réunions, rédaction des comptes rendus et soutien à la communication interne et externe."
         },
         {
           "entreprise": "AIESEC Tunisie",
@@ -385,11 +1042,19 @@
         "SQL",
         "Trello",
         "Photoshop",
-        "Figma"
-      ],
-      "domaines_competence": [
+        "Figma",
         "UI/UX Design",
         "Développement full-stack"
+      ],
+      "domaines_competence": [
+        "Esprit d’équipe",
+        "Leadership",
+        "Organisation",
+        "Gestion du temps",
+        "Adaptabilité",
+        "Autonomie",
+        "Communication claire",
+        "Créativité"
       ],
       "projets": [],
       "langues": [
@@ -408,7 +1073,193 @@
       ],
       "cv_filename": "cv samar saadaoui (1).pdf",
       "extraction_method": "llm_mistral",
-      "temps_reponse_sec": 3.94,
+      "temps_reponse_sec": 4.59,
+      "succes": true,
+      "erreur": null,
+      "methode_utilisee": "mistral",
+      "tentatives": [
+        {
+          "methode": "mistral",
+          "succes": true
+        }
+      ]
+    },
+    {
+      "informations_personnelles": {
+        "nom": "SIWAR BOUAZIZI",
+        "email": "siwarbouazizi97@gmail.com",
+        "telephone": "+216 28 730 509",
+        "ville": "Sfax, Tunisie"
+      },
+      "formation": [
+        {
+          "ecole": "Lycée victor hugo de Sidi Bouzid",
+          "diplome": "Baccalauréat en Mathématiques",
+          "domaine": "",
+          "date_debut": "2020",
+          "date_fin": "2021"
+        },
+        {
+          "ecole": "Institut Supérieur d'Informatique et de Multimédia de Sfax",
+          "diplome": "Licence en Big Data et analyse de données",
+          "domaine": "Big Data et analyse de données",
+          "date_debut": "2022",
+          "date_fin": "2026"
+        }
+      ],
+      "experiences": [
+        {
+          "entreprise": "Développement d’une application web – Designet Web Agency",
+          "poste": "Stagiaire en informatique",
+          "date_debut": "Juin 2025",
+          "date_fin": "Octobre 2025",
+          "description": "Conception et modélisation de la base de données sous MySQL (relations, migrations et modèles). Création d’interfaces utilisateurs modernes avec Blade, HTML, CSS et Bootstrap. Mise en place d’un système d’authentification sécurisé (inscription, connexion, sessions). Implémentation du CRUD pour la gestion des utilisateurs, contacts et catégories. Utilisation des routes web et API, contrôleurs, middlewares et validation des formulaires."
+        }
+      ],
+      "competences_techniques": [
+        "Python",
+        "MYSQL",
+        "Bootstrap",
+        "Laravel",
+        "API & intégrations",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "domaines_competence": [
+        "Communication",
+        "Apprentissage rapide"
+      ],
+      "projets": [],
+      "langues": [
+        "Arabe (Langue maternelle)",
+        "Francais (Courant)",
+        "English (Opérationnel)"
+      ],
+      "cv_filename": "CV Siwar Bouazizi (2).pdf",
+      "extraction_method": "llm_mistral",
+      "temps_reponse_sec": 2.74,
+      "succes": true,
+      "erreur": null,
+      "methode_utilisee": "mistral",
+      "tentatives": [
+        {
+          "methode": "mistral",
+          "succes": true
+        }
+      ]
+    },
+    {
+      "informations_personnelles": {
+        "nom": "Amal Abdelkafi",
+        "email": "amalabdelkafi2004@gmail.com",
+        "telephone": "+216 44 227 138",
+        "ville": "Sfax"
+      },
+      "formation": [
+        {
+          "ecole": "Université multimédia de Sfax",
+          "diplome": "Licence en Informatique",
+          "domaine": "Big Data",
+          "date_debut": null,
+          "date_fin": null
+        }
+      ],
+      "experiences": [
+        {
+          "entreprise": "GOMYCODE",
+          "poste": "Bootcamp en développement web",
+          "date_debut": "Août 2024",
+          "date_fin": "Août 2024",
+          "description": ""
+        }
+      ],
+      "competences_techniques": [
+        "java",
+        "c",
+        "python",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "php",
+        "XML",
+        "MySQL",
+        "Hadoop",
+        "Spark",
+        "Hive"
+      ],
+      "domaines_competence": [
+        "Développement Web",
+        "Développement Mobile",
+        "Big Data & Analyse de Données",
+        "Intelligence Artificielle"
+      ],
+      "projets": [
+        {
+          "titre": "clickRDV",
+          "technologies": [
+            "Java",
+            "XML"
+          ],
+          "description": "Création d’une application mobile dédiée à la gestion des rendez-vous médicaux"
+        },
+        {
+          "titre": "SITE E-COMMERCE",
+          "technologies": [
+            "HTML",
+            "CSS",
+            "JS"
+          ],
+          "description": "Création d’un site e-commerce pour la vente des vêtements"
+        },
+        {
+          "titre": "ESPOIR TRAVEL",
+          "technologies": [
+            "HTML",
+            "CSS",
+            "JS"
+          ],
+          "description": "Création d’un site d’une agence de voyage"
+        },
+        {
+          "titre": "FITLIFE GYM",
+          "technologies": [
+            "HTML",
+            "CSS",
+            "JS"
+          ],
+          "description": "Création d’un site salle de sport"
+        },
+        {
+          "titre": "Prédiction des Ventes (IA - POS)",
+          "technologies": [
+            "Python",
+            "Intelligence Artificielle"
+          ],
+          "description": "Système de Prédiction de Ventes basé sur l'Intelligence Artificielle pour une entreprise de Point de Vente (POS)"
+        }
+      ],
+      "langues": [
+        {
+          "langue": "arabe",
+          "niveau": "Natif"
+        },
+        {
+          "langue": "Français",
+          "niveau": "Intermédiaire"
+        },
+        {
+          "langue": "Anglais",
+          "niveau": "Intermédiaire"
+        },
+        {
+          "langue": "Espagnol",
+          "niveau": "Intermédiaire"
+        }
+      ],
+      "cv_filename": "cvamal.pdf",
+      "extraction_method": "llm_mistral",
+      "temps_reponse_sec": 3.93,
       "succes": true,
       "erreur": null,
       "methode_utilisee": "mistral",
@@ -434,7 +1285,7 @@
       "langues": [],
       "cv_filename": "CV_Ahmed_Snoussi.pdf",
       "extraction_method": "llm_mistral",
-      "temps_reponse_sec": 0.62,
+      "temps_reponse_sec": 0.74,
       "succes": true,
       "erreur": null,
       "methode_utilisee": "mistral",
@@ -520,7 +1371,7 @@
       "langues": [
         {
           "langue": "Arabe",
-          "niveau": "Langue maternelle"
+          "niveau": "Maternelle"
         },
         {
           "langue": "Français",
@@ -532,12 +1383,105 @@
         },
         {
           "langue": "Allemand",
-          "niveau": "Courant"
+          "niveau": "Non spécifié"
         }
       ],
       "cv_filename": "CV_Emna_Abdmouleh_Stage_PFE_2025 (3) (1) (1).pdf",
       "extraction_method": "llm_mistral",
-      "temps_reponse_sec": 3.57,
+      "temps_reponse_sec": 3.91,
+      "succes": true,
+      "erreur": null,
+      "methode_utilisee": "mistral",
+      "tentatives": [
+        {
+          "methode": "mistral",
+          "succes": true
+        }
+      ]
+    },
+    {
+      "informations_personnelles": {
+        "nom": "Amal Jallouli",
+        "email": "jallouliamal754@gmail.com",
+        "telephone": "+216 52 776 444",
+        "ville": "Sfax, Tunisie"
+      },
+      "formation": [
+        {
+          "ecole": "Licence en sciences de l'informatique",
+          "diplome": "Licence",
+          "domaine": "Informatique, spécialité génie logiciel",
+          "date_debut": null,
+          "date_fin": null
+        }
+      ],
+      "experiences": [],
+      "competences_techniques": [
+        "Machine Learning",
+        "Analyse de données",
+        "Développement logiciel"
+      ],
+      "domaines_competence": [
+        "Machine Learning",
+        "Analyse de données",
+        "Génie logiciel"
+      ],
+      "projets": [],
+      "langues": [],
+      "cv_filename": "Lettre de motivation     .pdf",
+      "extraction_method": "llm_mistral",
+      "temps_reponse_sec": 1.57,
+      "succes": true,
+      "erreur": null,
+      "methode_utilisee": "mistral",
+      "tentatives": [
+        {
+          "methode": "mistral",
+          "succes": true
+        }
+      ]
+    },
+    {
+      "informations_personnelles": {
+        "nom": "Mohamed Bouzid",
+        "email": "bouzidmed38@gmail.com",
+        "telephone": "+21623636700",
+        "ville": "Tunis"
+      },
+      "formation": [
+        {
+          "ecole": "North American Private University",
+          "diplome": "Licence en informatique",
+          "domaine": "Informatique",
+          "date_debut": null,
+          "date_fin": null
+        }
+      ],
+      "experiences": [],
+      "competences_techniques": [
+        "Apprentissage automatique",
+        "Développement web"
+      ],
+      "domaines_competence": [
+        "Intelligence artificielle appliquée à l'automobile",
+        "Reconnaissance de pièces automobiles",
+        "Assistance à la réparation",
+        "Automatisation des diagnostics visuels"
+      ],
+      "projets": [
+        {
+          "titre": "Plateforme d'IA pour la reconnaissance de pièces automobiles et l'assistance à la réparation",
+          "technologies": [
+            "Apprentissage automatique",
+            "Développement web"
+          ],
+          "description": "Conception d'une plateforme d'IA dédiée à la reconnaissance de pièces automobiles et à l'assistance à la réparation."
+        }
+      ],
+      "langues": [],
+      "cv_filename": "lettre de motivation mb.pdf",
+      "extraction_method": "llm_mistral",
+      "temps_reponse_sec": 2.24,
       "succes": true,
       "erreur": null,
       "methode_utilisee": "mistral",
@@ -559,14 +1503,14 @@
         {
           "ecole": "Institut supérieur d'informatique et de multimédia de Sfax",
           "diplome": "Licence en informatique",
-          "domaine": "Big Data et Analyse de Données",
+          "domaine": "Big Data et analyse de données",
           "date_debut": "2023",
-          "date_fin": null
+          "date_fin": "Present"
         },
         {
-          "ecole": "Abou Kacem Chebbi, Sfax",
+          "ecole": "Abou Kacem Chebbi",
           "diplome": "Bac Scientifique",
-          "domaine": null,
+          "domaine": "",
           "date_debut": "2019",
           "date_fin": "2023"
         }
@@ -616,7 +1560,7 @@
             "XML",
             "Android Studio"
           ],
-          "description": "Projet académique : Développement d'une application mobile en Java et XML sous Android Studio pour la gestion du budget."
+          "description": "Développement d'une application mobile en Java et XML sous Android Studio dans le cadre d’un projet universitaire."
         },
         {
           "titre": "Site de films et séries",
@@ -625,13 +1569,13 @@
             "CSS",
             "JavaScript"
           ],
-          "description": "Projet académique : Création d'un site web pour consulter des films et séries."
+          "description": "Création d’un site web pour consulter des films et séries."
         }
       ],
       "langues": [
         {
           "langue": "Arabe",
-          "niveau": null
+          "niveau": ""
         },
         {
           "langue": "Anglais",
@@ -644,7 +1588,109 @@
       ],
       "cv_filename": "MonCv.pdf",
       "extraction_method": "llm_mistral",
-      "temps_reponse_sec": 3.14,
+      "temps_reponse_sec": 3.32,
+      "succes": true,
+      "erreur": null,
+      "methode_utilisee": "mistral",
+      "tentatives": [
+        {
+          "methode": "mistral",
+          "succes": true
+        }
+      ]
+    },
+    {
+      "informations_personnelles": {
+        "nom": "Rihem MHIRI",
+        "email": "rihemmhiri5@gmail.com",
+        "telephone": "95391597",
+        "ville": "sfax-tunis"
+      },
+      "formation": [
+        {
+          "ecole": "Institut Supérieur dʼInformatique et de Multimédia de Sfax (ISIMS)",
+          "diplome": "2ᵉ année - Big Data",
+          "domaine": "Big Data",
+          "date_debut": "2024",
+          "date_fin": "2025"
+        },
+        {
+          "ecole": "Institut Supérieur dʼInformatique et de Multimédia de Sfax (ISIMS)",
+          "diplome": "1ʳᵉ année - Licence Tronc Commun",
+          "domaine": "Informatique",
+          "date_debut": "2023",
+          "date_fin": "2024"
+        },
+        {
+          "ecole": "Lycée Ibn Rachik",
+          "diplome": "Baccalauréat Scientifique",
+          "domaine": "Sciences",
+          "date_debut": "2022",
+          "date_fin": "2023"
+        }
+      ],
+      "experiences": [],
+      "competences_techniques": [
+        "Java",
+        "JavaScript",
+        "SQL",
+        "Python",
+        "PHP",
+        "C++",
+        "XML",
+        "HTML/CSS",
+        "React",
+        "Node.js",
+        "Oracle Database",
+        "MySQL",
+        "Visual Studio Code",
+        "Enterprise Architect",
+        "Eclipse",
+        "Android Studio",
+        "Dev-C++",
+        "Adobe Premiere Pro"
+      ],
+      "domaines_competence": [
+        "Développement web fullstack",
+        "Analyse de données",
+        "Robotique",
+        "Gestion de projet",
+        "Multimédia"
+      ],
+      "projets": [
+        {
+          "titre": "Site web de films",
+          "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP"
+          ],
+          "description": "Plateforme permettant de consulter et rechercher des films."
+        },
+        {
+          "titre": "Vidéo de présentation de Sfax",
+          "technologies": [
+            "Adobe Premiere Pro"
+          ],
+          "description": "Création d'une vidéo promotionnelle."
+        },
+        {
+          "titre": "Application mobile de calculatrice",
+          "technologies": [
+            "Android"
+          ],
+          "description": "Conception et développement d'une application mobile de calculatrice sous Android."
+        }
+      ],
+      "langues": [
+        "Arabe (Langue maternelle)",
+        "Français",
+        "Anglais"
+      ],
+      "cv_filename": "Rihem-MHIRI-CV.pdf.pdf",
+      "extraction_method": "llm_mistral",
+      "temps_reponse_sec": 3.53,
       "succes": true,
       "erreur": null,
       "methode_utilisee": "mistral",

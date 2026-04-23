@@ -22,7 +22,6 @@ def nettoyer_chaine(s) -> str:
 
 
 def normaliser_annee(valeur) -> int | None:
-    """Convertit "2024", "Présent", None → int ou None."""
     if not valeur:
         return None
     s = str(valeur).strip().lower()
@@ -63,6 +62,8 @@ def nettoyer_infos_personnelles(data: dict) -> dict:
 def nettoyer_formation(data: dict) -> list:
     result = []
     for f in data.get("formation", []):
+        if isinstance(f, str):
+            continue
         ecole   = nettoyer_chaine(f.get("ecole", ""))
         diplome = nettoyer_chaine(f.get("diplome", ""))
         if not ecole and not diplome:
@@ -71,8 +72,8 @@ def nettoyer_formation(data: dict) -> list:
             "ecole":      ecole,
             "diplome":    diplome,
             "domaine":    nettoyer_chaine(f.get("domaine", "")),
-            "date_debut": normaliser_annee(f.get("date_debut")),  # int
-            "date_fin":   normaliser_annee(f.get("date_fin")),    # int ou null
+            "date_debut": normaliser_annee(f.get("date_debut")),
+            "date_fin":   normaliser_annee(f.get("date_fin")),
         })
     return result
 
@@ -80,6 +81,8 @@ def nettoyer_formation(data: dict) -> list:
 def nettoyer_experiences(data: dict) -> list:
     result = []
     for e in data.get("experiences", []):
+        if isinstance(e, str):
+            continue
         entreprise = nettoyer_chaine(e.get("entreprise", ""))
         poste      = nettoyer_chaine(e.get("poste", ""))
         if not entreprise and not poste:
@@ -97,6 +100,8 @@ def nettoyer_experiences(data: dict) -> list:
 def nettoyer_projets(data: dict) -> list:
     result = []
     for p in data.get("projets", []):
+        if isinstance(p, str):
+            continue
         titre = nettoyer_chaine(p.get("titre", ""))
         if not titre:
             continue
@@ -111,20 +116,46 @@ def nettoyer_projets(data: dict) -> list:
 def nettoyer_certificats(data: dict) -> list:
     result = []
     for c in data.get("certificats", []):
-        titre = nettoyer_chaine(c.get("titre", ""))
-        if not titre:
+        # Si c'est une string directement
+        if isinstance(c, str):
+            titre = nettoyer_chaine(c)
+            if titre:
+                result.append({"titre": titre, "organisme": "", "date": None})
             continue
-        result.append({
-            "titre":     titre,
-            "organisme": nettoyer_chaine(c.get("organisme", "")),
-            "date":      normaliser_annee(c.get("date")),
-        })
+        if isinstance(c, dict):
+            titre = nettoyer_chaine(c.get("titre", ""))
+            if not titre:
+                continue
+            result.append({
+                "titre":     titre,
+                "organisme": nettoyer_chaine(c.get("organisme", "")),
+                "date":      normaliser_annee(c.get("date")),
+            })
     return result
+
+
+def nettoyer_langues(data: dict) -> list:
+    result = []
+    for l in data.get("langues", []):
+        # Si c'est une string directement
+        if isinstance(l, str):
+            val = nettoyer_chaine(l)
+            if val:
+                result.append(val)
+            continue
+        # Si c'est un objet {"langue": "Arabe", "niveau": "avancé"}
+        if isinstance(l, dict):
+            val = nettoyer_chaine(l.get("langue", "") or l.get("nom", ""))
+            if val:
+                result.append(val)
+    return dedupliquer(result)
 
 
 def nettoyer_experiences_associatives(data: dict) -> list:
     result = []
     for e in data.get("experiences_associatives", []):
+        if isinstance(e, str):
+            continue
         titre = nettoyer_chaine(e.get("titre", ""))
         if not titre:
             continue
@@ -140,28 +171,21 @@ def nettoyer_experiences_associatives(data: dict) -> list:
 # =============================================================================
 
 def nettoyer_cv(data: dict) -> dict:
-    """Retourne un document propre prêt pour Elasticsearch."""
     infos = nettoyer_infos_personnelles(data)
     return {
         "cv_filename":               nettoyer_chaine(data.get("cv_filename", "")),
-
-        # Infos personnelles à plat (pour faciliter la recherche)
         "nom":                       infos["nom"],
         "email":                     infos["email"],
         "telephone":                 infos["telephone"],
         "ville":                     infos["ville"],
-
-        # Sections structurées
         "formation":                 nettoyer_formation(data),
         "experiences":               nettoyer_experiences(data),
         "competences_techniques":    dedupliquer(data.get("competences_techniques", [])),
         "domaines_competence":       dedupliquer(data.get("domaines_competence", [])),
         "projets":                   nettoyer_projets(data),
-        "langues":                   dedupliquer(data.get("langues", [])),
+        "langues":                   nettoyer_langues(data),
         "certificats":               nettoyer_certificats(data),
         "experiences_associatives":  nettoyer_experiences_associatives(data),
-
-        # Métadonnées
         "extraction_method":         data.get("extraction_method", ""),
         "methode_utilisee":          data.get("methode_utilisee", ""),
         "date_indexation":           datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -193,7 +217,6 @@ def nettoyer_dossier(dossier_entree: str, dossier_sortie: str) -> list:
             with open(chemin, "r", encoding="utf-8") as f:
                 data = json.load(f)
 
-            # Ignorer les JSONs sans données CV
             if not data.get("succes", False):
                 print(f"  ⚠ ignoré (succes=false) : {nom}")
                 continue

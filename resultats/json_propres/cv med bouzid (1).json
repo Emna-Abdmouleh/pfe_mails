@@ -1,0 +1,101 @@
+{
+  "cv_filename": "cv med bouzid (1).pdf",
+  "nom": "Mohamed Bouzid",
+  "email": "bouzidmed33@gmail.com",
+  "telephone": "+216 23 636 700",
+  "ville": "Sfax, Tunisia",
+  "formation": [
+    {
+      "ecole": "International Institute of Technology (IIT)",
+      "diplome": "Licence in Software Engineering (GLSI)",
+      "domaine": "Software Engineering",
+      "date_debut": 2023,
+      "date_fin": null
+    },
+    {
+      "ecole": "Lycée Majida Boulila",
+      "diplome": "Baccalaureate in Computer Science",
+      "domaine": "Computer Science",
+      "date_debut": null,
+      "date_fin": 2023
+    }
+  ],
+  "experiences": [
+    {
+      "entreprise": "Mat IT",
+      "poste": "Web Development Intern",
+      "date_debut": 2025,
+      "date_fin": 2025,
+      "description": "Engineered a travel agency platform using Spring Boot and Thymeleaf (MVC Architecture). Designed relational databases with MySQL and managed version control via GitHub."
+    },
+    {
+      "entreprise": "Clean Squad / Keara Designs",
+      "poste": "E-Commerce Founder & Developer",
+      "date_debut": 2023,
+      "date_fin": null,
+      "description": "Developed multiple Shopify stores with custom Liquid code, optimizing UX/UI. Managed end-to-end logistics and executed digital marketing campaigns to drive sales."
+    }
+  ],
+  "competences_techniques": [
+    "Java",
+    "Python",
+    "C#",
+    "PHP",
+    "JavaScript",
+    "SQL",
+    "Spring Boot",
+    "Thymeleaf",
+    "Flutter",
+    "Shopify Liquid",
+    "Machine Learning",
+    "Big Data",
+    "MySQL",
+    "Docker",
+    "Git"
+  ],
+  "domaines_competence": [
+    "E-commerce",
+    "Software Development",
+    "Web Development",
+    "Mobile Development",
+    "Data Analysis",
+    "Cloud Technologies"
+  ],
+  "projets": [
+    {
+      "titre": "Mobile App for E-Commerce",
+      "technologies": [
+        "Flutter",
+        "Shopify Storefront API",
+        "Android"
+      ],
+      "description": "Developing an Android/Flutter app integrating with Shopify Storefront API to sync inventory. Focus on scalable architecture, secure API consumption, and real-time data updates."
+    },
+    {
+      "titre": "AI Data Analysis",
+      "technologies": [
+        "Python",
+        "Machine Learning"
+      ],
+      "description": "Analyzed datasets using Python and ML libraries to predict trends and visualize patterns."
+    },
+    {
+      "titre": ".NET Desktop Application",
+      "technologies": [
+        ".NET",
+        "C#"
+      ],
+      "description": "Developed a management application using .NET with complex business logic."
+    }
+  ],
+  "langues": [
+    "Arabe",
+    "Français",
+    "Anglais"
+  ],
+  "certificats": [],
+  "experiences_associatives": [],
+  "extraction_method": "llm_mistral",
+  "methode_utilisee": "mistral",
+  "date_indexation": "2026-04-10T20:52:40Z"
+}

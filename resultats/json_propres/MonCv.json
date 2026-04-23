@@ -8,12 +8,12 @@
     {
       "ecole": "Institut supérieur d'informatique et de multimédia de Sfax",
       "diplome": "Licence en informatique",
-      "domaine": "Big Data et Analyse de Données",
+      "domaine": "Big Data et analyse de données",
       "date_debut": 2023,
       "date_fin": null
     },
     {
-      "ecole": "Abou Kacem Chebbi, Sfax",
+      "ecole": "Abou Kacem Chebbi",
       "diplome": "Bac Scientifique",
       "domaine": "",
       "date_debut": 2019,
@@ -38,8 +38,8 @@
     "Node.js",
     "Express",
     "MongoDB",
-    "JWT",
-    "Android Studio"
+    "Android Studio",
+    "JWT"
   ],
   "domaines_competence": [
     "Réactivité",
@@ -56,7 +56,7 @@
         "MongoDB",
         "JWT"
       ],
-      "description": "Développement d’une plateforme web MERN pour la gestion des pièces automobiles avec authentification JWT, gestion des rôles, CRUD produits, réservation et filtres dynamiques."
+      "description": "Développement d'une plateforme web MERN pour la gestion des pièces automobiles avec authentification JWT, gestion des rôles, CRUD produits, réservation et filtres dynamiques."
     },
     {
       "titre": "Application mobile de gestion du budget",
@@ -65,7 +65,7 @@
         "XML",
         "Android Studio"
       ],
-      "description": "Projet académique : Développement d'une application mobile en Java et XML sous Android Studio pour la gestion du budget."
+      "description": "Projet académique : Développement d'une application mobile en Java et XML sous Android Studio."
     },
     {
       "titre": "Site de films et séries",
@@ -78,22 +78,13 @@
     }
   ],
   "langues": [
-    {
-      "langue": "Arabe",
-      "niveau": null
-    },
-    {
-      "langue": "Anglais",
-      "niveau": "B1"
-    },
-    {
-      "langue": "Français",
-      "niveau": "C1"
-    }
+    "Arabe",
+    "Anglais",
+    "Français"
   ],
   "certificats": [],
   "experiences_associatives": [],
   "extraction_method": "llm_mistral",
   "methode_utilisee": "mistral",
-  "date_indexation": "2026-04-04T12:10:16Z"
+  "date_indexation": "2026-04-10T20:52:40Z"
 }

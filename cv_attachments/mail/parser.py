@@ -89,11 +89,13 @@ def save_cv_attachments(msg, sujet: str) -> list:
 
         # Anti-écrasement
         if os.path.exists(filepath):
-            base, ext = os.path.splitext(filename)
-            counter = 1
-            while os.path.exists(filepath):
-                filepath = os.path.join(ATTACHMENTS_DIR, f"{base}_{counter}{ext}")
-                counter += 1
+            logger.info(f"  Déjà existant, ignoré : {filename}")
+            saved_files.append({
+                "filename": os.path.basename(filepath),
+                "filepath": filepath.replace("\\", "/"),
+                "type":     part.get_content_type() or "application/octet-stream",
+            })
+            continue
 
         try:
             with open(filepath, "wb") as f:

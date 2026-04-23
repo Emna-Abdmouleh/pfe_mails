@@ -1,0 +1,45 @@
+{
+  "cv_filename": "lettre de motivation mb.pdf",
+  "nom": "Mohamed Bouzid",
+  "email": "bouzidmed38@gmail.com",
+  "telephone": "+21623636700",
+  "ville": "Tunis",
+  "formation": [
+    {
+      "ecole": "North American Private University",
+      "diplome": "Licence en informatique",
+      "domaine": "Informatique",
+      "date_debut": null,
+      "date_fin": null
+    }
+  ],
+  "experiences": [],
+  "competences_techniques": [
+    "Apprentissage automatique",
+    "Développement web",
+    "Résolution de problèmes techniques complexes",
+    "Conception de plateformes d'IA"
+  ],
+  "domaines_competence": [
+    "Intelligence artificielle appliquée à l'automobile",
+    "Reconnaissance de pièces automobiles",
+    "Assistance à la réparation",
+    "Automatisation des diagnostics visuels"
+  ],
+  "projets": [
+    {
+      "titre": "Plateforme d'IA pour la reconnaissance de pièces automobiles",
+      "technologies": [
+        "Apprentissage automatique",
+        "Développement web"
+      ],
+      "description": "Conception d'une plateforme dédiée à la reconnaissance de pièces automobiles et à l'assistance à la réparation."
+    }
+  ],
+  "langues": [],
+  "certificats": [],
+  "experiences_associatives": [],
+  "extraction_method": "llm_mistral",
+  "methode_utilisee": "mistral",
+  "date_indexation": "2026-04-10T20:52:40Z"
+}

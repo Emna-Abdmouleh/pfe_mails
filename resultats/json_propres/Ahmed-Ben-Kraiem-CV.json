@@ -1,0 +1,65 @@
+{
+  "cv_filename": "Ahmed-Ben-Kraiem-CV.pdf",
+  "nom": "Ahmed Ben Kraiem",
+  "email": "ahmedbenkraiem456@gmail.com",
+  "telephone": "26 160 616",
+  "ville": "Sfax, Tunisia",
+  "formation": [
+    {
+      "ecole": "Higher Institute of Computer Science and Multimedia of Sfax",
+      "diplome": "Bachelor of Computer Science",
+      "domaine": "Computer Science",
+      "date_debut": 2023,
+      "date_fin": null
+    },
+    {
+      "ecole": "Mohamed Ali High School – Sfax",
+      "diplome": "High School Diploma",
+      "domaine": "Experimental Sciences",
+      "date_debut": 2019,
+      "date_fin": 2023
+    }
+  ],
+  "experiences": [],
+  "competences_techniques": [
+    "PHP",
+    "MYSQL",
+    "Hadoop/Spark",
+    "HTML/CSS/XML",
+    "PYTHON/C"
+  ],
+  "domaines_competence": [
+    "Leadership",
+    "Problem Solving",
+    "Web Development"
+  ],
+  "projets": [
+    {
+      "titre": "Rush Food — Simple Restaurant Management Mobile Application",
+      "technologies": [
+        "Java",
+        "XML",
+        "Android Studio"
+      ],
+      "description": "Designed and developed a basic Android application for restaurant management. Included user authentication, interactive menu browsing, food ordering, and order confirmation."
+    },
+    {
+      "titre": "Movie4U — Static Film Showcase Website",
+      "technologies": [
+        "HTML",
+        "CSS"
+      ],
+      "description": "Developed a static website to present selection of movies. Displayed movie posters, titles, genres, and descriptions in an organized format."
+    }
+  ],
+  "langues": [
+    "Arabic",
+    "English",
+    "French"
+  ],
+  "certificats": [],
+  "experiences_associatives": [],
+  "extraction_method": "llm_mistral",
+  "methode_utilisee": "mistral",
+  "date_indexation": "2026-04-10T20:52:40Z"
+}

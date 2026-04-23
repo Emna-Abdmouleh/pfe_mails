@@ -7,7 +7,7 @@
   "formation": [
     {
       "ecole": "Institut International de Technologie (IIT)",
-      "diplome": "Licence",
+      "diplome": "Licence en Génie Logiciel et Systèmes d’Information",
       "domaine": "Génie Logiciel et Systèmes d’Information",
       "date_debut": 2023,
       "date_fin": 2026
@@ -75,30 +75,25 @@
     "SQL",
     "Trello",
     "Photoshop",
-    "Figma"
-  ],
-  "domaines_competence": [
+    "Figma",
     "UI/UX Design",
     "Développement full-stack"
   ],
+  "domaines_competence": [
+    "Esprit d’équipe et leadership",
+    "Organisation et gestion du temps",
+    "Adaptabilité et autonomie",
+    "Communication claire et créativité"
+  ],
   "projets": [],
   "langues": [
-    {
-      "langue": "Arabe",
-      "niveau": "Langue maternelle"
-    },
-    {
-      "langue": "Français",
-      "niveau": "Bon niveau"
-    },
-    {
-      "langue": "Anglais",
-      "niveau": "Courant"
-    }
+    "Arabe",
+    "Français",
+    "Anglais"
   ],
   "certificats": [],
   "experiences_associatives": [],
   "extraction_method": "llm_mistral",
   "methode_utilisee": "mistral",
-  "date_indexation": "2026-04-04T12:10:16Z"
+  "date_indexation": "2026-04-10T20:52:40Z"
 }

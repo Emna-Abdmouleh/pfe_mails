@@ -1,0 +1,57 @@
+{
+  "cv_filename": "CV Siwar Bouazizi (2).pdf",
+  "nom": "SIWAR BOUAZIZI",
+  "email": "siwarbouazizi97@gmail.com",
+  "telephone": "+216 28 730 509",
+  "ville": "Safx, Tunisie",
+  "formation": [
+    {
+      "ecole": "Lycée victor hugo de Sidi Bouzid",
+      "diplome": "Baccalauréat en Mathématiques",
+      "domaine": "Mathématiques",
+      "date_debut": 2020,
+      "date_fin": 2021
+    },
+    {
+      "ecole": "Institut Supérieur d'Informatique et de Multimédia de Sfax",
+      "diplome": "Licence en Big Data et analyse de données",
+      "domaine": "Big Data et analyse de données",
+      "date_debut": 2022,
+      "date_fin": 2026
+    }
+  ],
+  "experiences": [
+    {
+      "entreprise": "Développement d’une application web – Designet Web Agency",
+      "poste": "Stagiaire en informatique",
+      "date_debut": 2025,
+      "date_fin": 2025,
+      "description": "Conception et modélisation de la base de données sous MySQL (relations, migrations et modèles). Création d’interfaces utilisateurs modernes avec Blade, HTML, CSS et Bootstrap. Mise en place d’un système d’authentification sécurisé (inscription, connexion, sessions). Implémentation du CRUD pour la gestion des utilisateurs, contacts et catégories. Utilisation des routes web et API, contrôleurs, middlewares et validation des formulaires."
+    }
+  ],
+  "competences_techniques": [
+    "Python",
+    "MYSQL",
+    "Bootstrap",
+    "Laravel",
+    "API & intégrations",
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "domaines_competence": [
+    "Communication",
+    "Apprentissage rapide"
+  ],
+  "projets": [],
+  "langues": [
+    "Arabe (Langue maternelle)",
+    "Francais (Courant)",
+    "English (Opérationnel)"
+  ],
+  "certificats": [],
+  "experiences_associatives": [],
+  "extraction_method": "llm_mistral",
+  "methode_utilisee": "mistral",
+  "date_indexation": "2026-04-10T20:52:40Z"
+}

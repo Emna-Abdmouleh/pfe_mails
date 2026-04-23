@@ -3,7 +3,7 @@
   "nom": "Amal Jallouli",
   "email": "jallouliamal754@gmail.com",
   "telephone": "+216 52 776 444",
-  "ville": "Sfax",
+  "ville": "Thyna",
   "formation": [
     {
       "ecole": "Faculté des Sciences de Sfax",
@@ -20,18 +20,18 @@
       "date_fin": 2024
     },
     {
-      "ecole": "Lycée Abou el Kacem Chebbi",
-      "diplome": "Baccalauréat en sciences expérimentales",
-      "domaine": "Sciences expérimentales",
-      "date_debut": 2019,
-      "date_fin": 2020
-    },
-    {
       "ecole": "Institut International de Technologie (IIT)",
       "diplome": "Cycle d’ingénierie en informatique",
       "domaine": "Informatique",
       "date_debut": 2024,
       "date_fin": null
+    },
+    {
+      "ecole": "Lycée Abou el Kacem Chebbi",
+      "diplome": "Baccalauréat en sciences expérimentales",
+      "domaine": "Sciences expérimentales",
+      "date_debut": 2019,
+      "date_fin": 2020
     }
   ],
   "experiences": [
@@ -43,39 +43,25 @@
       "description": "Développement d’une solution d’essayage virtuel en 3D des lunettes en utilisant la Réalité Augmentée pour les applications web, avec un système de recommandation basé sur l’Intelligence Artificielle."
     },
     {
-      "entreprise": "Projets académiques",
-      "poste": "Développement d’un chatbot génératif pour les étudiants",
-      "date_debut": 2025,
-      "date_fin": 2025,
-      "description": "Technologies : Transformers."
+      "entreprise": "Aiesec Thyna",
+      "poste": "Membre",
+      "date_debut": 2020,
+      "date_fin": null,
+      "description": "Participation à des événements et activités associatives."
     },
     {
-      "entreprise": "Projets académiques",
-      "poste": "Développement d’une solution de classification des émotions humaines en temps réel",
-      "date_debut": 2025,
-      "date_fin": 2025,
-      "description": "Technologies : Python, TensorFlow, OpenCV, CNN, Django."
+      "entreprise": "Google Developer Student FSS Club",
+      "poste": "Social Media Writer",
+      "date_debut": 2020,
+      "date_fin": null,
+      "description": "Rédaction de contenus pour les réseaux sociaux."
     },
     {
-      "entreprise": "Projets académiques",
-      "poste": "Développement d’une solution qui classifie le niveau de maturité des olives à partir des images",
-      "date_debut": 2025,
-      "date_fin": 2025,
-      "description": "Technologies : Python, CNN, OpenCV, TensorFlow, Jupyter."
-    },
-    {
-      "entreprise": "Projets académiques",
-      "poste": "Développement d’une application mobile pour mesurer les niveaux de glucose sanguin",
-      "date_debut": 2025,
-      "date_fin": 2025,
-      "description": "Technologies : Java."
-    },
-    {
-      "entreprise": "Projets académiques",
-      "poste": "Développement d’un jeu",
-      "date_debut": 2025,
-      "date_fin": 2025,
-      "description": "Technologies : C++, SFML."
+      "entreprise": "IEERXTREME 16.0",
+      "poste": "Organisatrice",
+      "date_debut": 2020,
+      "date_fin": 2020,
+      "description": "Organisation d’un événement."
     }
   ],
   "competences_techniques": [
@@ -94,23 +80,26 @@
     "Docker",
     "Maven",
     "Django",
-    "Transformers",
     "TensorFlow",
     "OpenCV",
-    "CNN",
-    "Jupyter"
+    "Jupyter",
+    "SFML"
   ],
   "domaines_competence": [
-    "Data cleaning and preprocessing with pandas",
-    "Convolutional neural Networks with TensorFlow in Python",
-    "Deep Learning with TensorFlow",
-    "Machine Learning in Python",
-    "Introduction to Jupyter",
-    "The machine Learning Algorithm A-Z"
+    "Data cleaning and preprocessing avec pandas",
+    "Convolutional Neural Networks avec TensorFlow",
+    "Deep Learning avec TensorFlow",
+    "Machine Learning",
+    "Réalité Augmentée",
+    "Intelligence Artificielle",
+    "Développement web",
+    "Développement mobile",
+    "Modélisation UML",
+    "Gestion de bases de données"
   ],
   "projets": [
     {
-      "titre": "ChatBot",
+      "titre": "ChatBot génératif pour les étudiants",
       "technologies": [
         "Transformers"
       ],
@@ -139,7 +128,7 @@
       "description": "Développement d’une solution qui classifie le niveau de maturité des olives à partir des images."
     },
     {
-      "titre": "Application mobile",
+      "titre": "Application mobile pour mesurer les niveaux de glucose sanguin",
       "technologies": [
         "Java"
       ],
@@ -154,12 +143,12 @@
       "description": "Développement d’un jeu."
     },
     {
-      "titre": "Essaiage virtuel en 3D des lunettes",
+      "titre": "Solution d’essayage virtuel en 3D des lunettes",
       "technologies": [
         "Réalité Augmentée",
         "Intelligence Artificielle"
       ],
-      "description": "Développement d’une solution d’essayage virtuel en 3D des lunettes en utilisant la Réalité Augmentée pour les applications web, avec un système de recommandation basé sur l’Intelligence Artificielle."
+      "description": "Développement d’une solution d’essayage virtuel en 3D des lunettes pour les applications web, avec un système de recommandation basé sur l’Intelligence Artificielle."
     }
   ],
   "langues": [
@@ -169,17 +158,17 @@
   ],
   "certificats": [
     {
-      "titre": "Data cleaning and preprocessing with pandas",
+      "titre": "Data cleaning and preprocessing avec pandas",
       "organisme": "Datascience360",
       "date": 2024
     },
     {
-      "titre": "Convolutional neural Networks with TensorFlow in Python",
+      "titre": "Convolutional Neural Networks avec TensorFlow",
       "organisme": "Datascience360",
       "date": 2024
     },
     {
-      "titre": "Deep Learning with TensorFlow",
+      "titre": "Deep Learning avec TensorFlow",
       "organisme": "Datascience360",
       "date": 2024
     },
@@ -204,33 +193,8 @@
       "date": 2021
     }
   ],
-  "experiences_associatives": [
-    {
-      "titre": "Lauréate du premier prix au Hackathon Olivia Hack : Deep Learning",
-      "date": 2025
-    },
-    {
-      "titre": "Participante : DX Hackathon",
-      "date": 2025
-    },
-    {
-      "titre": "Membre : Aiesec Thyna",
-      "date": 2025
-    },
-    {
-      "titre": "Social Media Writer: Google Developer Student FSS Club",
-      "date": 2025
-    },
-    {
-      "titre": "Organisatrice : IEERXTREME 16.0",
-      "date": 2025
-    },
-    {
-      "titre": "Participante : Hult Prize 2020",
-      "date": 2020
-    }
-  ],
+  "experiences_associatives": [],
   "extraction_method": "llm_mistral",
   "methode_utilisee": "mistral",
-  "date_indexation": "2026-04-04T12:10:16Z"
+  "date_indexation": "2026-04-10T20:52:40Z"
 }

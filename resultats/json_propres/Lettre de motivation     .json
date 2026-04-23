@@ -1,0 +1,34 @@
+{
+  "cv_filename": "Lettre de motivation .pdf",
+  "nom": "Amal Jallouli",
+  "email": "jallouliamal754@gmail.com",
+  "telephone": "+216 52 776 444",
+  "ville": "Sfax, Tunisie",
+  "formation": [
+    {
+      "ecole": "Licence en sciences de l'informatique (spécialité génie logiciel)",
+      "diplome": "Licence",
+      "domaine": "Informatique",
+      "date_debut": null,
+      "date_fin": null
+    }
+  ],
+  "experiences": [],
+  "competences_techniques": [
+    "Machine Learning",
+    "Analyse de données",
+    "Développement logiciel"
+  ],
+  "domaines_competence": [
+    "Génie logiciel",
+    "Machine Learning",
+    "Analyse de données"
+  ],
+  "projets": [],
+  "langues": [],
+  "certificats": [],
+  "experiences_associatives": [],
+  "extraction_method": "llm_mistral",
+  "methode_utilisee": "mistral",
+  "date_indexation": "2026-04-10T20:52:40Z"
+}

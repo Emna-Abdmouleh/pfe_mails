@@ -1,0 +1,134 @@
+{
+  "informations_personnelles": {
+    "nom": "Amal Jallouli",
+    "email": "jallouliamal754@gmail.com",
+    "telephone": "+216 52 776 444",
+    "ville": "Sfax"
+  },
+  "formation": [
+    {
+      "ecole": "Faculté des Sciences de Sfax",
+      "diplome": "LICENCE EN SCIENCES DE L’INFORMATIQUE",
+      "domaine": "Génie Logiciel",
+      "date_debut": "Septembre 2023",
+      "date_fin": "Présent"
+    },
+    {
+      "ecole": "",
+      "diplome": "CYCLE PRÉPARATOIRE INTÉGRÉ EN SCIENCES DE L’INFORMATIQUE",
+      "domaine": "",
+      "date_debut": "2020",
+      "date_fin": "2023"
+    },
+    {
+      "ecole": "",
+      "diplome": "BAC SCIENCES EXPERIMENTALES",
+      "domaine": "",
+      "date_debut": "2019",
+      "date_fin": "2020"
+    }
+  ],
+  "experiences": [],
+  "competences_techniques": [
+    "Java",
+    "Python",
+    "JavaScript",
+    "PHP",
+    "C",
+    "C++",
+    "MySQL",
+    "PL/SQL",
+    "Git",
+    "GitHub",
+    "Git Bash",
+    "Docker",
+    "Maven",
+    "XML",
+    "HTML",
+    "TensorFlow",
+    "Keras"
+  ],
+  "domaines_competence": [
+    "Résolution de problèmes",
+    "Planification d'événements",
+    "Communication efficace",
+    "Modélisation : UML",
+    "Analyse de données",
+    "Développement",
+    "Intelligence artificielle"
+  ],
+  "projets": [
+    {
+      "titre": "Application mobile de fitness",
+      "technologies": [
+        "Java"
+      ],
+      "description": ""
+    },
+    {
+      "titre": "Analyse des Émotions Humaines à partir d'Images (Machine Learning)",
+      "technologies": [
+        "Python",
+        "TensorFlow",
+        "Keras (Modèle séquentiel)"
+      ],
+      "description": ""
+    },
+    {
+      "titre": "Application mobile de mesure de la glycémie",
+      "technologies": [
+        "Java"
+      ],
+      "description": ""
+    },
+    {
+      "titre": "Jeu en C++",
+      "technologies": [
+        "C++"
+      ],
+      "description": ""
+    }
+  ],
+  "langues": [
+    {
+      "langue": "Arabe",
+      "niveau": "Langue maternelle"
+    },
+    {
+      "langue": "Français",
+      "niveau": "Niveau élevé"
+    },
+    {
+      "langue": "Anglais",
+      "niveau": "Niveau moyen"
+    }
+  ],
+  "certifications": [
+    "Certificat cours C : coursera",
+    "Microsoft Excel : Certification Microsoft Office Specialist (MOS) - Excel",
+    "Certificat d’organisation de IEEEXtreme 16.0",
+    "Certificat Maharat min Google : INJAZ Tunisie en partenariat avec Google Arabia",
+    "Certificat de participation Hult Prize"
+  ],
+  "centres_interet": [
+    "Sport",
+    "voyages solo",
+    "photographie"
+  ],
+  "liens": {
+    "linkedin": "https://www.linkedin.com/in/amal-jallouli-9073662a6/",
+    "github": "https://github.com/amal-jallouli"
+  },
+  "cv_filename": "CV    .pdf",
+  "extraction_method": "llm_mistral",
+  "temps_reponse_sec": 4.44,
+  "succes": true,
+  "erreur": null,
+  "methode_utilisee": "mistral",
+  "tentatives": [
+    {
+      "methode": "mistral",
+      "succes": true
+    }
+  ]
+}

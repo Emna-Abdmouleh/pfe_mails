@@ -13,7 +13,7 @@
   "langues": [],
   "cv_filename": "CV Razgui chaima .pdf",
   "extraction_method": "llm_mistral",
-  "temps_reponse_sec": 0.89,
+  "temps_reponse_sec": 0.64,
   "succes": true,
   "erreur": null,
   "methode_utilisee": "mistral",

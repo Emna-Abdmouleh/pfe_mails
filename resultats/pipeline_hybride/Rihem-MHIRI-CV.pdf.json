@@ -1,0 +1,102 @@
+{
+  "informations_personnelles": {
+    "nom": "Rihem MHIRI",
+    "email": "rihemmhiri5@gmail.com",
+    "telephone": "95391597",
+    "ville": "sfax-tunis"
+  },
+  "formation": [
+    {
+      "ecole": "Institut Supérieur dʼInformatique et de Multimédia de Sfax (ISIMS)",
+      "diplome": "2ᵉ année - Big Data",
+      "domaine": "Big Data",
+      "date_debut": "2024",
+      "date_fin": "2025"
+    },
+    {
+      "ecole": "Institut Supérieur dʼInformatique et de Multimédia de Sfax (ISIMS)",
+      "diplome": "1ʳᵉ année - Licence Tronc Commun",
+      "domaine": "Informatique",
+      "date_debut": "2023",
+      "date_fin": "2024"
+    },
+    {
+      "ecole": "Lycée Ibn Rachik",
+      "diplome": "Baccalauréat Scientifique",
+      "domaine": "Sciences",
+      "date_debut": "2022",
+      "date_fin": "2023"
+    }
+  ],
+  "experiences": [],
+  "competences_techniques": [
+    "Java",
+    "JavaScript",
+    "SQL",
+    "Python",
+    "PHP",
+    "C++",
+    "XML",
+    "HTML/CSS",
+    "React",
+    "Node.js",
+    "Oracle Database",
+    "MySQL",
+    "Visual Studio Code",
+    "Enterprise Architect",
+    "Eclipse",
+    "Android Studio",
+    "Dev-C++",
+    "Adobe Premiere Pro"
+  ],
+  "domaines_competence": [
+    "Développement web fullstack",
+    "Analyse de données",
+    "Robotique",
+    "Gestion de projet",
+    "Multimédia"
+  ],
+  "projets": [
+    {
+      "titre": "Site web de films",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP"
+      ],
+      "description": "Plateforme permettant de consulter et rechercher des films."
+    },
+    {
+      "titre": "Vidéo de présentation de Sfax",
+      "technologies": [
+        "Adobe Premiere Pro"
+      ],
+      "description": "Création d'une vidéo promotionnelle."
+    },
+    {
+      "titre": "Application mobile de calculatrice",
+      "technologies": [
+        "Android"
+      ],
+      "description": "Conception et développement d'une application mobile de calculatrice sous Android."
+    }
+  ],
+  "langues": [
+    "Arabe (Langue maternelle)",
+    "Français",
+    "Anglais"
+  ],
+  "cv_filename": "Rihem-MHIRI-CV.pdf.pdf",
+  "extraction_method": "llm_mistral",
+  "temps_reponse_sec": 3.53,
+  "succes": true,
+  "erreur": null,
+  "methode_utilisee": "mistral",
+  "tentatives": [
+    {
+      "methode": "mistral",
+      "succes": true
+    }
+  ]
+}

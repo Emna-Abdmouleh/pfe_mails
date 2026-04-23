@@ -70,26 +70,14 @@
   ],
   "projets": [],
   "langues": [
-    {
-      "langue": "Arabe",
-      "niveau": "Langue maternelle"
-    },
-    {
-      "langue": "Français",
-      "niveau": "Courant"
-    },
-    {
-      "langue": "Anglais",
-      "niveau": "Courant"
-    },
-    {
-      "langue": "Allemand",
-      "niveau": "Courant"
-    }
+    "arabe",
+    "français",
+    "anglais",
+    "allemand"
   ],
   "certificats": [],
   "experiences_associatives": [],
   "extraction_method": "llm_mistral",
   "methode_utilisee": "mistral",
-  "date_indexation": "2026-04-04T12:10:16Z"
+  "date_indexation": "2026-04-10T20:52:40Z"
 }
